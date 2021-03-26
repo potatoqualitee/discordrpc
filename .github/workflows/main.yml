@@ -1,0 +1,16 @@
+name: Actions Workflow
+on: [push, pull_request]
+jobs:
+  discordrpc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: 🚀 Import module
+        shell: pwsh
+        run: |
+          Import-Module ./discordprc.psd1
+      - name: ✅ Run Pester tests
+        shell: pwsh
+        run: |
+          ./tests/pester.ps1

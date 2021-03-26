@@ -1,0 +1,76 @@
+# https://discord.com/developers/applications
+# have you ensured you have "Game Activity" enabled in your discord settings?
+
+
+<#
+
+Details = "Example Project",
+		State = "csharp example",
+		Assets = new Assets()
+		{
+			LargeImageKey = "image_large",
+			LargeImageText = "Lachee's Discord IPC Library",
+			SmallImageKey = "image_small"
+		}
+
+        #>
+
+<#
+New-FunctionFromType -TypeName Configuration
+DiscordRpcClient
+EventType
+BaseRichPresence
+Secrets
+Assets
+Timestamps
+Party
+Button
+RichPresence
+User
+CloseMessage
+ConnectionEstablishedMessage
+ConnectionFailedMessage
+ErrorMessage
+ErrorCode
+IMessage
+JoinMessage
+JoinRequestMessage
+MessageType
+PresenceMessage
+ReadyMessage
+SpectateMessage
+SubscribeMessage
+UnsubscribeMessage
+ConsoleLogger
+FileLogger
+ILogger
+LogLevel
+NullLogger
+INamedPipeClient
+ManagedNamedPipeClient
+Opcode
+PipeFrame
+StringTools
+BadPresenceException
+InvalidConfigurationException
+InvalidPipeException
+StringOutOfRangeException
+UninitializedException
+OnReadyEvent
+OnCloseEvent
+OnErrorEvent
+OnPresenceUpdateEvent
+OnSubscribeEvent
+OnUnsubscribeEvent
+OnJoinEvent
+OnSpectateEvent
+OnJoinRequestedEvent
+OnConnectionEstablishedEvent
+OnConnectionFailedEvent
+OnRpcMessageEvent
+PrivacySetting
+AvatarFormat
+AvatarSize
+Flag
+PremiumType
+#>
