@@ -140,7 +140,7 @@ Function Write-Help {
         $text.SubString($end, $text.Length - $end)
     }
 
-    $files = Get-ChildItem -Recurse C:\github\discord\public\New-DisAssets.ps1
+    $files = Get-ChildItem -Recurse C:\github\discordrpc\public\*.ps1
 
     foreach ($file in $files.FullName) {
         write-warning "$file"
