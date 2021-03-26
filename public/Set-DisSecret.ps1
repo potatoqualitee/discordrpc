@@ -1,4 +1,4 @@
-function Set-DisSecrets {
+function Set-DisSecret {
     <#
 
 #>

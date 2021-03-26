@@ -73,4 +73,63 @@ AvatarFormat
 AvatarSize
 Flag
 PremiumType
+
+
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.Configuration
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.DiscordRpcClient
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.EventType
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.BaseRichPresence
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.Secrets
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.Assets
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.Timestamps
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.Party
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.Button
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.RichPresence
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.User
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.CloseMessage
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.ConnectionEstablishedMessage
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.ConnectionFailedMessage
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.ErrorMessage
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.ErrorCode
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.IMessage
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.JoinMessage
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.JoinRequestMessage
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.MessageType
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.PresenceMessage
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.ReadyMessage
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.SpectateMessage
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.SubscribeMessage
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.UnsubscribeMessage
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.ConsoleLogger
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.FileLogger
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.ILogger
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.LogLevel
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.NullLogger
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.INamedPipeClient
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.ManagedNamedPipeClient
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.Opcode
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.PipeFrame
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.StringTools
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.BadPresenceException
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.InvalidConfigurationException
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.InvalidPipeException
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.StringOutOfRangeException
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.UninitializedException
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.OnReadyEvent
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.OnCloseEvent
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.OnErrorEvent
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.OnPresenceUpdateEvent
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.OnSubscribeEvent
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.OnUnsubscribeEvent
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.OnJoinEvent
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.OnSpectateEvent
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.OnJoinRequestedEvent
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.OnConnectionEstablishedEvent
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.OnConnectionFailedEvent
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.OnRpcMessageEvent
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.PrivacySetting
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.AvatarFormat
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.AvatarSize
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.Flag
+New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.PremiumType
 #>

@@ -35,6 +35,28 @@
 
     # Functions to export from this module
     FunctionsToExport  = @(
+        'New-DisAsset',
+        'New-DisBaseRichPresence',
+        'New-DisButton',
+        'New-DisConfiguration',
+        'New-DisDiscordRpcClient',
+        'New-DisEventType',
+        'New-DisParty',
+        'New-DisRichPresence',
+        'New-DisSecret',
+        'New-DisTimestamp',
+        'New-DisUser',
+        'Set-DisAssets',
+        'Set-DisBaseRichPresence',
+        'Set-DisButton',
+        'Set-DisConfiguration',
+        'Set-DisDiscordRpcClient',
+        'Set-DisEventType',
+        'Set-DisParty',
+        'Set-DisRichPresence',
+        'Set-DisSecrets',
+        'Set-DisTimestamp',
+        'Set-DisUser'
     )
 
     # Cmdlets to export from this module
