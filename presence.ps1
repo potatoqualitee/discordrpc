@@ -1,11 +1,11 @@
 
 try {
-    Add-Type -Path (Resolve-Path -Path "$PSScriptRoot\bin\net35\Newtonsoft.Json.dll") -ErrorAction Stop
-    Add-Type -Path (Resolve-Path -Path "$PSScriptRoot\bin\net35\DiscordRPC.dll") -ErrorAction Stop
+    Add-Type -Path (Resolve-Path -Path "C:\github\discordrpc\bin\net35\Newtonsoft.Json.dll") -ErrorAction Stop
+    Add-Type -Path (Resolve-Path -Path "C:\github\discordrpc\bin\net35\DiscordRPC.dll") -ErrorAction Stop
 } catch {
     throw $PSItem
 }
-$client.Deinitialize(); $client.Dispose(); Get-EventSubscriber -SourceIdentifier Discord | Unregister-Event
+#$client.Deinitialize(); $client.Dispose(); Get-EventSubscriber -SourceIdentifier Discord | Unregister-Event
 
 $client = New-Object DiscordRpc.DiscordRpcClient 824593663883214948
 $presence = New-Object DiscordRPC.RichPresence
