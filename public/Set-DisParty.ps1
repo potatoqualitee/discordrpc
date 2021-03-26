@@ -1,6 +1,28 @@
 function Set-DisParty {
     <#
+    .SYNOPSIS
+    Short description
 
+    .DESCRIPTION
+    Long description
+
+    .PARAMETER ID
+    Parameter description
+
+    .PARAMETER Size
+    Parameter description
+
+    .PARAMETER Max
+    Parameter description
+
+    .PARAMETER Privacy
+    Parameter description
+
+    .EXAMPLE
+    An example
+
+    .NOTES
+    General notes
 #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (

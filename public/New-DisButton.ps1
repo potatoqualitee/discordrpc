@@ -1,6 +1,22 @@
 function New-DisButton {
     <#
+    .SYNOPSIS
+    Short description
 
+    .DESCRIPTION
+    Long description
+
+    .PARAMETER Label
+    Parameter description
+
+    .PARAMETER Url
+    Parameter description
+
+    .EXAMPLE
+    An example
+
+    .NOTES
+    General notes
 #>
     [CmdletBinding()]
     param (

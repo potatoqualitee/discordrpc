@@ -1,6 +1,37 @@
 function New-DisUser {
     <#
+    .SYNOPSIS
+    Short description
 
+    .DESCRIPTION
+    Long description
+
+    .PARAMETER ID
+    Parameter description
+
+    .PARAMETER Username
+    Parameter description
+
+    .PARAMETER Discriminator
+    Parameter description
+
+    .PARAMETER Avatar
+    Parameter description
+
+    .PARAMETER Flags
+    Parameter description
+
+    .PARAMETER Premium
+    Parameter description
+
+    .PARAMETER CdnEndpoint
+    Parameter description
+
+    .EXAMPLE
+    An example
+
+    .NOTES
+    General notes
 #>
     [CmdletBinding()]
     param (

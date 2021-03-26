@@ -1,6 +1,31 @@
 function Set-DisAssets {
     <#
+    .SYNOPSIS
+    Short description
 
+    .DESCRIPTION
+    Long description
+
+    .PARAMETER LargeImageKey
+    Parameter description
+
+    .PARAMETER LargeImageText
+    Parameter description
+
+    .PARAMETER SmallImageKey
+    Parameter description
+
+    .PARAMETER SmallImageText
+    Parameter description
+
+    .PARAMETER InputObject
+    Parameter description
+
+    .EXAMPLE
+    An example
+
+    .NOTES
+    General notes
 #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (

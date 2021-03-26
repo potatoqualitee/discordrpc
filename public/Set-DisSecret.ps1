@@ -1,7 +1,26 @@
 function Set-DisSecret {
     <#
+    .SYNOPSIS
+    Short description
 
-#>
+    .DESCRIPTION
+    Long description
+
+    .PARAMETER MatchSecret
+    Parameter description
+
+    .PARAMETER JoinSecret
+    Parameter description
+
+    .PARAMETER SpectateSecret
+    Parameter description
+
+    .EXAMPLE
+    An example
+
+    .NOTES
+    General notes
+    #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (
         [String]$MatchSecret,

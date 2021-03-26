@@ -1,6 +1,28 @@
 function Set-DisEventType {
     <#
+    .SYNOPSIS
+    Short description
 
+    .DESCRIPTION
+    Long description
+
+    .PARAMETER None
+    Parameter description
+
+    .PARAMETER Spectate
+    Parameter description
+
+    .PARAMETER Join
+    Parameter description
+
+    .PARAMETER JoinRequest
+    Parameter description
+
+    .EXAMPLE
+    An example
+
+    .NOTES
+    General notes
 #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (

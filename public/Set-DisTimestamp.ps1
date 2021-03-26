@@ -1,6 +1,28 @@
 function Set-DisTimestamp {
     <#
+    .SYNOPSIS
+    Short description
 
+    .DESCRIPTION
+    Long description
+
+    .PARAMETER Start
+    Parameter description
+
+    .PARAMETER End
+    Parameter description
+
+    .PARAMETER StartUnixMilliseconds
+    Parameter description
+
+    .PARAMETER EndUnixMilliseconds
+    Parameter description
+
+    .EXAMPLE
+    An example
+
+    .NOTES
+    General notes
 #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (

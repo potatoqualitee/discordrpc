@@ -1,6 +1,64 @@
 function Set-DisDiscordRpcClient {
     <#
+    .SYNOPSIS
+    Short description
 
+    .DESCRIPTION
+    Long description
+
+    .PARAMETER HasRegisteredUriScheme
+    Parameter description
+
+    .PARAMETER ApplicationID
+    Parameter description
+
+    .PARAMETER SteamID
+    Parameter description
+
+    .PARAMETER ProcessID
+    Parameter description
+
+    .PARAMETER MaxQueueSize
+    Parameter description
+
+    .PARAMETER IsDisposed
+    Parameter description
+
+    .PARAMETER Logger
+    Parameter description
+
+    .PARAMETER AutoEvents
+    Parameter description
+
+    .PARAMETER SkipIdenticalPresence
+    Parameter description
+
+    .PARAMETER TargetPipe
+    Parameter description
+
+    .PARAMETER CurrentPresence
+    Parameter description
+
+    .PARAMETER Subscription
+    Parameter description
+
+    .PARAMETER CurrentUser
+    Parameter description
+
+    .PARAMETER Configuration
+    Parameter description
+
+    .PARAMETER IsInitialized
+    Parameter description
+
+    .PARAMETER ShutdownOnly
+    Parameter description
+
+    .EXAMPLE
+    An example
+
+    .NOTES
+    General notes
 #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (

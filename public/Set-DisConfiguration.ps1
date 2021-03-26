@@ -1,6 +1,25 @@
 function Set-DisConfiguration {
     <#
+    .SYNOPSIS
+    Short description
 
+    .DESCRIPTION
+    Long description
+
+    .PARAMETER ApiEndpoint
+    Parameter description
+
+    .PARAMETER CdnHost
+    Parameter description
+
+    .PARAMETER Enviroment
+    Parameter description
+
+    .EXAMPLE
+    An example
+
+    .NOTES
+    General notes
 #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (
