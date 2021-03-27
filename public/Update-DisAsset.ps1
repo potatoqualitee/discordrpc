@@ -29,7 +29,7 @@ function Update-DisAsset {
     Update more
 
 #>
-    [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
+    [CmdletBinding()]
     param (
         [String]$LargeImageKey,
         [String]$LargeImageText,
@@ -40,35 +40,33 @@ function Update-DisAsset {
         if (-not $script:rpcclient) {
             throw "Please New-DisClient or Start-DisClient"
         }
-        if ($Pscmdlet.ShouldProcess("Setting properties on client.CurrentPresence")) {
-            try {
-                $prescence = $script:rpcclient.CurrentPresence
+        try {
+            $prescence = $script:rpcclient.CurrentPresence
 
-                if ($LargeImageText -or $LargeImageText) {
-                    if (-not $LargeImageKey) {
-                        $LargeImageKey = $prescence.Assets.LargeImageKey
-                    }
-                    if (-not $LargeImageText) {
-                        $LargeImageText = $prescence.Assets.LargeImageText
-                    }
-                    $null = $script:rpcclient.UpdateLargeAsset($LargeImageKey, $LargeImageText)
+            if ($LargeImageText -or $LargeImageText) {
+                if (-not $LargeImageKey) {
+                    $LargeImageKey = $prescence.Assets.LargeImageKey
                 }
-
-                if ($SmallImageKey -or $SmallImageText) {
-                    if (-not $SmallImageKey) {
-                        $SmallImageKey = $prescence.Assets.SmallImageKey
-                    }
-                    if (-not $SmallImageText) {
-                        $SmallImageText = $prescence.Assets.SmallImageText
-                    }
-                    $null = $script:rpcclient.UpdateSmallAsset($SmallImageKey, $SmallImageText)
+                if (-not $LargeImageText) {
+                    $LargeImageText = $prescence.Assets.LargeImageText
                 }
-
-                $null = $script:rpcclient.SynchronizeState()
-                $script:rpcclient.CurrentPresence.Assets
-            } catch {
-                throw $_
+                $null = $script:rpcclient.UpdateLargeAsset($LargeImageKey, $LargeImageText)
             }
+
+            if ($SmallImageKey -or $SmallImageText) {
+                if (-not $SmallImageKey) {
+                    $SmallImageKey = $prescence.Assets.SmallImageKey
+                }
+                if (-not $SmallImageText) {
+                    $SmallImageText = $prescence.Assets.SmallImageText
+                }
+                $null = $script:rpcclient.UpdateSmallAsset($SmallImageKey, $SmallImageText)
+            }
+
+            $null = $script:rpcclient.SynchronizeState()
+            $script:rpcclient.CurrentPresence.Assets
+        } catch {
+            throw $_
         }
     }
 }

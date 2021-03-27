@@ -75,7 +75,7 @@
             Tags         = @('discord','chat','discordrpc')
 
             # The web address of an icon which can be used in galleries to represent this module
-            IconUri      = ""
+            IconUri      = "https://github.com/potatoqualitee/discordrpc/raw/main/logo.png"
 
             # The web address of this module's project or support homepage.
             ProjectUri   = "https://github.com/potatoqualitee/discordrpc"

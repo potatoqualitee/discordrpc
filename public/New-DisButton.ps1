@@ -1,16 +1,16 @@
 function New-DisButton {
     <#
     .SYNOPSIS
-    Creates a Rich Presence button object.
+    Creates a Rich Presence button object
 
     .DESCRIPTION
-    Creates a Rich Presence button object.
+    Creates a Rich Presence button object
 
     .PARAMETER Label
     Text shown on the button
 
     .PARAMETER Url
-    The URL opened when clicking the button.
+    The URL opened when clicking the button
 
     .EXAMPLE
     $button = New-DisButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc

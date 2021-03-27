@@ -23,7 +23,7 @@ function Update-DisTimestamp {
 
     Updates the timestamp
 #>
-    [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
+    [CmdletBinding()]
     param (
         [datetime]$Start,
         [datetime]$End,
@@ -34,13 +34,11 @@ function Update-DisTimestamp {
         if (-not $script:rpcclient) {
             throw "Please New-DisClient or Start-DisClient"
         }
-        if ($Pscmdlet.ShouldProcess("Setting properties on client.CurrentPresence")) {
-            try {
-                $timestamp = New-DisTimestamp @PSBoundParameters
-                Update-DisRichPresence -Timestamps $timestamp
-            } catch {
-                throw $_
-            }
+        try {
+            $timestamp = New-DisTimestamp @PSBoundParameters
+            Update-DisRichPresence -Timestamps $timestamp
+        } catch {
+            throw $_
         }
     }
 }

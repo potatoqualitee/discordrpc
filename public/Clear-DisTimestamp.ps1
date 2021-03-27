@@ -1,16 +1,18 @@
 function Clear-DisTimestamp {
     <#
     .SYNOPSIS
-    Sets the start and end time of CurrentPresence to null and sends it to Discord.
+    Sets the start and end time of CurrentPresence to null and sends it to Discord
 
     .DESCRIPTION
-    Sets the start and end time of CurrentPresence to null and sends it to Discord.
+    Sets the start and end time of CurrentPresence to null and sends it to Discord
 
     .EXAMPLE
     Clear-DisTimestamp
 
+    Clears the timestamp
+
 #>
-    [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
+    [CmdletBinding()]
     param ()
     process {
         if (-not $script:rpcclient) {

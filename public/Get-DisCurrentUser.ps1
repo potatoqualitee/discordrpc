@@ -9,6 +9,8 @@ function Get-DisCurrentUser {
     .EXAMPLE
     Get-DisCurrentUser
 
+    Gets the current user logged into Discord
+
 #>
     [CmdletBinding()]
     param ()

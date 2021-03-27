@@ -1,25 +1,25 @@
 function New-DisClient {
     <#
     .SYNOPSIS
-    Creates a new Discord RPC Client which can be used to send Rich Presence and receive Join / Spectate events.
+    Creates a new Discord RPC Client which can be used to send Rich Presence
 
     .DESCRIPTION
-    Creates a new Discord RPC Client which can be used to send Rich Presence and receive Join / Spectate events.
+    Creates a new Discord RPC Client which can be used to send Rich Presence
 
     .PARAMETER ApplicationID
-    The Application ID of the RPC Client.
+    The Application ID of the RPC Client
 
     .PARAMETER Logger
-     The logger used this client and its associated components.
+     The logger used this client and its associated components
 
     .PARAMETER Presence
      The rich presence
 
     .PARAMETER SkipIdenticalPresence
-    Skips sending presences that are identical to the current one.
+    Skips sending presences that are identical to the current one
 
     .PARAMETER ShutdownOnly
-    Forces the connection to shutdown gracefully instead of just aborting the connection.
+    Forces the connection to shutdown gracefully instead of just aborting the connection
 
     .EXAMPLE
     $client = New-DisClient -ApplicationID 824593663883214948
