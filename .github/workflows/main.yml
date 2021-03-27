@@ -9,7 +9,7 @@ jobs:
       - name: 🚀 Import module
         shell: pwsh
         run: |
-          Import-Module ./discordprc.psd1
+          Import-Module ./discordrpc.psd1
       - name: ✅ Run Pester tests
         shell: pwsh
         run: |
