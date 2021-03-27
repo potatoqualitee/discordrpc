@@ -1,10 +1,10 @@
 function New-DisTimestamp {
     <#
     .SYNOPSIS
-    Creates a new structure representing the start and endtimes of a match.
+    Creates an object representing the start and endtimes of a match.
 
     .DESCRIPTION
-    Creates a new structure representing the start and endtimes of a match.
+    Creates an object representing the start and endtimes of a match.
 
     .PARAMETER Start
     The time that match started. When included (not-null), the time in the rich presence will be shown as "00:01 elapsed".

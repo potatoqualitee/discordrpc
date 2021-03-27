@@ -47,7 +47,8 @@ function Start-DisClient {
         [ValidateSet("Trace","Info","None","Error","Warning")]
         [String]$LoggingLevel = "Info",
         [String]$LoggingPath,
-        [Switch]$ColorOutput
+        [Switch]$ColorOutput,
+        [ScriptBlock]$ScriptBlock
     )
     process {
         #fix string

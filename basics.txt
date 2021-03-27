@@ -133,3 +133,20 @@ New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.AvatarSize
 New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.Flag
 New-FunctionFromType -Prefix Dis -TypeName DiscordRPC.PremiumType
 #>
+
+
+$client = New-Object DiscordRpc.DiscordRpcClient 824593663883214948
+$presence = New-Object DiscordRPC.RichPresence
+$assets = New-Object DiscordRPC.Assets
+$assets.LargeImageKey = "psavatar"
+$assets.LargeImageText = "Whaaat"
+$assets.SmallImageKey = "icon"
+#$presence.Buttons = ""
+$presence.State = "Playing PowerShell"
+$presence.Details = "Some details"
+#$presence.Timestamps = New-Object DiscordRPC.Timestamps (Get-Date)
+$presence.Assets = $assets
+#$client.UpdateClearTime()
+
+$client.SetPresence($presence)
+$client.Initialize()

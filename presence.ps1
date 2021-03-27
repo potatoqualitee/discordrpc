@@ -7,34 +7,22 @@ try {
 }
 #$client.Deinitialize(); $client.Dispose(); Get-EventSubscriber -SourceIdentifier Discord | Unregister-Event
 
-$client = New-Object DiscordRpc.DiscordRpcClient 824593663883214948
 
 import-module discordrpc -force
 $assets = New-DisAsset -LargeImageKey psavatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
-$presence = New-DisRichPresence -Asset $assets -State "Playing PowerShell" -Details "Some details"
-#Set-DisRichPresence -InputObject $presence
-$client = New-DisClient -ApplicationID 824593663883214948 -Presence $presence
+$timestamp = New-DisTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
+$timestamp = [DiscordRPC.Timestamps]::Now
+$button = New-DisButton -Label "Presence by PowerShell" -Url https://github.com/potatoqualitee/discordrpc/
+$presence = New-DisRichPresence -Asset $assets -State "Playing PowerShell" -Details "Some details" -Timestamp $timestamp -Buttons $button
+#$logger = New-DisLogger -Type ConsoleLogger -Level Info
+$client = New-DisClient -ApplicationID 824593663883214948 -Presence $presence #-Logger $logger
 
 
-$presence = New-Object DiscordRPC.RichPresence
+
+$timestamp = [DiscordRPC.Timestamps]::FromTimeSpan(10)
+Set-DisTimestamp -Timestamp $timestamp
+
 $timer = New-Object System.Timers.Timer 5000
-
-$assets = New-Object DiscordRPC.Assets
-$assets.LargeImageKey = "psavatar"
-$assets.LargeImageText = "Whaaat"
-$assets.SmallImageKey = "icon"
-
-
-#$presence.Buttons = ""
-$presence.State = "Playing PowerShell"
-$presence.Details = "Some details"
-#$presence.Timestamps = New-Object DiscordRPC.Timestamps (Get-Date)
-$presence.Assets = $assets
-#$client.UpdateClearTime()
-
-$client.SetPresence($presence)
-$client.Initialize()
-
 $timer.Enabled = $true
 $timer.AutoReset = $true
 
