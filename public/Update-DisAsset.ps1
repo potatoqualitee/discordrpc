@@ -7,16 +7,19 @@ function Update-DisAsset {
     Sets information about the pictures used in the Rich Presence.
 
     .PARAMETER InputObject
-    Parameter description
+    The updated asset object
 
     .EXAMPLE
-    An example
+    $assets = New-DisAsset -LargeImageText "Summoners Rift" -SmallImageText "Lvl 8"
+    $assets | Update-DisAsset
 
 #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (
-        [Parameter(Mandatory)]
-        [DiscordRPC.Assets]$Asset
+        [String]$LargeImageKey,
+        [String]$LargeImageText,
+        [String]$SmallImageKey,
+        [String]$SmallImageText
     )
     process {
         if (-not $script:rpcclient) {
@@ -25,10 +28,29 @@ function Update-DisAsset {
         if ($Pscmdlet.ShouldProcess("Setting properties on client.CurrentPresence")) {
             try {
                 $prescence = $script:rpcclient.CurrentPresence
-                if ($prescence) {
-                    $prescence.Assets = $Asset
-                    $script:rpcclient.SetPresence($presence)
+
+                if ($LargeImageText -or $LargeImageText) {
+                    if (-not $LargeImageKey) {
+                        $LargeImageKey = $prescence.Assets.LargeImageKey
+                    }
+                    if (-not $LargeImageText) {
+                        $LargeImageText = $prescence.Assets.LargeImageText
+                    }
+                    $null = $script:rpcclient.UpdateLargeAsset($LargeImageKey, $LargeImageText)
                 }
+
+                if ($SmallImageKey -or $SmallImageText) {
+                    if (-not $SmallImageKey) {
+                        $SmallImageKey = $prescence.Assets.SmallImageKey
+                    }
+                    if (-not $SmallImageText) {
+                        $SmallImageText = $prescence.Assets.SmallImageText
+                    }
+                    $null = $script:rpcclient.UpdateSmallAsset($SmallImageKey, $SmallImageText)
+                }
+
+                $null = $script:rpcclient.SynchronizeState()
+                $script:rpcclient
             } catch {
                 throw $_
             }
