@@ -10,7 +10,7 @@
     ModuleVersion      = '0.0.1'
 
     # ID used to uniquely identify this module
-    GUID               = '8b98fc3b-5e98-4816-a472-bf5ccef601e5'
+    GUID               = '46a1ff3e-89c0-45b2-a937-a276147ff975'
 
     # Author of this module
     Author             = 'Chrissy LeMaire'
@@ -19,7 +19,7 @@
     Copyright          = 'Copyright (c) 2021, licensed under MIT'
 
     # Description of the functionality provided by this module
-    Description        = "A Discord RPC Client which is used to send Rich Presence updates and receive Join / Spectate events."
+    Description        = "A Discord RPC Client which is used to send Rich Presence events to Discord."
 
     # Minimum version of the Windows PowerShell engine required by this module
     PowerShellVersion  = '5.1'
@@ -35,24 +35,22 @@
 
     # Functions to export from this module
     FunctionsToExport  = @(
-        'Clear-DisTimestamp',
-        'Get-DisClient',
-        'Get-DisCurrentUser',
-        'New-DisAsset',
-        'New-DisButton',
-        'New-DisClient',
-        'New-DisLogger',
-        'New-DisParty',
-        'New-DisRichPresence',
-        'New-DisSecret',
-        'New-DisTimestamp',
-        'Set-DisButton',
-        'Set-DisParty',
-        'Update-DisRichPresence',
-        'Set-DisSecret',
-        'Update-DisTimestamp',
-        'Start-DisClient',
+        'Clear-DisTimestamp'
+        'Get-DisClient'
+        'Get-DisCurrentUser'
+        'New-DisAsset'
+        'New-DisButton'
+        'New-DisClient'
+        'New-DisLogger'
+        'New-DisParty'
+        'New-DisRichPresence'
+        'New-DisSecret'
+        'New-DisTimestamp'
+        'Start-DisClient'
         'Update-DisAsset'
+        'Update-DisButton'
+        'Update-DisRichPresence'
+        'Update-DisTimestamp'
     )
 
     # Cmdlets to export from this module
