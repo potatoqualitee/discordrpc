@@ -1,13 +1,13 @@
-function Get-DisCurrentUser {
+function Get-DisClient {
     <#
     .SYNOPSIS
-    Gets the current user
+    Gets the current client/connection
 
     .DESCRIPTION
-    Gets the current user
+    Gets the current client/connection
 
     .EXAMPLE
-    Get-DisCurrentUser
+    Get-DisClient
 
 #>
     [CmdletBinding()]
@@ -16,6 +16,6 @@ function Get-DisCurrentUser {
         if (-not $script:rpcclient) {
             throw "Please New-DisClient or Start-DisClient"
         }
-        $script:rpcclient.CurrentUser
+        $script:rpcclient
     }
 }

@@ -35,29 +35,24 @@
 
     # Functions to export from this module
     FunctionsToExport  = @(
+        'Get-DisClient',
+        'Get-DisCurrentUser',
         'New-DisAsset',
         'New-DisBaseRichPresence',
         'New-DisButton',
-        'New-DisConfiguration',
         'New-DisClient',
-        'New-DisEventType',
         'New-DisLogger',
         'New-DisParty',
         'New-DisRichPresence',
         'New-DisSecret',
         'New-DisTimestamp',
-        'Get-DisCurrentUser',
         'Set-DisAsset',
-        'Set-DisBaseRichPresence',
         'Set-DisButton',
-        'Set-DisConfiguration',
         'Set-DisClient',
-        'Set-DisEventType',
         'Set-DisParty',
         'Set-DisRichPresence',
         'Set-DisSecret',
-        'Set-DisTimestamp',
-        'Set-DisUser'
+        'Set-DisTimestamp'
     )
 
     # Cmdlets to export from this module
