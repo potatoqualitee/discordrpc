@@ -7,7 +7,7 @@ Write-Output "Loading constants"
 . "$PSScriptRoot\constants.ps1"
 
 Write-Output "Importing Module"
-Import-Module "$PSScriptRoot\..\discordprc.psd1"
+Import-Module "$PSScriptRoot\..\discordrpc.psd1"
 
 $totalFailed = 0
 $totalRun = 0
