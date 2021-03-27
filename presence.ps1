@@ -8,6 +8,11 @@ try {
 #$client.Deinitialize(); $client.Dispose(); Get-EventSubscriber -SourceIdentifier Discord | Unregister-Event
 
 $client = New-Object DiscordRpc.DiscordRpcClient 824593663883214948
+
+$client = New-DisRpcClient -ApplicationID 824593663883214948
+New-DisRichPresence
+
+
 $presence = New-Object DiscordRPC.RichPresence
 $timer = New-Object System.Timers.Timer 5000
 

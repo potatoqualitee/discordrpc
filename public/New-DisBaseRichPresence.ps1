@@ -41,13 +41,8 @@ function New-DisBaseRichPresence {
     )
     process {
         $object = New-Object -TypeName DiscordRPC.BaseRichPresence
-        if ($PSBoundParameters.Count) {
-            foreach ($param in $PSBoundParameters) {
-                $key = $param.Keys
-                if ($key -and $param.Values) {
-                    $object.$key = $param.Values
-                }
-            }
+        foreach ($key in $PSBoundParameters.Keys) {
+            $object.$key = $PSBoundParameters[$key]
         }
         $object
     }

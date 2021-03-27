@@ -1,10 +1,10 @@
-function New-DisDiscordRpcClient {
+function Set-DisClient {
     <#
     .SYNOPSIS
-    Creates a new Discord RPC Client which can be used to send Rich Presence and receive Join / Spectate events.
+    Sets properties on a Discord RPC Client which is used to send Rich Presence and receive Join / Spectate events.
 
     .DESCRIPTION
-    Creates a new Discord RPC Client which can be used to send Rich Presence and receive Join / Spectate events.
+    Sets properties on a Discord RPC Client which is used to send Rich Presence and receive Join / Spectate events.
 
     .PARAMETER HasRegisteredUriScheme
     Gets a value indicating if the client has registered a URI Scheme. If this is false, Join / Spectate events will fail.
@@ -60,7 +60,7 @@ function New-DisDiscordRpcClient {
     .NOTES
     General notes
 #>
-    [CmdletBinding()]
+    [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (
         [Switch]$HasRegisteredUriScheme,
         [String]$ApplicationID,
@@ -80,15 +80,28 @@ function New-DisDiscordRpcClient {
         [Switch]$ShutdownOnly
     )
     process {
-        $object = New-Object -TypeName DiscordRPC.DiscordRpcClient
-        if ($PSBoundParameters.Count) {
-            foreach ($param in $PSBoundParameters) {
-                $key = $param.Keys
-                if ($key -and $param.Values) {
-                    $object.$key = $param.Values
-                }
+        if ($Pscmdlet.ShouldProcess("Setting properties on DiscordRPC.DiscordRpcClient")) {
+            try {
+                $object = New-Object -TypeName DiscordRPC.DiscordRpcClient
+                $object.HasRegisteredUriScheme = $HasRegisteredUriScheme
+                $object.ApplicationID = $ApplicationID
+                $object.SteamID = $SteamID
+                $object.ProcessID = $ProcessID
+                $object.MaxQueueSize = $MaxQueueSize
+                $object.IsDisposed = $IsDisposed
+                $object.Logger = $Logger
+                $object.AutoEvents = $AutoEvents
+                $object.SkipIdenticalPresence = $SkipIdenticalPresence
+                $object.TargetPipe = $TargetPipe
+                $object.CurrentPresence = $CurrentPresence
+                $object.Subscription = $Subscription
+                $object.CurrentUser = $CurrentUser
+                $object.Configuration = $Configuration
+                $object.IsInitialized = $IsInitialized
+                $object.ShutdownOnly = $ShutdownOnly
+            } catch {
+                throw $_
             }
         }
-        $object
     }
 }

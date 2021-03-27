@@ -6,6 +6,8 @@ function New-DisAsset {
     .DESCRIPTION
     Creates an object used for the pictures used in the Rich Presence.
 
+    Assets are set at https://discord.com/developers/applications/
+
     .PARAMETER LargeImageKey
     Name of the uploaded image for the large profile artwork.
 
@@ -33,13 +35,8 @@ function New-DisAsset {
     )
     process {
         $object = New-Object -TypeName DiscordRPC.Assets
-        if ($PSBoundParameters.Count) {
-            foreach ($param in $PSBoundParameters) {
-                $key = $param.Keys
-                if ($key -and $param.Values) {
-                    $object.$key = $param.Values
-                }
-            }
+        foreach ($key in $PSBoundParameters.Keys) {
+            $object.$key = $PSBoundParameters[$key]
         }
         $object
     }
