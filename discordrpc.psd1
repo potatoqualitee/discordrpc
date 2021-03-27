@@ -41,6 +41,7 @@
         'New-DisConfiguration',
         'New-DisClient',
         'New-DisEventType',
+        'New-DisLogger',
         'New-DisParty',
         'New-DisRichPresence',
         'New-DisSecret',

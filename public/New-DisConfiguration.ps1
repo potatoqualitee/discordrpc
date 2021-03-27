@@ -16,7 +16,9 @@ function New-DisConfiguration {
     The type of enviroment the connection on. Usually Production.
 
     .EXAMPLE
-    An example
+    New-DisConfiguration -ApiEndpoint https://asdfadf.com -CdnHost https://asdfasdf -Enviroment Production
+
+    Creates a new endpoint object
 
     .NOTES
     General notes
