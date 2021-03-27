@@ -1,58 +1,58 @@
 function Set-DisDiscordRpcClient {
     <#
     .SYNOPSIS
-    Short description
+    Sets properties on a Discord RPC Client which is used to send Rich Presence and receive Join / Spectate events.
 
     .DESCRIPTION
-    Long description
+    Sets properties on a Discord RPC Client which is used to send Rich Presence and receive Join / Spectate events.
 
     .PARAMETER HasRegisteredUriScheme
-    Parameter description
+    Gets a value indicating if the client has registered a URI Scheme. If this is false, Join / Spectate events will fail.
 
     .PARAMETER ApplicationID
-    Parameter description
+    The Application ID of the RPC Client.
 
     .PARAMETER SteamID
-    Parameter description
+    Gets the Steam ID of the RPC Client. This value can be null if none was supplied.
 
     .PARAMETER ProcessID
-    Parameter description
+    Gets the ID of the process used to run the RPC Client. Discord tracks this process ID and waits for its termination. Defaults to the current application process ID.
 
     .PARAMETER MaxQueueSize
-    Parameter description
+    The maximum size of the message queue received from Discord.
 
     .PARAMETER IsDisposed
-    Parameter description
+    The dispose state of the client object.
 
     .PARAMETER Logger
-    Parameter description
+     The logger used this client and its associated components.
 
     .PARAMETER AutoEvents
-    Parameter description
+    Indicates if the client will automatically invoke the events without Invoke having to be called.
 
     .PARAMETER SkipIdenticalPresence
-    Parameter description
+    Skips sending presences that are identical to the current one.
 
     .PARAMETER TargetPipe
-    Parameter description
+    The pipe the discord client is on, ranging from 0 to 9. Use -1 to scan through all pipes.
 
     .PARAMETER CurrentPresence
-    Parameter description
+    The current presence that the client has.
 
     .PARAMETER Subscription
-    Parameter description
+    Current subscription to events.
 
     .PARAMETER CurrentUser
-    Parameter description
+    The current discord user. This is updated with the ready event and will be null until the event is fired from the connection.
 
     .PARAMETER Configuration
-    Parameter description
+    The current configuration the connection is using. Only becomes available after a ready event.
 
     .PARAMETER IsInitialized
-    Parameter description
+    Represents if the client has been initalized
 
     .PARAMETER ShutdownOnly
-    Parameter description
+    Forces the connection to shutdown gracefully instead of just aborting the connection.
 
     .EXAMPLE
     An example

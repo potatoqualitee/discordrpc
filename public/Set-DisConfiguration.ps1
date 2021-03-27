@@ -1,19 +1,19 @@
 function Set-DisConfiguration {
     <#
     .SYNOPSIS
-    Short description
+    Creates a new XXX object
 
     .DESCRIPTION
-    Long description
+    Creates a new XXX object
 
     .PARAMETER ApiEndpoint
-    Parameter description
+    The Discord API endpoint that should be used
 
     .PARAMETER CdnHost
-    Parameter description
+    The CDN endpoint
 
     .PARAMETER Enviroment
-    Parameter description
+    The type of enviroment the connection on. Usually Production.
 
     .EXAMPLE
     An example

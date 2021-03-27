@@ -1,31 +1,31 @@
 function New-DisUser {
     <#
     .SYNOPSIS
-    Short description
+    Creates a new User instance.. This is used for join requests.
 
     .DESCRIPTION
-    Long description
+    Creates a new User instance.. This is used for join requests.
 
     .PARAMETER ID
     Parameter description
 
     .PARAMETER Username
-    Parameter description
+    The username of the player.
 
     .PARAMETER Discriminator
-    Parameter description
+    The discriminator of the user.
 
     .PARAMETER Avatar
-    Parameter description
+    Possible formats for avatars
 
     .PARAMETER Flags
-    Parameter description
+    The flags on a users account, often represented as a badge.
 
     .PARAMETER Premium
-    Parameter description
+    The premium type of the user.
 
     .PARAMETER CdnEndpoint
-    Parameter description
+    The endpoint for the CDN. Normally cdn.discordapp.com.
 
     .EXAMPLE
     An example

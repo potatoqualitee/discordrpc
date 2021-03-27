@@ -1,22 +1,22 @@
 function New-DisTimestamp {
     <#
     .SYNOPSIS
-    Short description
+    Creates a new structure representing the start and endtimes of a match.
 
     .DESCRIPTION
-    Long description
+    Creates a new structure representing the start and endtimes of a match.
 
     .PARAMETER Start
-    Parameter description
+    The time that match started. When included (not-null), the time in the rich presence will be shown as "00:01 elapsed".
 
     .PARAMETER End
-    Parameter description
+    The time the match will end. When included (not-null), the time in the rich presence will be shown as "00:01 remaining". This will override the "elapsed" to "remaining".
 
     .PARAMETER StartUnixMilliseconds
-    Parameter description
+    Converts between DateTime and Milliseconds to give the Unix Epoch Time for the Timestamp Start
 
     .PARAMETER EndUnixMilliseconds
-    Parameter description
+    Converts between DateTime and Milliseconds to give the Unix Epoch Time  for the Tiemstamp End
 
     .EXAMPLE
     An example

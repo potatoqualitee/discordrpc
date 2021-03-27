@@ -19,7 +19,7 @@
     Copyright          = 'Copyright (c) 2021, licensed under MIT'
 
     # Description of the functionality provided by this module
-    Description        = "Discord Rich Presence Client"
+    Description        = "A Discord RPC Client which is used to send Rich Presence updates and receive Join / Spectate events."
 
     # Minimum version of the Windows PowerShell engine required by this module
     PowerShellVersion  = '5.1'
@@ -46,7 +46,7 @@
         'New-DisSecret',
         'New-DisTimestamp',
         'New-DisUser',
-        'Set-DisAssets',
+        'Set-DisAsset',
         'Set-DisBaseRichPresence',
         'Set-DisButton',
         'Set-DisConfiguration',
@@ -54,7 +54,7 @@
         'Set-DisEventType',
         'Set-DisParty',
         'Set-DisRichPresence',
-        'Set-DisSecrets',
+        'Set-DisSecret',
         'Set-DisTimestamp',
         'Set-DisUser'
     )

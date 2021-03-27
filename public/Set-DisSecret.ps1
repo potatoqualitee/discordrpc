@@ -1,19 +1,19 @@
 function Set-DisSecret {
     <#
     .SYNOPSIS
-    Short description
+    Creates a new XXX object
 
     .DESCRIPTION
-    Long description
+    Creates a new XXX object
 
     .PARAMETER MatchSecret
-    Parameter description
+    The unique match code to distinguish different games/lobbies. Use <see cref="M:DiscordRPC.Secrets.CreateSecret(System.Random)"/> to get an appropriately sized secret.
 
     .PARAMETER JoinSecret
-    Parameter description
+    The secret data that will tell the client how to connect to the game to play. This could be a unique identifier for a fancy match maker or player id, lobby id, etc.
 
     .PARAMETER SpectateSecret
-    Parameter description
+    The secret data that will tell the client how to connect to the game to spectate. This could be a unique identifier for a fancy match maker or player id, lobby id, etc.
 
     .EXAMPLE
     An example

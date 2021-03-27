@@ -1,22 +1,22 @@
-function Set-DisAssets {
+function Set-DisAsset {
     <#
     .SYNOPSIS
-    Short description
+    Sets information about the pictures used in the Rich Presence.
 
     .DESCRIPTION
-    Long description
+    Sets information about the pictures used in the Rich Presence.
 
     .PARAMETER LargeImageKey
-    Parameter description
+    Name of the uploaded image for the large profile artwork.
 
     .PARAMETER LargeImageText
-    Parameter description
+    The tooltip for the large square image. For example, "Summoners Rift" or "Horizon Lunar Colony".
 
     .PARAMETER SmallImageKey
-    Parameter description
+    Name of the uploaded image for the small profile artwork.
 
     .PARAMETER SmallImageText
-    Parameter description
+    The tooltip for the small circle image. For example, "LvL 6" or "Ultimate 85%".
 
     .PARAMETER InputObject
     Parameter description

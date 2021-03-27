@@ -1,16 +1,16 @@
 function Set-DisButton {
     <#
     .SYNOPSIS
-    Short description
+     Sets properties for a Rich Presence button.
 
     .DESCRIPTION
-    Long description
+     Sets properties for a Rich Presence button.
 
     .PARAMETER Label
-    Parameter description
+    Text shown on the button
 
     .PARAMETER Url
-    Parameter description
+    The URL opened when clicking the button.
 
     .EXAMPLE
     An example

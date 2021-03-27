@@ -1,19 +1,19 @@
 function New-DisConfiguration {
     <#
     .SYNOPSIS
-    Short description
+    Creates the configuration of the current RPC connection
 
     .DESCRIPTION
-    Long description
+    Creates the configuration of the current RPC connection
 
     .PARAMETER ApiEndpoint
-    Parameter description
+    The Discord API endpoint that should be used
 
     .PARAMETER CdnHost
-    Parameter description
+    The CDN endpoint
 
     .PARAMETER Enviroment
-    Parameter description
+    The type of enviroment the connection on. Usually Production.
 
     .EXAMPLE
     An example

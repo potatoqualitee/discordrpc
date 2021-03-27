@@ -1,22 +1,22 @@
 function Set-DisParty {
     <#
     .SYNOPSIS
-    Short description
+    Creates a new XXX object
 
     .DESCRIPTION
-    Long description
+    Creates a new XXX object
 
     .PARAMETER ID
-    Parameter description
+    A unique ID for the player's current party / lobby / group. If this is not supplied, they player will not be in a party and the rest of the information will not be sent.
 
     .PARAMETER Size
-    Parameter description
+    The current size of the players party / lobby / group.
 
     .PARAMETER Max
     Parameter description
 
     .PARAMETER Privacy
-    Parameter description
+    The maxium size of the party / lobby / group. This is required to be larger than Size. If it is smaller than the current party size, it will automatically be set too Size when the presence is sent.
 
     .EXAMPLE
     An example

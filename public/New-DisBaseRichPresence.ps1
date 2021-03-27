@@ -1,28 +1,28 @@
 function New-DisBaseRichPresence {
     <#
     .SYNOPSIS
-    Short description
+    Creates a new base rich presence structure
 
     .DESCRIPTION
-    Long description
+    Creates a new base rich presence structure
 
     .PARAMETER State
-    Parameter description
+    The user's current Party status. For example, "Playing Solo" or "With Friends".
 
     .PARAMETER Details
-    Parameter description
+    What the user is currently doing. For example, "Competitive - Total Mayhem"
 
     .PARAMETER Timestamps
-    Parameter description
+    The time elapsed / remaining time data.
 
     .PARAMETER Assets
-    Parameter description
+    The names of the images to use and the tooltips to give those images.
 
     .PARAMETER Party
-    Parameter description
+    The party the player is currently in. The <see cref="P:DiscordRPC.Party.ID"/> must be set for this to be included in the RichPresence update.
 
     .PARAMETER Secrets
-    Parameter description
+    The secrets used for Join / Spectate. Secrets are obfuscated data of your choosing. They could be match ids, player ids, lobby ids, etc. Make this object null if you do not wish too / unable too implement the Join / Request feature.
 
     .EXAMPLE
     An example

@@ -1,10 +1,10 @@
 function Set-DisEventType {
     <#
     .SYNOPSIS
-    Short description
+    Creates a new XXX object
 
     .DESCRIPTION
-    Long description
+    Creates a new XXX object
 
     .PARAMETER None
     Parameter description

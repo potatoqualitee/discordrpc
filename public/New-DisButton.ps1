@@ -1,16 +1,16 @@
 function New-DisButton {
     <#
     .SYNOPSIS
-    Short description
+    Creates a Rich Presence button object.
 
     .DESCRIPTION
-    Long description
+    Creates a Rich Presence button object.
 
     .PARAMETER Label
-    Parameter description
+    Text shown on the button
 
     .PARAMETER Url
-    Parameter description
+    The URL opened when clicking the button.
 
     .EXAMPLE
     An example
