@@ -38,7 +38,6 @@
         'Get-DisClient',
         'Get-DisCurrentUser',
         'New-DisAsset',
-        'New-DisBaseRichPresence',
         'New-DisButton',
         'New-DisClient',
         'New-DisLogger',
@@ -46,13 +45,13 @@
         'New-DisRichPresence',
         'New-DisSecret',
         'New-DisTimestamp',
-        'Set-DisAsset',
         'Set-DisButton',
-        'Set-DisClient',
         'Set-DisParty',
         'Set-DisRichPresence',
         'Set-DisSecret',
-        'Set-DisTimestamp'
+        'Set-DisTimestamp',
+        'Start-DisClient',
+        'Update-DisAsset'
     )
 
     # Cmdlets to export from this module
