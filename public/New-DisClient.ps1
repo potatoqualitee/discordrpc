@@ -59,7 +59,9 @@ function New-DisClient {
                 $script:rpcclient.$key = $PSBoundParameters[$key]
             }
         }
-        $null = $script:rpcclient.Initialize()
+        if (-not $script:rpcclient.IsInitialized) {
+            $null = $script:rpcclient.Initialize()
+        }
         $script:rpcclient
     }
 }

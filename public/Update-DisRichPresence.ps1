@@ -42,9 +42,9 @@ function Update-DisRichPresence {
         [Parameter(ValueFromPipeline)]
         [DiscordRPC.Button[]]$Buttons,
         [Parameter(ValueFromPipeline)]
-        [String]$State,
+        [psobject]$State,
         [Parameter(ValueFromPipeline)]
-        [String]$Details,
+        [psobject]$Details,
         [Parameter(ValueFromPipeline)]
         [DiscordRPC.Timestamps]$Timestamps,
         [Parameter(ValueFromPipeline)]

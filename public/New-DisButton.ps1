@@ -19,7 +19,9 @@ function New-DisButton {
 #>
     [CmdletBinding()]
     param (
+        [Parameter(Mandatory)]
         [String]$Label,
+        [Parameter(Mandatory)]
         [String]$Url
     )
     process {

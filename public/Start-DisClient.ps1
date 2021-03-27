@@ -29,7 +29,7 @@ function Start-DisClient {
         [String]$LargeImageText,
         [String]$SmallImageKey,
         [String]$SmallImageText,
-        [datetime]$Start = (([DiscordRPC.Timestamps]::Now).Start),
+        [psobject]$Start,
         [datetime]$End,
         [String]$Label,
         [String]$Url,
@@ -44,11 +44,12 @@ function Start-DisClient {
         [ScriptBlock]$ScriptBlock
     )
     process {
-        if ($ScriptBlock -and $ScriptBlock.ToString() -notmatch "global:timervars.Client") {
-            throw 'ScriptBlock must use $global:timervars.Client to manage the client. Please check the docs for more information.'
+        if ($Label -and -not $Url) {
+            throw "You must specify URL when using Labels"
         }
-
-        $script:rpcclient = New-Object -TypeName DiscordRPC.DiscordRpcClient $ApplicationID
+        if (-not $Label -and $Url) {
+            throw "You must specify Label when using URls"
+        }
 
         $parms = @{
             LargeImageKey  = $LargeImageKey
@@ -58,15 +59,34 @@ function Start-DisClient {
         }
         $assets = New-DisAsset @parms
 
-        $parms = @{
-            Type  = $LoggerType
-            Level = $LoggerLevel
-            Path  = $LoggerPath
+        if ($LoggerType) {
+            $parms = @{
+                Type  = $LoggerType
+                Level = $LoggerLevel
+                Path  = $LoggerPath
+            }
+            $logger = New-DisLogger @parms
+            $script:rpcclient = New-DisClient -ApplicationID $ApplicationID -Logger $Logger
+        } else {
+            $script:rpcclient = New-DisClient -ApplicationID $ApplicationID
         }
-        $logger = New-DisLogger @parms
 
-        $button = New-DisButton -Label $Label -Url $Url
-        $timestamp = New-DisTimestamp -Start $Start -End $End
+
+        if ($Label -and $Url) {
+            $button = New-DisButton -Label $Label -Url $Url
+        }
+
+        if ($Start -or $End) {
+            if ($Start -eq "Now") {
+                $timestamp = [DiscordRPC.Timestamps]::Now
+            } else {
+                if ($End) {
+                    $timestamp = New-DisTimestamp -Start $Start -End $End
+                } else {
+                    $timestamp = New-DisTimestamp -Start $Start
+                }
+            }
+        }
 
         $parms = @{
             Assets     = $assets
@@ -74,11 +94,13 @@ function Start-DisClient {
             Details    = $Details
             Timestamps = $timestamp
             Buttons    = $button
-            Logger     = $logger
         }
         $presence = New-DisRichPresence @parms
 
-        $script:rpcclient.Initialize()
+        if (-not $script:rpcclient.IsInitialized) {
+            $null = $script:rpcclient.Initialize()
+        }
+
         $script:rpcclient.SetPresence($presence)
 
         if ($ScriptBlock) {

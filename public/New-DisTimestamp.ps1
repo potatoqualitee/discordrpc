@@ -38,15 +38,20 @@ function New-DisTimestamp {
 #>
     [CmdletBinding()]
     param (
-        [datetime]$Start = (([DiscordRPC.Timestamps]::Now).Start),
+        [datetime]$Start,
         [datetime]$End,
+        [switch]$Now,
         [uint64]$StartUnixMilliseconds,
         [uint64]$EndUnixMilliseconds
     )
     process {
-        $object = New-Object -TypeName DiscordRPC.Timestamps
-        foreach ($key in ($PSBoundParameters.Keys | Where-Object { $PSItem -notin [System.Management.Automation.PSCmdlet]::CommonParameters })) {
-            $object.$key = $PSBoundParameters[$key]
+        if ($Now) {
+            $object = [DiscordRPC.Timestamps]::Now
+        } else {
+            $object = New-Object -TypeName DiscordRPC.Timestamps
+            foreach ($key in ($PSBoundParameters.Keys | Where-Object { $PSItem -notin [System.Management.Automation.PSCmdlet]::CommonParameters })) {
+                $object.$key = $PSBoundParameters[$key]
+            }
         }
         $object
     }
