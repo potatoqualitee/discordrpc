@@ -6,31 +6,27 @@ function Update-DisAsset {
     .DESCRIPTION
     Sets information about the pictures used in the Rich Presence.
 
-    .PARAMETER Buttons
-    The buttons to display in the presence.
+    .PARAMETER LargeImageKey
+    Name of the uploaded image for the large profile artwork.
 
-    .PARAMETER State
-    The user's current Party status. For example, "Playing Solo" or "With Friends".
+    .PARAMETER LargeImageText
+    The tooltip for the large square image. For example, "Summoners Rift" or "Horizon Lunar Colony".
 
-    .PARAMETER Details
-    What the user is currently doing. For example, "Competitive - Total Mayhem"
+    .PARAMETER SmallImageKey
+    Name of the uploaded image for the small profile artwork.
 
-    .PARAMETER Timestamps
-    The time elapsed / remaining time data.
-
-    .PARAMETER Assets
-    The names of the images to use and the tooltips to give those images.
-
-    .PARAMETER Party
-    The party the player is currently in. The <see cref="P:DiscordRPC.Party.ID"/> must be set for this to be included in the RichPresence update.
-
-    .PARAMETER Secrets
-    The secrets used for Join / Spectate. Secrets are obfuscated data of your choosing. They could be match ids, player ids, lobby ids, etc. Make this object null if you do not wish too / unable too implement the Join / Request feature.
-
+    .PARAMETER SmallImageText
+    The tooltip for the small circle image. For example, "LvL 6" or "Ultimate 85%".
 
     .EXAMPLE
-    $assets = New-DisAsset -LargeImageText "Summoners Rift" -SmallImageText "Lvl 8"
-    $assets | Update-DisAsset
+    Update-DisAsset -SmallImageText "Lvl 8"
+
+    Update just the small image text
+
+    .EXAMPLE
+    Update-DisAsset -LargeImageText "Summoners Rift" -SmallImageText "Lvl 8"
+
+    Update more
 
 #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]

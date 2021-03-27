@@ -35,6 +35,7 @@
 
     # Functions to export from this module
     FunctionsToExport  = @(
+        'Clear-DisTimestamp',
         'Get-DisClient',
         'Get-DisCurrentUser',
         'New-DisAsset',
@@ -49,7 +50,7 @@
         'Set-DisParty',
         'Update-DisRichPresence',
         'Set-DisSecret',
-        'Set-DisTimestamp',
+        'Update-DisTimestamp',
         'Start-DisClient',
         'Update-DisAsset'
     )
