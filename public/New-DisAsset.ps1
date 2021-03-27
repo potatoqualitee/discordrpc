@@ -21,7 +21,7 @@ function New-DisAsset {
     The tooltip for the small circle image. For example, "LvL 6" or "Ultimate 85%".
 
     .EXAMPLE
-    An example
+    $assets = New-DisAsset -LargeImageKey psavatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
 
     #>
     [CmdletBinding()]
