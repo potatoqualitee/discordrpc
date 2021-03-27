@@ -8,8 +8,8 @@ Describe "Integration Tests" -Tag "IntegrationTests" {
     }
     Context "New-DisAsset" {
         It "Creates an asset object" {
-            $results = New-DIsAsset
-            $results | Shoult -Not -BeNullorEmpty
+            $results = New-DisAsset
+            $results | Should -Not -BeNullorEmpty
         }
     }
 }
