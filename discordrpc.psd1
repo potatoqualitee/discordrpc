@@ -47,7 +47,7 @@
         'New-DisTimestamp',
         'Set-DisButton',
         'Set-DisParty',
-        'Set-DisRichPresence',
+        'Update-DisRichPresence',
         'Set-DisSecret',
         'Set-DisTimestamp',
         'Start-DisClient',

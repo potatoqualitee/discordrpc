@@ -28,7 +28,18 @@ function New-DisRichPresence {
     The secrets used for Join / Spectate. Secrets are obfuscated data of your choosing. They could be match ids, player ids, lobby ids, etc. Make this object null if you do not wish too / unable too implement the Join / Request feature.
 
     .EXAMPLE
-    An example
+    $assets = New-DisAsset -LargeImageKey psavatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
+    $timestamp = [DiscordRPC.Timestamps]::Now
+    $button = New-DisButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
+    $party = New-DisParty -Size 10 -Privacy Public -Max 100
+    $params = @{
+        Asset = $assets
+        State = "Something good"
+        Details = "Aww yeah"
+        Timestamp = $timestamp
+        Buttons = $button
+    }
+    New-DisRichPresence @params
 
 #>
     [CmdletBinding()]
