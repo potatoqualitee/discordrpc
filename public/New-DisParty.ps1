@@ -26,7 +26,7 @@ function New-DisParty {
 #>
     [CmdletBinding()]
     param (
-        [String]$ID,
+        [String]$ID = (New-Guid),
         [Int32]$Size,
         [Int32]$Max,
         [DiscordRPC.Party+PrivacySetting]$Privacy
@@ -36,6 +36,7 @@ function New-DisParty {
         foreach ($key in ($PSBoundParameters.Keys | Where-Object { $PSItem -notin [System.Management.Automation.PSCmdlet]::CommonParameters })) {
             $object.$key = $PSBoundParameters[$key]
         }
+        $object.Id = $ID
         $object
     }
 }

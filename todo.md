@@ -15,7 +15,5 @@ TODO
     DiscordRPC.RPC.Payload
      Too get a URL for the avatar
 
-     DiscordRPC.Logging.FileLogger
 
-     DiscordRPC.Logging.ConsoleLogger.#ctor(DiscordRPC.Logging.LogLevel,System.Boolean)
-
+Secrets.CreateFriendlySecret(random)

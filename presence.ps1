@@ -12,10 +12,11 @@ import-module discordrpc -force
 $assets = New-DisAsset -LargeImageKey psavatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
 $timestamp = New-DisTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
 $timestamp = [DiscordRPC.Timestamps]::Now
-$button = New-DisButton -Label "Presence by PowerShell" -Url https://github.com/potatoqualitee/discordrpc/
-$presence = New-DisRichPresence -Asset $assets -State "Playing PowerShell" -Details "Some details" -Timestamp $timestamp -Buttons $button
-#$logger = New-DisLogger -Type ConsoleLogger -Level Info
-$client = New-DisClient -ApplicationID 824593663883214948 -Presence $presence #-Logger $logger
+$button = New-DisButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
+$party = New-DisParty -Size 10 -Privacy Public -Max 100
+$presence = New-DisRichPresence -Asset $assets -State "presence.ps1" -Details "Some details" -Timestamp $timestamp -Buttons $button -Party $party
+$logger = New-DisLogger -Type ConsoleLogger -Level Info
+$client = New-DisClient -ApplicationID 824593663883214948 -Presence $presence -Logger $logger
 
 
 
