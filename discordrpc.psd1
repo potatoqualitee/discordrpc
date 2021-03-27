@@ -46,7 +46,7 @@
         'New-DisRichPresence',
         'New-DisSecret',
         'New-DisTimestamp',
-        'New-DisUser',
+        'Get-DisCurrentUser',
         'Set-DisAsset',
         'Set-DisBaseRichPresence',
         'Set-DisButton',

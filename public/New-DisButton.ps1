@@ -13,7 +13,8 @@ function New-DisButton {
     The URL opened when clicking the button.
 
     .EXAMPLE
-    An example
+    $button = New-DisButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
+    $presence = New-DisRichPresence -Buttons $button
 
 #>
     [CmdletBinding()]

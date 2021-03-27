@@ -1,6 +1,14 @@
 # https://discord.com/developers/applications
 # have you ensured you have "Game Activity" enabled in your discord settings?
 
+UpdateClearTime
+UpdateDetails
+UpdateEndTime
+
+UpdateSecrets
+
+UpdateStartTime
+UpdateState
 
 <#
 

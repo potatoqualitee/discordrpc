@@ -19,7 +19,7 @@ function New-DisParty {
     Privacy of the party
 
     .EXAMPLE
-    An example
+    $party = New-DisParty -Size 10 -Privacy Public -Max 100
 
 #>
     [CmdletBinding()]
