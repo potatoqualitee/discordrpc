@@ -22,10 +22,22 @@ function New-DisClient {
     Forces the connection to shutdown gracefully instead of just aborting the connection.
 
     .EXAMPLE
-    An example
+    $client = New-DisClient -ApplicationID 824593663883214948
 
-    .NOTES
-    General notes
+    A simple client
+
+    .EXAMPLE
+    $assets = New-DisAsset -LargeImageKey psavatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
+    $timestamp = New-DisTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
+    $timestamp = [DiscordRPC.Timestamps]::Now
+    $button = New-DisButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
+    $party = New-DisParty -Size 10 -Privacy Public -Max 100
+    $presence = New-DisRichPresence -Asset $assets -State "presence.ps1" -Details "Some details" -Timestamp $timestamp -Buttons $button -Party $party
+    $logger = New-DisLogger -Type ConsoleLogger -Level Info
+    $client = New-DisClient -ApplicationID 824593663883214948 -Presence $presence -Logger $logger
+
+    A blinged out client
+
 #>
     [CmdletBinding()]
     param (

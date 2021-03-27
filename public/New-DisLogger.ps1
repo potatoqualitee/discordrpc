@@ -25,8 +25,6 @@ function New-DisLogger {
     $logger = New-DisLogger -Type ConsoleLogger -Level Error
     New-DisClient -ApplicationID 12345678901234567 -Logger $logger
 
-    .NOTES
-    General notes
 #>
     [CmdletBinding()]
     param (

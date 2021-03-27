@@ -19,10 +19,22 @@ function New-DisTimestamp {
     Converts between DateTime and Milliseconds to give the Unix Epoch Time  for the Tiemstamp End
 
     .EXAMPLE
-    An example
+    $timestamp = New-DisTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
 
-    .NOTES
-    General notes
+    Creates a timestamp object that has a specific match length and counts down but not like Spotify
+
+    .EXAMPLE
+    $timestamp = [DiscordRPC.Timestamps]::Now
+    $presence = New-DisRichPresence -Asset $assets -Details "Some details" -Timestamp $timestamp -Buttons $button #-Party $party
+    $client = New-DisClient -ApplicationID 824593663883214948 -Presence $presence #-Logger $logger
+
+    Starts a nice lil timestamp that shows elapsed
+
+    .EXAMPLE
+    $timestamp = [DiscordRPC.Timestamps]::FromTimeSpan(10)
+
+    Starts a timestamp to say you've been on longer i think
+
 #>
     [CmdletBinding()]
     param (

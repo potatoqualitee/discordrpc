@@ -30,8 +30,6 @@ function New-DisUser {
     .EXAMPLE
     An example
 
-    .NOTES
-    General notes
 #>
     [CmdletBinding()]
     param (

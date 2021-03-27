@@ -27,8 +27,6 @@ function New-DisBaseRichPresence {
     .EXAMPLE
     An example
 
-    .NOTES
-    General notes
 #>
     [CmdletBinding()]
     param (

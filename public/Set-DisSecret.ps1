@@ -18,8 +18,6 @@ function Set-DisSecret {
     .EXAMPLE
     An example
 
-    .NOTES
-    General notes
     #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (

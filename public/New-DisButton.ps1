@@ -15,8 +15,6 @@ function New-DisButton {
     .EXAMPLE
     An example
 
-    .NOTES
-    General notes
 #>
     [CmdletBinding()]
     param (

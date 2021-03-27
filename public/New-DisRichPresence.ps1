@@ -30,8 +30,6 @@ function New-DisRichPresence {
     .EXAMPLE
     An example
 
-    .NOTES
-    General notes
 #>
     [CmdletBinding()]
     param (

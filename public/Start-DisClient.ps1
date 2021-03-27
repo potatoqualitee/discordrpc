@@ -21,8 +21,6 @@ function Start-DisClient {
     .EXAMPLE
     An example
 
-    .NOTES
-    General notes
 #>
     [CmdletBinding()]
     param (

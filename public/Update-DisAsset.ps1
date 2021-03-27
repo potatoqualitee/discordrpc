@@ -12,8 +12,6 @@ function Update-DisAsset {
     .EXAMPLE
     An example
 
-    .NOTES
-    General notes
 #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (

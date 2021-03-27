@@ -11,8 +11,6 @@ function Set-DisTimestamp {
     .EXAMPLE
     An example
 
-    .NOTES
-    General notes
 #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (

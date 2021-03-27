@@ -20,8 +20,6 @@ function New-DisConfiguration {
 
     Creates a new endpoint object
 
-    .NOTES
-    General notes
 #>
     [CmdletBinding()]
     param (

@@ -57,8 +57,6 @@ function Set-DisClient {
     .EXAMPLE
     An example
 
-    .NOTES
-    General notes
 #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (

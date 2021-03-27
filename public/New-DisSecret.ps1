@@ -18,8 +18,6 @@ function New-DisSecret {
     .EXAMPLE
     An example
 
-    .NOTES
-    General notes
 #>
     [CmdletBinding()]
     param (
