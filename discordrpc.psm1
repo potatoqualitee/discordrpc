@@ -38,3 +38,7 @@ Register-ArgumentCompleter -ParameterName Tool -CommandName New-TNQuery -ScriptB
         [System.Management.Automation.CompletionResult]::new($PSItem, $PSItem, "ParameterName", $PSItem)
     }
 }
+
+if ($global:discordrpcclient) {
+    $script:rpcclient = $global:discordrpcclient
+}

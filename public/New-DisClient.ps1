@@ -9,6 +9,8 @@ function New-DisClient {
     .PARAMETER ApplicationID
     The Application ID of the RPC Client
 
+    This uses discordrpc's client id by default, but you can use your own by creating an application at https://discord.com/developers/applications/
+
     .PARAMETER Logger
      The logger used this client and its associated components
 
@@ -22,7 +24,7 @@ function New-DisClient {
     Forces the connection to shutdown gracefully instead of just aborting the connection
 
     .EXAMPLE
-    $client = New-DisClient -ApplicationID 824593663883214948
+    $client = New-DisClient
 
     A simple client
 
@@ -41,8 +43,7 @@ function New-DisClient {
 #>
     [CmdletBinding()]
     param (
-        [Parameter(Mandatory)]
-        [String]$ApplicationID,
+        [String]$ApplicationID = "824593663883214948",
         [DiscordRPC.Logging.ILogger]$Logger,
         [DiscordRPC.RichPresence]$Presence,
         [Switch]$SkipIdenticalPresence,

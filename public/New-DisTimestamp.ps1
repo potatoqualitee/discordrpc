@@ -38,7 +38,7 @@ function New-DisTimestamp {
 #>
     [CmdletBinding()]
     param (
-        [datetime]$Start,
+        [datetime]$Start = (([DiscordRPC.Timestamps]::Now).Start),
         [datetime]$End,
         [uint64]$StartUnixMilliseconds,
         [uint64]$EndUnixMilliseconds

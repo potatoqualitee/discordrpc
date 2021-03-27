@@ -35,21 +35,21 @@
 
     # Functions to export from this module
     FunctionsToExport  = @(
-        'Clear-DisTimestamp'
-        'Get-DisClient'
-        'Get-DisCurrentUser'
-        'New-DisAsset'
-        'New-DisButton'
-        'New-DisClient'
-        'New-DisLogger'
-        'New-DisParty'
-        'New-DisRichPresence'
-        'New-DisSecret'
-        'New-DisTimestamp'
-        'Start-DisClient'
-        'Update-DisAsset'
-        'Update-DisButton'
-        'Update-DisRichPresence'
+        'Clear-DisTimestamp',
+        'Get-DisClient',
+        'Get-DisCurrentUser',
+        'New-DisAsset',
+        'New-DisButton',
+        'New-DisClient',
+        'New-DisLogger',
+        'New-DisParty',
+        'New-DisRichPresence',
+        'New-DisSecret',
+        'New-DisTimestamp',
+        'Start-DisClient',
+        'Update-DisAsset',
+        'Update-DisButton',
+        'Update-DisRichPresence',
         'Update-DisTimestamp'
     )
 

@@ -24,39 +24,85 @@ function Start-DisClient {
 #>
     [CmdletBinding()]
     param (
-        [Parameter(Mandatory)]
-        [String]$ApplicationID,
-        [String]$Logger,
-        [Switch]$SkipIdenticalPresence,
-        [Switch]$ShutdownOnly,
+        [String]$ApplicationID = "824593663883214948",
         [String]$LargeImageKey,
         [String]$LargeImageText,
         [String]$SmallImageKey,
         [String]$SmallImageText,
-        [DiscordRPC.Button[]]$Buttons,
+        [datetime]$Start = (([DiscordRPC.Timestamps]::Now).Start),
+        [datetime]$End,
+        [String]$Label,
+        [String]$Url,
         [String]$State,
         [String]$Details,
-        [DiscordRPC.Timestamps]$Timestamps,
-        [DiscordRPC.Assets]$Assets,
-        [DiscordRPC.Party]$Party,
-        [DiscordRPC.Secrets]$Secrets,
         [ValidateSet("ConsoleLogger","FileLogger")]
-        [String]$LoggingType,
+        [String]$LoggerType,
         [ValidateSet("Trace","Info","None","Error","Warning")]
-        [String]$LoggingLevel = "Info",
-        [String]$LoggingPath,
-        [Switch]$ColorOutput,
+        [String]$LoggerLevel = "Info",
+        [String]$LoggerPath,
+        [Int]$TimerRefresh = 5000,
         [ScriptBlock]$ScriptBlock
     )
     process {
-        #fix string
-        # add params from assets
-        $script:rpcclient = New-Object -TypeName DiscordRPC.DiscordRpcClient $ApplicationID
-        foreach ($key in ($PSBoundParameters.Keys | Where-Object { $PSItem -notin [System.Management.Automation.PSCmdlet]::CommonParameters })) {
-            if ($key -eq "ApplicationID") { continue }
-            $script:rpcclient.$key = $PSBoundParameters[$key]
+        if ($ScriptBlock -and $ScriptBlock.ToString() -notmatch "global:timervars.Client") {
+            throw 'ScriptBlock must use $global:timervars.Client to manage the client. Please check the docs for more information.'
         }
+
+        $script:rpcclient = New-Object -TypeName DiscordRPC.DiscordRpcClient $ApplicationID
+
+        $parms = @{
+            LargeImageKey  = $LargeImageKey
+            LargeImageText = $LargeImageText
+            SmallImageKey  = $SmallImageKey
+            SmallImageText = $SmallImageText
+        }
+        $assets = New-DisAsset @parms
+
+        $parms = @{
+            Type  = $LoggerType
+            Level = $LoggerLevel
+            Path  = $LoggerPath
+        }
+        $logger = New-DisLogger @parms
+
+        $button = New-DisButton -Label $Label -Url $Url
+        $timestamp = New-DisTimestamp -Start $Start -End $End
+
+        $parms = @{
+            Assets     = $assets
+            State      = $State
+            Details    = $Details
+            Timestamps = $timestamp
+            Buttons    = $button
+            Logger     = $logger
+        }
+        $presence = New-DisRichPresence @parms
+
         $script:rpcclient.Initialize()
+        $script:rpcclient.SetPresence($presence)
+
+        if ($ScriptBlock) {
+            # timers require global variables
+            $global:discordrpcclient = $script:rpcclient
+
+            if (Get-EventSubscriber -SourceIdentifier Discord -ErrorAction Ignore) {
+                $null = Get-EventSubscriber -SourceIdentifier Discord -ErrorAction Ignore | Unregister-Event
+            }
+
+            $timer = New-Object System.Timers.Timer $TimerRefresh
+            $timer.Enabled = $true
+            $timer.AutoReset = $true
+
+            $params = @{
+                InputObject      = $timer
+                EventName        = "Elapsed"
+                SourceIdentifier = "Discord"
+                Action           = $ScriptBlock
+            }
+
+            $null = Register-ObjectEvent @params
+            $null = $timer.Start()
+        }
         $script:rpcclient
     }
 }
