@@ -1,4 +1,9 @@
 $script:ModuleRoot = $PSScriptRoot
+
+
+Add-Type -Path (Resolve-Path -Path "$PSScriptRoot\bin\net35\Newtonsoft.Json.dll") -ErrorAction Stop
+Add-Type -Path (Resolve-Path -Path "$PSScriptRoot\bin\net35\DiscordRPC.dll") -ErrorAction Stop
+
 function Import-ModuleFile {
     [CmdletBinding()]
     Param (

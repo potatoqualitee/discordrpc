@@ -31,7 +31,7 @@ function New-DisConfiguration {
     )
     process {
         $object = New-Object -TypeName DiscordRPC.Configuration
-        foreach ($key in $PSBoundParameters.Keys) {
+        foreach ($key in ($PSBoundParameters.Keys | Where-Object { $PSItem -notin [System.Management.Automation.PSCmdlet]::CommonParameters })) {
             $object.$key = $PSBoundParameters[$key]
         }
         $object

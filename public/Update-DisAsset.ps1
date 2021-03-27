@@ -1,4 +1,4 @@
-function Set-DisRichPresence {
+function Update-DisAsset {
     <#
     .SYNOPSIS
     Sets information about the pictures used in the Rich Presence.
@@ -7,7 +7,7 @@ function Set-DisRichPresence {
     Sets information about the pictures used in the Rich Presence.
 
     .PARAMETER InputObject
-    The presence object
+    Parameter description
 
     .EXAMPLE
     An example
@@ -17,8 +17,8 @@ function Set-DisRichPresence {
 #>
     [CmdletBinding(SupportsShouldProcess, ConfirmImpact = "Low")]
     param (
-        [Parameter(Mandatory, ValueFromPipeline)]
-        [DiscordRPC.RichPresence]$InputObject
+        [Parameter(Mandatory)]
+        [DiscordRPC.Assets]$Asset
     )
     process {
         if (-not $script:rpcclient) {
@@ -26,7 +26,11 @@ function Set-DisRichPresence {
         }
         if ($Pscmdlet.ShouldProcess("Setting properties on client.CurrentPresence")) {
             try {
-                $script:rpcclient.SetPresence($InputObject)
+                $prescence = $script:rpcclient.CurrentPresence
+                if ($prescence) {
+                    $prescence.Assets = $Asset
+                    $script:rpcclient.SetPresence($presence)
+                }
             } catch {
                 throw $_
             }

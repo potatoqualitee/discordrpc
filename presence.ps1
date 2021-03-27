@@ -9,8 +9,11 @@ try {
 
 $client = New-Object DiscordRpc.DiscordRpcClient 824593663883214948
 
-$client = New-DisRpcClient -ApplicationID 824593663883214948
-New-DisRichPresence
+import-module discordrpc -force
+$assets = New-DisAsset -LargeImageKey psavatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
+$presence = New-DisRichPresence -Asset $assets -State "Playing PowerShell" -Details "Some details"
+#Set-DisRichPresence -InputObject $presence
+$client = New-DisClient -ApplicationID 824593663883214948 -Presence $presence
 
 
 $presence = New-Object DiscordRPC.RichPresence

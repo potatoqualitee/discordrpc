@@ -35,7 +35,7 @@ function New-DisAsset {
     )
     process {
         $object = New-Object -TypeName DiscordRPC.Assets
-        foreach ($key in $PSBoundParameters.Keys) {
+        foreach ($key in ($PSBoundParameters.Keys | Where-Object { $PSItem -notin [System.Management.Automation.PSCmdlet]::CommonParameters })) {
             $object.$key = $PSBoundParameters[$key]
         }
         $object

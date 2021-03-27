@@ -25,7 +25,7 @@ function New-DisButton {
     )
     process {
         $object = New-Object -TypeName DiscordRPC.Button
-        foreach ($key in $PSBoundParameters.Keys) {
+        foreach ($key in ($PSBoundParameters.Keys | Where-Object { $PSItem -notin [System.Management.Automation.PSCmdlet]::CommonParameters })) {
             $object.$key = $PSBoundParameters[$key]
         }
         $object
