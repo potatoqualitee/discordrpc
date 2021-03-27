@@ -3,10 +3,10 @@ param (
 )
 
 Write-Host "Starting Tests" -ForegroundColor Green
-Write-PSFMessage -Level Important -Message "Loading constants"
+Write-Output "Loading constants"
 . "$PSScriptRoot\constants.ps1"
 
-Write-PSFMessage -Level Important -Message "Importing Module"
+Write-Output "Importing Module"
 Import-Module "$PSScriptRoot\..\discordprc.psd1"
 
 $totalFailed = 0
@@ -14,9 +14,9 @@ $totalRun = 0
 
 $testresults = @()
 
-Write-PSFMessage -Level Important -Message "Proceeding with individual tests"
+Write-Output "Proceeding with individual tests"
 foreach ($file in (Get-ChildItem "$PSScriptRoot\public" -Recurse -File -Filter "*.Tests.ps1")) {
-    Write-PSFMessage -Level Important -Message "Executing $($file.Name)"
+    Write-Output "Executing $($file.Name)"
     $results = Invoke-Pester -Script $file.FullName -PassThru
     foreach ($result in $results) {
         $totalRun += $result.TotalCount
@@ -36,8 +36,8 @@ foreach ($file in (Get-ChildItem "$PSScriptRoot\public" -Recurse -File -Filter "
 
 $testresults | Sort-Object Describe, Context, Name, Result, Message | Format-List
 
-if ($totalFailed -eq 0) { Write-PSFMessage -Level Critical -Message "All <c='em'>$totalRun</c> tests executed without failure" }
-else { Write-PSFMessage -Level Critical -Message "<c='em'>$totalFailed tests</c> out of <c='sub'>$totalRun</c> tests failed" }
+if ($totalFailed -eq 0) { Write-Output "All $totalRun tests executed without failure" }
+else { Write-Output "$totalFailed tests out of $totalRun tests failed" }
 
 if ($totalFailed -gt 0) {
     throw "$totalFailed / $totalRun tests failed"
