@@ -2,6 +2,7 @@
 
 Discord RPC is a library for interfacing your game with a locally running Discord desktop client. It's known to work on Windows, macOS, and Linux. 
 
+## Sup
 have you ensured you have "Game Activity" enabled in your discord settings?
 
 [discord-rpc-csharp](https://github.com/Lachee/discord-rpc-csharp/)
