@@ -10,7 +10,7 @@ function New-DisLogger {
     The type of logger: ConsoleLogger or FileLogger
 
     ConsoleLogger logs the outputs to the console
-    FileLogger logs the outputs to the console
+    FileLogger logs the outputs to file
 
     .PARAMETER Level
      The level of logging: Trace, Info, None, Error, Warning

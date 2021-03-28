@@ -1,30 +1,102 @@
 function Start-DisClient {
     <#
     .SYNOPSIS
-    Creates a new Discord RPC Client which can be used to send Rich Presence and receive Join / Spectate events.
+    Creates a new Discord RPC Client which can be used to send Rich Presence
 
     .DESCRIPTION
-    Creates a new Discord RPC Client which can be used to send Rich Presence and receive Join / Spectate events.
+    Creates a new Discord RPC Client which can be used to send Rich Presence
 
     .PARAMETER ApplicationID
-    The Application ID of the RPC Client.
+    The Application ID of the RPC Client
 
-    .PARAMETER Logger
-     The logger used this client and its associated components.
+    This uses the discordrpc module's client id by default, but you can use your own by creating an application at https://discord.com/developers/applications/
 
-    .PARAMETER SkipIdenticalPresence
-    Skips sending presences that are identical to the current one.
+    .PARAMETER State
+    The user's current Party status. For example, "Playing Solo" or "With Friends"
 
-    .PARAMETER ShutdownOnly
-    Forces the connection to shutdown gracefully instead of just aborting the connection.
+    .PARAMETER Details
+    What the user is currently doing. For example, "Competitive - Total Mayhem"
+
+    .PARAMETER LargeImageKey
+    Name of the uploaded image for the large profile artwork
+
+    .PARAMETER LargeImageText
+    The tooltip for the large square image. For example, "Summoners Rift" or "Horizon Lunar Colony".
+
+    .PARAMETER SmallImageKey
+    Name of the uploaded image for the small profile artwork
+
+    .PARAMETER SmallImageText
+    The tooltip for the small circle image. For example, "LvL 6" or "Ultimate 85%".
+
+    .PARAMETER Start
+    The time that match started. Setting the value to "Now" will show "00:01 elapsed".
+
+    .PARAMETER End
+    The time the match will end. When included (not-null), the time in the rich presence will be shown as "00:01 remaining". This will override the "elapsed" to "remaining".
+
+    .PARAMETER Label
+    Text shown on the button
+
+    .PARAMETER Url
+    The URL opened when clicking the button
+
+    .PARAMETER LoggerType
+    The type of logger: ConsoleLogger or FileLogger
+
+    ConsoleLogger logs the outputs to the console
+    FileLogger logs the outputs to file
+
+    .PARAMETER LoggerLevel
+     The level of logging: Trace, Info, None, Error, Warning
+
+    .PARAMETER LoggerPath
+     The path to the log file when the Type is FileLogger
+
+    .PARAMETER TimerRefresh
+     Update your client with new data ever x milliseconds
+
+    .PARAMETER ScriptBlock
+     The script to run on a timer
+
 
     .EXAMPLE
-    An example
+    $parms = @{
+        ApplicationID  = "824593663883214948"
+        Details        = "Version $($PSVersionTable.PSVersion.Major).$($PSVersionTable.PSVersion.Minor)"
+        State          = (Split-Path -Path $pwd -Leaf)
+    }
+    Start-DisClient @parms
+
+    .EXAMPLE
+    $parms = @{
+        ApplicationID  = "824593663883214948"
+        LargeImageKey  = "psavatar"
+        LargeImageText = "Summoners Rift"
+        SmallImageKey  = "icon"
+        SmallImageText = "Lvl 7"
+        Label          = "Potato 🥔"
+        Url            = "https://github.com/potatoqualitee/discordrpc"
+        Details        = "Version $($PSVersionTable.PSVersion.Major).$($PSVersionTable.PSVersion.Minor)"
+        State          = (Split-Path -Path $pwd -Leaf)
+        LoggerLevel    = "Info"
+        TimerRefresh   = 5000
+        Start          = "Now"
+        ScriptBlock    = {
+            Update-DisAsset -LargeImageText "Timer worked!" -SmallImageText "Lvl 10"
+            Update-DisRichPresence -State (Split-Path -Path $pwd -Leaf)
+        }
+    }
+
+    Start-DisClient @parms
+
 
 #>
     [CmdletBinding()]
     param (
         [String]$ApplicationID = "824593663883214948",
+        [String]$State,
+        [String]$Details,
         [String]$LargeImageKey,
         [String]$LargeImageText,
         [String]$SmallImageKey,
@@ -33,8 +105,6 @@ function Start-DisClient {
         [datetime]$End,
         [String]$Label,
         [String]$Url,
-        [String]$State,
-        [String]$Details,
         [ValidateSet("ConsoleLogger","FileLogger")]
         [String]$LoggerType,
         [ValidateSet("Trace","Info","None","Error","Warning")]
