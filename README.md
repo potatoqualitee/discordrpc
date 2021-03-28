@@ -6,7 +6,7 @@ discordrpc works on PowerShell Core. This means that you can run all commands on
 
 After seeing the [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode) plugin for VS Code, I was inspired to do something similar with PowerShell.
 
-I made `discordrpc` as flexible as possible, so you can make your presence all your own, even changing the icons that show up. I also included a wrapper command to make getting started easy.
+I made `discordrpc` as flexible as possible, so you can make your presence all your own, even changing the icons that show up. A wrapper command has also been included to make getting started easy.
 
 <p align="center"><img src=https://user-images.githubusercontent.com/8278033/112739127-094cbd80-8f72-11eb-9f01-4554c0387b2d.png></p>
 
@@ -85,6 +85,8 @@ This setup will show logs in the console, which is inconvenient unless you are d
 
 #### Build your presence, step by step
 
+Here's the code I used while testing the module. You can use this to see how different settings can change the presence.
+
 ```powershell
 $assets = New-DSAsset -LargeImageKey psavatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
 $timestamp = New-DSTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
@@ -99,6 +101,15 @@ $client = New-DSClient -ApplicationID 824593663883214948 -Presence $presence -Lo
 
 ```powershell
 Get-Command -Module discordrpc
+```
+
+#### Get help
+
+A lot of help has been included. If you want to know more about a command such as `New-DSLogger` run the following:
+
+```powershell
+Get-Help New-DSLogger
+Get-Help New-DSLogger -Examples
 ```
 
 # Known Issues
