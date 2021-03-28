@@ -21,7 +21,7 @@ function New-DSAsset {
     The tooltip for the small circle image. For example, "LvL 6" or "Ultimate 85%".
 
     .EXAMPLE
-    $assets = New-DSAsset -LargeImageKey psavatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
+    $assets = New-DSAsset -LargeImageKey avatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
 
     #>
     [CmdletBinding()]

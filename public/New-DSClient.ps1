@@ -29,7 +29,7 @@ function New-DSClient {
     A simple client
 
     .EXAMPLE
-    $assets = New-DSAsset -LargeImageKey psavatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
+    $assets = New-DSAsset -LargeImageKey avatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
     $timestamp = New-DSTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
     $timestamp = [DiscordRPC.Timestamps]::Now
     $button = New-DSButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
