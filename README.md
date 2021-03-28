@@ -3,6 +3,8 @@
 discordrpc works on PowerShell Core. This means that you can run all commands on <strong>Windows</strong>, <strong>Linux</strong> and <strong>macOS</strong>.
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
+
 After seeing the [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode) plugin for VS Code, I was inspired to do something similar with PowerShell.
 
 I made `discordrpc` as flexible as possible, so you can make your presence all your own, even changing the icons that show up. I also included a wrapper command to make getting started easy.
