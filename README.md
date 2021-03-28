@@ -47,7 +47,7 @@ Start-DSClient @params
 
 ## Highlights
 
-* You can [create your own application](https://discord.com/developers/applications/) and use your own title and "assets" or icons/images.
+* You can [create your own application](https://discord.com/developers/applications/) and use your own title and "assets" or icons/images
 * You can use the wrapper command for ease or use the underlying commands individually for granular control
 
 
