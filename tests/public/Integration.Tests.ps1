@@ -6,9 +6,9 @@ Describe "Integration Tests" -Tag "IntegrationTests" {
     BeforeEach {
         Write-Output -Message "Next test"
     }
-    Context "New-DisAsset" {
+    Context "New-DSAsset" {
         It "Creates an asset object" {
-            $results = New-DisAsset
+            $results = New-DSAsset
             $results | Should -Not -BeNullorEmpty
         }
     }

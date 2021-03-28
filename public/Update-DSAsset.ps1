@@ -1,4 +1,4 @@
-function Update-DisAsset {
+function Update-DSAsset {
     <#
     .SYNOPSIS
     Sets information about the pictures used in the Rich Presence.
@@ -19,12 +19,12 @@ function Update-DisAsset {
     The tooltip for the small circle image. For example, "LvL 6" or "Ultimate 85%".
 
     .EXAMPLE
-    Update-DisAsset -SmallImageText "Lvl 8"
+    Update-DSAsset -SmallImageText "Lvl 8"
 
     Update just the small image text
 
     .EXAMPLE
-    Update-DisAsset -LargeImageText "Summoners Rift" -SmallImageText "Lvl 8"
+    Update-DSAsset -LargeImageText "Summoners Rift" -SmallImageText "Lvl 8"
 
     Update more
 
@@ -38,7 +38,7 @@ function Update-DisAsset {
     )
     process {
         if (-not $script:rpcclient) {
-            throw "Please New-DisClient or Start-DisClient"
+            throw "Please New-DSClient or Start-DSClient"
         }
         try {
             $prescence = $script:rpcclient.CurrentPresence

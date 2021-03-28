@@ -1,4 +1,4 @@
-function New-DisTimestamp {
+function New-DSTimestamp {
     <#
     .SYNOPSIS
     Creates an object representing the start and endtimes of a match.
@@ -19,14 +19,14 @@ function New-DisTimestamp {
     Converts between DateTime and Milliseconds to give the Unix Epoch Time  for the Tiemstamp End
 
     .EXAMPLE
-    $timestamp = New-DisTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
+    $timestamp = New-DSTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
 
     Creates a timestamp object that has a specific match length and counts down but not like Spotify
 
     .EXAMPLE
     $timestamp = [DiscordRPC.Timestamps]::Now
-    $presence = New-DisRichPresence -Asset $assets -Details "Some details" -Timestamp $timestamp -Buttons $button #-Party $party
-    $client = New-DisClient -ApplicationID 824593663883214948 -Presence $presence #-Logger $logger
+    $presence = New-DSRichPresence -Asset $assets -Details "Some details" -Timestamp $timestamp -Buttons $button #-Party $party
+    $client = New-DSClient -ApplicationID 824593663883214948 -Presence $presence #-Logger $logger
 
     Starts a nice lil timestamp that shows elapsed
 

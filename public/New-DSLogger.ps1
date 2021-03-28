@@ -1,4 +1,4 @@
-function New-DisLogger {
+function New-DSLogger {
     <#
     .SYNOPSIS
     Logs the outputs to console or file
@@ -22,8 +22,8 @@ function New-DisLogger {
      Colors the output when the Type is ConsoleLogger
 
     .EXAMPLE
-    $logger = New-DisLogger -Type ConsoleLogger -Level Error
-    New-DisClient -ApplicationID 12345678901234567 -Logger $logger
+    $logger = New-DSLogger -Type ConsoleLogger -Level Error
+    New-DSClient -ApplicationID 12345678901234567 -Logger $logger
 
 #>
     [CmdletBinding()]

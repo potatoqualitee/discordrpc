@@ -1,4 +1,4 @@
-function New-DisButton {
+function New-DSButton {
     <#
     .SYNOPSIS
     Creates a Rich Presence button object
@@ -13,8 +13,8 @@ function New-DisButton {
     The URL opened when clicking the button
 
     .EXAMPLE
-    $button = New-DisButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
-    $presence = New-DisRichPresence -Buttons $button
+    $button = New-DSButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
+    $presence = New-DSRichPresence -Buttons $button
 
 #>
     [CmdletBinding()]

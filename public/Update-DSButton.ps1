@@ -1,4 +1,4 @@
-function Update-DisButton {
+function Update-DSButton {
     <#
     .SYNOPSIS
     Updates the Rich Presence button
@@ -16,8 +16,8 @@ function Update-DisButton {
     Add a new button instead of replacing
 
     .EXAMPLE
-    $button = New-DisButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
-    $presence = New-DisRichPresence -Buttons $button
+    $button = New-DSButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
+    $presence = New-DSRichPresence -Buttons $button
 
 #>
     [CmdletBinding()]
@@ -28,15 +28,15 @@ function Update-DisButton {
     )
     process {
         if (-not $script:rpcclient) {
-            throw "Please New-DisClient or Start-DisClient"
+            throw "Please New-DSClient or Start-DSClient"
         }
         try {
             $button = @()
-            $button += New-DisButton @PSBoundParameters
+            $button += New-DSButton @PSBoundParameters
             if ($Append) {
                 $button += $script:rpcclient.CurrentPresence.Buttons
             }
-            Update-DisRichPresence -Buttons $button
+            Update-DSRichPresence -Buttons $button
         } catch {
             throw $_
         }

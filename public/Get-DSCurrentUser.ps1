@@ -1,4 +1,4 @@
-function Get-DisCurrentUser {
+function Get-DSCurrentUser {
     <#
     .SYNOPSIS
     Gets the current user
@@ -7,7 +7,7 @@ function Get-DisCurrentUser {
     Gets the current user
 
     .EXAMPLE
-    Get-DisCurrentUser
+    Get-DSCurrentUser
 
     Gets the current user logged into Discord
 
@@ -16,7 +16,7 @@ function Get-DisCurrentUser {
     param ()
     process {
         if (-not $script:rpcclient) {
-            throw "Please New-DisClient or Start-DisClient"
+            throw "Please New-DSClient or Start-DSClient"
         }
         $script:rpcclient.CurrentUser
     }

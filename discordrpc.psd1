@@ -35,23 +35,23 @@
 
     # Functions to export from this module
     FunctionsToExport  = @(
-        'Clear-DisTimestamp',
-        'Get-DisClient',
-        'Get-DisCurrentUser',
-        'Get-DisTimerEvent',
-        'New-DisAsset',
-        'New-DisButton',
-        'New-DisClient',
-        'New-DisLogger',
-        'New-DisParty',
-        'New-DisRichPresence',
-        'New-DisSecret',
-        'New-DisTimestamp',
-        'Start-DisClient',
-        'Update-DisAsset',
-        'Update-DisButton',
-        'Update-DisRichPresence',
-        'Update-DisTimestamp'
+        'Clear-DSTimestamp',
+        'Get-DSClient',
+        'Get-DSCurrentUser',
+        'Get-DSTimerEvent',
+        'New-DSAsset',
+        'New-DSButton',
+        'New-DSClient',
+        'New-DSLogger',
+        'New-DSParty',
+        'New-DSRichPresence',
+        'New-DSSecret',
+        'New-DSTimestamp',
+        'Start-DSClient',
+        'Update-DSAsset',
+        'Update-DSButton',
+        'Update-DSRichPresence',
+        'Update-DSTimestamp'
     )
 
     # Cmdlets to export from this module

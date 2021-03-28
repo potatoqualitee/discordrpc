@@ -1,4 +1,4 @@
-function Get-DisClient {
+function Get-DSClient {
     <#
     .SYNOPSIS
     Gets the current client/connection
@@ -7,14 +7,14 @@ function Get-DisClient {
     Gets the current client/connection
 
     .EXAMPLE
-    Get-DisClient
+    Get-DSClient
 
 #>
     [CmdletBinding()]
     param ()
     process {
         if (-not $script:rpcclient) {
-            throw "Please New-DisClient or Start-DisClient"
+            throw "Please New-DSClient or Start-DSClient"
         }
         $script:rpcclient
     }

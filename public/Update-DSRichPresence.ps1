@@ -1,4 +1,4 @@
-function Update-DisRichPresence {
+function Update-DSRichPresence {
     <#
     .SYNOPSIS
     Sets information about the pictures used in the Rich Presence
@@ -29,12 +29,12 @@ function Update-DisRichPresence {
 
     .EXAMPLE
     $timestamp = [DiscordRPC.Timestamps]::Now
-    $button = New-DisButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
+    $button = New-DSButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
     $params = @{
         Timestamp = $timestamp
         Buttons = $button
     }
-    Update-DisRichPresence @params
+    Update-DSRichPresence @params
 
 #>
     [CmdletBinding()]
@@ -56,7 +56,7 @@ function Update-DisRichPresence {
     )
     process {
         if (-not $script:rpcclient) {
-            throw "Please New-DisClient or Start-DisClient"
+            throw "Please New-DSClient or Start-DSClient"
         }
         $prescence = $script:rpcclient.CurrentPresence
 
@@ -92,7 +92,7 @@ function Update-DisRichPresence {
             Secrets    = $Secrets
         }
 
-        $newprescence = New-DisRichPresence @params
+        $newprescence = New-DSRichPresence @params
         try {
             $script:rpcclient.SetPresence($newprescence)
             $null = $script:rpcclient.SynchronizeState()

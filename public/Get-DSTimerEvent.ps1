@@ -1,13 +1,13 @@
-function Get-DisTimerEvent {
+function Get-DSTimerEvent {
     <#
     .SYNOPSIS
-    Gets details about the timer setup in Start-DisClient that refreshes rich presence
+    Gets details about the timer setup in Start-DSClient that refreshes rich presence
 
     .DESCRIPTION
-    Gets details about the timer setup in Start-DisClient that refreshes rich presence
+    Gets details about the timer setup in Start-DSClient that refreshes rich presence
 
     .EXAMPLE
-    Get-DisClient
+    Get-DSClient
 
 #>
     [CmdletBinding()]

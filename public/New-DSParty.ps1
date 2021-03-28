@@ -1,4 +1,4 @@
-function New-DisParty {
+function New-DSParty {
     <#
     .SYNOPSIS
     Creates a new object for the structure representing the party the player is in
@@ -19,7 +19,7 @@ function New-DisParty {
     Privacy of the party
 
     .EXAMPLE
-    $party = New-DisParty -Size 10 -Privacy Public -Max 100
+    $party = New-DSParty -Size 10 -Privacy Public -Max 100
 
 #>
     [CmdletBinding()]

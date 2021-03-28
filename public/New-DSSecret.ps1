@@ -1,4 +1,4 @@
-function New-DisSecret {
+function New-DSSecret {
     <#
     .SYNOPSIS
     Creates the secrets used for Join / Spectate. Secrets are obfuscated data of your choosing. They could be match ids, player ids, lobby ids, etc.

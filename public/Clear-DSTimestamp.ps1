@@ -1,4 +1,4 @@
-function Clear-DisTimestamp {
+function Clear-DSTimestamp {
     <#
     .SYNOPSIS
     Sets the start and end time of CurrentPresence to null and sends it to Discord
@@ -7,7 +7,7 @@ function Clear-DisTimestamp {
     Sets the start and end time of CurrentPresence to null and sends it to Discord
 
     .EXAMPLE
-    Clear-DisTimestamp
+    Clear-DSTimestamp
 
     Clears the timestamp
 
@@ -16,7 +16,7 @@ function Clear-DisTimestamp {
     param ()
     process {
         if (-not $script:rpcclient) {
-            throw "Please New-DisClient or Start-DisClient"
+            throw "Please New-DSClient or Start-DSClient"
         }
         if ($Pscmdlet.ShouldProcess("Setting properties on Timestamp")) {
             try {

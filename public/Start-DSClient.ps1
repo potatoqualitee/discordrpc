@@ -1,4 +1,4 @@
-function Start-DisClient {
+function Start-DSClient {
     <#
     .SYNOPSIS
     Creates a new Discord RPC Client which can be used to send Rich Presence
@@ -66,7 +66,7 @@ function Start-DisClient {
         Details        = "Version $($PSVersionTable.PSVersion.Major).$($PSVersionTable.PSVersion.Minor)"
         State          = (Split-Path -Path $pwd -Leaf)
     }
-    Start-DisClient @parms
+    Start-DSClient @parms
 
     .EXAMPLE
     $parms = @{
@@ -83,12 +83,12 @@ function Start-DisClient {
         TimerRefresh   = 5000
         Start          = "Now"
         ScriptBlock    = {
-            Update-DisAsset -LargeImageText "Timer worked!" -SmallImageText "Lvl 10"
-            Update-DisRichPresence -State (Split-Path -Path $pwd -Leaf)
+            Update-DSAsset -LargeImageText "Timer worked!" -SmallImageText "Lvl 10"
+            Update-DSRichPresence -State (Split-Path -Path $pwd -Leaf)
         }
     }
 
-    Start-DisClient @parms
+    Start-DSClient @parms
 
 
 #>
@@ -127,7 +127,7 @@ function Start-DisClient {
             SmallImageKey  = $SmallImageKey
             SmallImageText = $SmallImageText
         }
-        $assets = New-DisAsset @parms
+        $assets = New-DSAsset @parms
 
         if ($LoggerType) {
             $parms = @{
@@ -135,15 +135,15 @@ function Start-DisClient {
                 Level = $LoggerLevel
                 Path  = $LoggerPath
             }
-            $logger = New-DisLogger @parms
-            $script:rpcclient = New-DisClient -ApplicationID $ApplicationID -Logger $Logger
+            $logger = New-DSLogger @parms
+            $script:rpcclient = New-DSClient -ApplicationID $ApplicationID -Logger $Logger
         } else {
-            $script:rpcclient = New-DisClient -ApplicationID $ApplicationID
+            $script:rpcclient = New-DSClient -ApplicationID $ApplicationID
         }
 
 
         if ($Label -and $Url) {
-            $button = New-DisButton -Label $Label -Url $Url
+            $button = New-DSButton -Label $Label -Url $Url
         }
 
         if ($Start -or $End) {
@@ -151,9 +151,9 @@ function Start-DisClient {
                 $timestamp = [DiscordRPC.Timestamps]::Now
             } else {
                 if ($End) {
-                    $timestamp = New-DisTimestamp -Start $Start -End $End
+                    $timestamp = New-DSTimestamp -Start $Start -End $End
                 } else {
-                    $timestamp = New-DisTimestamp -Start $Start
+                    $timestamp = New-DSTimestamp -Start $Start
                 }
             }
         }
@@ -165,7 +165,7 @@ function Start-DisClient {
             Timestamps = $timestamp
             Buttons    = $button
         }
-        $presence = New-DisRichPresence @parms
+        $presence = New-DSRichPresence @parms
 
         if (-not $script:rpcclient.IsInitialized) {
             $null = $script:rpcclient.Initialize()

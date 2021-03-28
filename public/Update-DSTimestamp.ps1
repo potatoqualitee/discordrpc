@@ -1,4 +1,4 @@
-function Update-DisTimestamp {
+function Update-DSTimestamp {
     <#
     .SYNOPSIS
     Sets properties for the timestamp structure representing the start and endtimes of a match.
@@ -19,7 +19,7 @@ function Update-DisTimestamp {
     Converts between DateTime and Milliseconds to give the Unix Epoch Time  for the Tiemstamp End
 
     .EXAMPLE
-    Update-DisTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
+    Update-DSTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
 
     Updates the timestamp
 #>
@@ -32,11 +32,11 @@ function Update-DisTimestamp {
     )
     process {
         if (-not $script:rpcclient) {
-            throw "Please New-DisClient or Start-DisClient"
+            throw "Please New-DSClient or Start-DSClient"
         }
         try {
-            $timestamp = New-DisTimestamp @PSBoundParameters
-            Update-DisRichPresence -Timestamps $timestamp
+            $timestamp = New-DSTimestamp @PSBoundParameters
+            Update-DSRichPresence -Timestamps $timestamp
         } catch {
             throw $_
         }

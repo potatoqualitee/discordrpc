@@ -21,10 +21,10 @@ $parms = @{
     TimerRefresh   = 10000
     Start          = "Now"
     ScriptBlock    = {
-        Update-DisAsset -LargeImageText "Timer worked!" -SmallImageText "Lvl 10"
-        Update-DisRichPresence -State (Split-Path -Path $pwd -Leaf)
+        Update-DSAsset -LargeImageText "Timer worked!" -SmallImageText "Lvl 10"
+        Update-DSRichPresence -State (Split-Path -Path $pwd -Leaf)
     }
 }
 
-Start-DisClient @parms
+Start-DSClient @parms
 ```
