@@ -29,7 +29,7 @@ Install-Module discordrpc -Scope CurrentUser
 
 ```powershell
 $params = @{
-    LargeImageKey  = "psavatar"
+    LargeImageKey  = "avatar"
     SmallImageKey  = "icon"
     Details        = "Version $($PSVersionTable.PSVersion.Major).$($PSVersionTable.PSVersion.Minor)"
     State          = (Split-Path -Path $pwd -Leaf)
@@ -44,6 +44,13 @@ $params = @{
 
 Start-DSClient @params
 ```
+## Image Options
+Table with images goes here
+
+| Image                                                                                                                                     | Key    |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| <img src="https://user-images.githubusercontent.com/8278033/112764560-68114600-9009-11eb-8a38-4d0729579b5d.png" width="128" height="128"> | avatar |
+| <img src="https://user-images.githubusercontent.com/8278033/112764591-837c5100-9009-11eb-910a-137a56e0277d.png" width="128" height="128"> | icon   |
 
 ## Highlights
 
@@ -60,7 +67,7 @@ In the command below, you can use a custom [application ID](https://discord.com/
 ```powershell
 $params = @{
     ApplicationID  = "824593663883214948"
-    LargeImageKey  = "psavatar"
+    LargeImageKey  = "avatar"
     LargeImageText = "Summoners Rift"
     SmallImageKey  = "icon"
     SmallImageText = "Lvl 7"
@@ -88,7 +95,7 @@ This setup will show logs in the console, which is inconvenient unless you are d
 Here's the code I used while testing the module. You can use this to see how different settings can change the presence.
 
 ```powershell
-$assets = New-DSAsset -LargeImageKey psavatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
+$assets = New-DSAsset -LargeImageKey avatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
 $timestamp = New-DSTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
 $button = New-DSButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
 $party = New-DSParty -Size 10 -Privacy Public -Max 100

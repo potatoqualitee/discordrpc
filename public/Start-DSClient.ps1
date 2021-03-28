@@ -70,7 +70,7 @@ function Start-DSClient {
     .EXAMPLE
     $parms = @{
         ApplicationID  = "824593663883214948"
-        LargeImageKey  = "psavatar"
+        LargeImageKey  = "avatar"
         LargeImageText = "Summoners Rift"
         SmallImageKey  = "icon"
         SmallImageText = "Lvl 7"
