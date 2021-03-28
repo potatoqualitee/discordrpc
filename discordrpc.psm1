@@ -24,17 +24,11 @@ foreach ($function in (Get-ChildItem "$ModuleRoot\public" -Filter "*.ps1" -Recur
     . Import-ModuleFile -Path $function.FullName
 }
 
-if ( -not (Test-Path variable:Script:NessusConn )) {
-    $script:NessusConn = New-Object System.Collections.ArrayList
-}
+$script:clientids = Get-Content (Resolve-Path "$PSScriptRoot\clientids.json") | ConvertFrom-Json
 
-$PSDefaultParameterValues['*:UseBasicParsing'] = $true
-$PSDefaultParameterValues['*:TimeoutSec'] = 300
-
-Register-ArgumentCompleter -ParameterName Tool -CommandName New-TNQuery -ScriptBlock {
+Register-ArgumentCompleter -ParameterName Template -CommandName Start-DSClient -ScriptBlock {
     param($Command, $Parameter, $WordToComplete, $CommandAst, $FakeBoundParams)
-    $list = "alertName"
-    $list | Where-Object { $PSItem -like "$WordToComplete*" } | Select-Object -Unique | Sort-Object | ForEach-Object {
+    $script:clientids.Product | Where-Object { $PSItem -like "$WordToComplete*" } | Select-Object -Unique | Sort-Object | ForEach-Object {
         [System.Management.Automation.CompletionResult]::new($PSItem, $PSItem, "ParameterName", $PSItem)
     }
 }

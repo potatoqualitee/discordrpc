@@ -45,7 +45,7 @@ $params = @{
 Start-DSClient @params
 ```
 ## Image Options
-Table with images goes here
+The following images are available to use within your configuration. If you'd like me to add any more, let me know.
 
 | Image                                                                                                                                     | Key    |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -129,3 +129,5 @@ Discord RPC is a library for interfacing your game with a locally running Discor
 
 
 You can visit the [Discord Developer Portal](https://discord.com/developers/applications/) to learn more or create your own assets to set your own app name and icons. You'll need to change the `ApplicationID` to the client key you are provided.
+
+When searching for a [list of Client IDs](https://github.com/potatoqualitee/discordrpc/blob/main/clientids.json) already available on Discord, I found the [PreMiD app](https://premid.app/), which is a mature product to show a bunch of rich presences (though not PowerShell). If you'd like to create your own Rich Presence for an app, the code in [their repo](https://github.com/PreMiD) may provide good strategies.

@@ -11,6 +11,9 @@ function Start-DSClient {
 
     This uses the discordrpc module's client id by default, but you can use your own by creating an application at https://discord.com/developers/applications/
 
+    .PARAMETER Template
+    Use a template to provide the name and assets of a Product. When using a Template, consider specifying a ScriptBlock to show a richer presence.
+
     .PARAMETER State
     The user's current Party status. For example, "Playing Solo" or "With Friends"
 
@@ -94,6 +97,7 @@ function Start-DSClient {
     [CmdletBinding()]
     param (
         [String]$ApplicationID = "824593663883214948",
+        [String]$Template,
         [String]$State,
         [String]$Details,
         [String]$LargeImageKey,
@@ -119,6 +123,15 @@ function Start-DSClient {
         }
         if (-not $Label -and $Url) {
             throw "You must specify Label when using URls"
+        }
+
+        if ($PSBoundParameters.Template) {
+            $product = $script:clientids | Where-Object Product -eq $Template
+            $ApplicationID = $product.ClientID
+            $LargeImageKey = $product.LargeImage
+            $LargeImageText = $product.LargeText
+            $SmallImageKey = $product.SmallImage
+            $SmallImageText = $product.SmallText
         }
 
         $parms = @{
