@@ -1,29 +1,5 @@
 [
   {
-    "Product": "巴哈姆特",
-    "ClientID": "647973934603567130",
-    "LargeImage": "bahamut",
-    "LargeText": null,
-    "SmallImage": "reading",
-    "SmallText": null
-  },
-  {
-    "Product": "巴哈姆特動畫瘋",
-    "ClientID": "640194732718292992",
-    "LargeImage": "ani",
-    "LargeText": null,
-    "SmallImage": "play",
-    "SmallText": null
-  },
-  {
-    "Product": "网易云音乐",
-    "ClientID": "714636053235105832",
-    "LargeImage": "logo",
-    "LargeText": null,
-    "SmallImage": "play",
-    "SmallText": null
-  },
-  {
     "Product": "1337x",
     "ClientID": "636588416854917130",
     "LargeImage": "1337x",
