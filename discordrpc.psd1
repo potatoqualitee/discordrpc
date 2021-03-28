@@ -38,6 +38,7 @@
         'Clear-DisTimestamp',
         'Get-DisClient',
         'Get-DisCurrentUser',
+        'Get-DisTimerEvent',
         'New-DisAsset',
         'New-DisButton',
         'New-DisClient',
