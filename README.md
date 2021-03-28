@@ -26,12 +26,12 @@ Install-Module discordrpc -Scope CurrentUser
 ```powershell
 $params = @{
     LargeImageKey  = "psavatar"
-    LargeImageText = "Summoners Rift"
     SmallImageKey  = "icon"
-    SmallImageText = "Lvl 7"
     Details        = "Version $($PSVersionTable.PSVersion.Major).$($PSVersionTable.PSVersion.Minor)"
     State          = (Split-Path -Path $pwd -Leaf)
     Start          = "Now"
+    Label          = "Potato 🥔"
+    Url            = "https://github.com/potatoqualitee/discordrpc"
     UpdateScript   = {
         # show the directory you are in. you can do anything here.
         Update-DSRichPresence -State (Split-Path -Path $pwd -Leaf)
