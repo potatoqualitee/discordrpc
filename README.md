@@ -6,8 +6,7 @@ I made `discordrpc` as flexible as possible, so you can make your presence all y
 
 This is what mine looked like while testing:
 
-![image](https://user-images.githubusercontent.com/8278033/112739127-094cbd80-8f72-11eb-9f01-4554c0387b2d.png)
-
+<center>(https://user-images.githubusercontent.com/8278033/112739127-094cbd80-8f72-11eb-9f01-4554c0387b2d.png)</center>
 
 
 ## Sup
