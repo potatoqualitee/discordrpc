@@ -57,8 +57,7 @@ function Start-DSClient {
      Update your client with new data ever x milliseconds
 
     .PARAMETER ScriptBlock
-     The script to run on a timer
-
+     The script to run on a timer, aliased to UpdateScript
 
     .EXAMPLE
     $parms = @{
@@ -111,6 +110,7 @@ function Start-DSClient {
         [String]$LoggerLevel = "Info",
         [String]$LoggerPath,
         [Int]$TimerRefresh = 5000,
+        [Alias("UpdateScript")]
         [ScriptBlock]$ScriptBlock
     )
     process {
