@@ -8,12 +8,10 @@ After seeing the [Discord Presence](https://marketplace.visualstudio.com/items?i
 
 I made `discordrpc` as flexible as possible, so you can make your presence all your own, even changing the icons that show up. I also included a wrapper command to make getting started easy.
 
-This is what mine looked like while testing:
-
 <p align="center"><img src=https://user-images.githubusercontent.com/8278033/112739127-094cbd80-8f72-11eb-9f01-4554c0387b2d.png></p>
 
 
-## Installer
+## Install
 
 Run the following to install discordrpc from the PowerShell Gallery:
 
