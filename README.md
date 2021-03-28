@@ -13,7 +13,7 @@ This is what mine looked like while testing:
 
 ## Installer
 
-Run the following to install discordrpc from the PowerShell Gallery (to install on a server or for all users, remove the `-Scope` parameter and run in an elevated session):
+Run the following to install discordrpc from the PowerShell Gallery:
 
 ```powershell
 Install-Module discordrpc -Scope CurrentUser
