@@ -13,6 +13,10 @@ I made `discordrpc` as flexible as possible, so you can make your presence all y
 
 ## Install
 
+Ensure that Discord is running and that "Game Activity" enabled in your settings.
+
+### Install from PowerShell Gallery
+
 Run the following to install discordrpc from the PowerShell Gallery:
 
 ```powershell
@@ -41,10 +45,21 @@ $params = @{
 Start-DSClient @params
 ```
 
-## More advanced
+## Highlights
+
+* You can [create your own application](https://discord.com/developers/applications/) and use your own title and "assets" or icons/images.
+* You can use the wrapper command for ease or use the underlying commands individually for granular control
+
+
+## Usage examples
+
+#### Bigger combo command
+
+In the command below, you can use a custom [application ID](https://discord.com/developers/applications/), customize your timer, see info messages and more.
 
 ```powershell
 $params = @{
+    ApplicationID  = "824593663883214948"
     LargeImageKey  = "psavatar"
     LargeImageText = "Summoners Rift"
     SmallImageKey  = "icon"
@@ -66,31 +81,33 @@ $params = @{
 Start-DSClient @params
 ```
 
-## Usage scenarios
+This setup will show logs in the console, which is inconvenient unless you are debugging something.
 
-- Deploy standardized implementations
-- Manage Nessus and tenable.sc at scale
-- Manage some objects that are not available in the web interface
+#### Build your presence, step by step
 
-## Usage examples
+```powershell
+$assets = New-DSAsset -LargeImageKey psavatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
+$timestamp = New-DSTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
+$button = New-DSButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
+$party = New-DSParty -Size 10 -Privacy Public -Max 100
+$presence = New-DSRichPresence -Asset $assets -State "presence.ps1" -Details "Some details" -Timestamp $timestamp -Buttons $button -Party $party
+$logger = New-DSLogger -Type ConsoleLogger -Level Info
+$client = New-DSClient -ApplicationID 824593663883214948 -Presence $presence -Logger $logger
+```
 
-this and that
+#### See what other commands are available
 
-# Simplified deployment
+```powershell
+Get-Command -Module discordrpc
+```
 
 # Known Issues
 
-I can't get the link to click. I don't know what's up.
+I can't get the potato link to click. I don't know what's up.
 
 # Reference
 
-Discord RPC is a library for interfacing your game with a locally running Discord desktop client.
-
-[Lachee](https://github.com/Lachee) wrote [discord-rpc-csharp](https://github.com/Lachee/discord-rpc-csharp/)
-
-- [discord-rpc-csharp](https://github.com/Lachee/discord-rpc-csharp/) these powershell commands wrap that library
-- [Discord Developer Portal](https://discord.com/developers/applications/) want your own assets to set your own app name and icons? Create an app!
+Discord RPC is a library for interfacing your game with a locally running Discord desktop client. This PowerShell module wraps [Lachee's](https://github.com/Lachee) C# library, [discord-rpc-csharp](https://github.com/Lachee/discord-rpc-csharp/)
 
 
-
-[discord-rpc-csharp](https://github.com/Lachee/discord-rpc-csharp/)
+You can visit the [Discord Developer Portal](https://discord.com/developers/applications/) to learn more or create your own assets to set your own app name and icons. You'll need to change the `ApplicationID` to the client key you are provided.
