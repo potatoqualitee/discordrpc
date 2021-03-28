@@ -2,9 +2,13 @@
 
 After seeing the [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode) plugin for VS Code, I was inspired to do something similar with PowerShell.
 
+I made `discordrpc` as flexible as possible, so you can make your presence all your own, even changing the icons that show up. Like most of the modules I write, I also included a wrapper command to make getting started easy.
+
+This is what mine looked like while testing:
+
 ![image](https://user-images.githubusercontent.com/8278033/112739127-094cbd80-8f72-11eb-9f01-4554c0387b2d.png)
 
-I made it as flexible as possible, so you can make your presence all your own, even changing the icons that show up. Like most of the modules I write, I also included a wrapper command to make getting started easy.
+
 
 ## Sup
 have you ensured you have "Game Activity" enabled in your discord settings?
