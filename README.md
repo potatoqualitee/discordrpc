@@ -1,11 +1,16 @@
-<img align="left" src=https://user-images.githubusercontent.com/8278033/112738954-e3222000-8f67-11eb-8bcf-fa59b1daa3b1.png alt="discordrpc logo">discordrpc is a Discord Rich Presence Client written in PowerShell.
+<img align="left" src=https://user-images.githubusercontent.com/8278033/112738954-e3222000-8f67-11eb-8bcf-fa59b1daa3b1.png alt="discordrpc logo">discordrpc is a Discord Rich Presence Client written in PowerShell that allows you to change your presence to let people know that you're playing with PowerShell.
 
-Discord RPC is a library for interfacing your game with a locally running Discord desktop client. It's known to work on Windows, macOS, and Linux. 
+After seeing the [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode) plugin for VS Code, I was inspired to provide similar functionality with PowerShell.
+
+![image](https://user-images.githubusercontent.com/8278033/112739072-0d281200-8f69-11eb-81a9-36e678f9cc93.png)
+
+
+[discord-rpc-csharp](https://github.com/Lachee/discord-rpc-csharp/)
 
 ## Sup
 have you ensured you have "Game Activity" enabled in your discord settings?
 
-[discord-rpc-csharp](https://github.com/Lachee/discord-rpc-csharp/)
+
 
 ```powershell
 $parms = @{
@@ -85,5 +90,10 @@ I can't get the link to click. I don't know what's up.
 
 # Reference
 
+Discord RPC is a library for interfacing your game with a locally running Discord desktop client.
+
+[Lachee](https://github.com/Lachee) wrote [discord-rpc-csharp](https://github.com/Lachee/discord-rpc-csharp/)
+
 - [discord-rpc-csharp](https://github.com/Lachee/discord-rpc-csharp/) these powershell commands wrap that library
 - [Discord Developer Portal](https://discord.com/developers/applications/) want your own assets to set your own app name and icons? Create an app!
+
