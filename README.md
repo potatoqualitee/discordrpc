@@ -1,4 +1,4 @@
-<img align="left" src=https://user-images.githubusercontent.com/8278033/112738725-df8d9980-8f65-11eb-89ef-331e15fcf183.png alt="discordrpc logo">discordrpc is a Discord Rich Presence Client written in PowerShell.
+<img align="left" src=https://user-images.githubusercontent.com/8278033/112738954-e3222000-8f67-11eb-8bcf-fa59b1daa3b1.png alt="discordrpc logo">discordrpc is a Discord Rich Presence Client written in PowerShell.
 
 Discord RPC is a library for interfacing your game with a locally running Discord desktop client. It's known to work on Windows, macOS, and Linux. 
 
