@@ -56,8 +56,6 @@ The following images are available to use within your configuration. If you'd li
 * If you don't find an application that matches your needs, you can [create your own application](https://discord.com/developers/applications/) and use your own title and "assets" or icons/images
 * You can use the wrapper command for ease or use the underlying commands individually for granular control
 
-## Usage examples
-
 ## Integrate with other apps
 
 ### Twitch
@@ -88,7 +86,7 @@ If I'm livestreaming, it'll appear like this..
 
 <p align="center"><img src=./twitch.png width="334" height="429"></p>
 
-#### Bigger combo command
+## Advanced commands
 
 In the command below, you can use a custom [application ID](https://discord.com/developers/applications/), customize your timer, see info messages and more.
 
