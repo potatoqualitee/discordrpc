@@ -8,7 +8,7 @@ After seeing the [Discord Presence](https://marketplace.visualstudio.com/items?i
 
 I made `discordrpc` as flexible as possible, so you can make your presence all your own, even changing the icons that show up. A wrapper command has also been included to make getting started easy.
 
-<p align="center"><img src=./presence.png></p>
+<p align="center"><img src=./presence.png width="792" height="507"></p>
 
 ## Install
 
@@ -87,7 +87,7 @@ Start-DSClient @params
 
 If I'm livestreaming, it'll appear like this..
 
-<p align="center"><img src=./twitch.png></p>
+<p align="center"><img src=./twitch.png width="334" height="429"></p>
 
 #### Bigger combo command
 
