@@ -8,8 +8,7 @@ After seeing the [Discord Presence](https://marketplace.visualstudio.com/items?i
 
 I made `discordrpc` as flexible as possible, so you can make your presence all your own, even changing the icons that show up. A wrapper command has also been included to make getting started easy.
 
-<p align="center"><img src=https://user-images.githubusercontent.com/8278033/112739127-094cbd80-8f72-11eb-9f01-4554c0387b2d.png></p>
-
+<p align="center"><img src=./presence.png></p>
 
 ## Install
 
@@ -29,13 +28,9 @@ Install-Module discordrpc -Scope CurrentUser
 
 ```powershell
 $params = @{
-    LargeImageKey  = "avatar"
-    SmallImageKey  = "icon"
     Details        = "Version $($PSVersionTable.PSVersion.Major).$($PSVersionTable.PSVersion.Minor)"
     State          = (Split-Path -Path $pwd -Leaf)
     Start          = "Now"
-    Label          = "Potato 🥔"
-    Url            = "https://github.com/potatoqualitee/discordrpc"
     UpdateScript   = {
         # show the directory you are in. you can do anything here.
         Update-DSRichPresence -State (Split-Path -Path $pwd -Leaf)
@@ -44,6 +39,10 @@ $params = @{
 
 Start-DSClient @params
 ```
+
+That will show results similar to the image above. Want to add your own integration? Let's take a look at YouTube and Plex.
+
+
 ## Image Options
 The following images are available to use within your configuration. If you'd like me to add any more, let me know.
 
@@ -54,11 +53,37 @@ The following images are available to use within your configuration. If you'd li
 
 ## Highlights
 
-* You can [create your own application](https://discord.com/developers/applications/) and use your own title and "assets" or icons/images
+* You don't just have to show up as Playing PowerShell, you can also select from a variety of templates within `Start-DSClient`
+* If you don't find an application that matches your needs, you can [create your own application](https://discord.com/developers/applications/) and use your own title and "assets" or icons/images
 * You can use the wrapper command for ease or use the underlying commands individually for granular control
 
-
 ## Usage examples
+
+### Integrate with other apps
+
+#### Twitch
+Here's a sample for Twitch using my other module [tvbot](https://github.com/potatoqualitee/twitch).
+
+```powershell
+$stream = Get-TvStream
+$username = $stream.UserName
+$params = @{
+    Template       = "Twitch"
+    Details        = $stream.Title
+    State          = "$($stream.ViewerCount) Viewers"
+    Start          = $stream.StartedAt
+    Label          = "Watch Stream"
+    Url            = "https://twitch.tv/$username"
+    TimerRefresh   = 30
+    UpdateScript   = {
+        if (-not (Get-TvStream)) {
+            Stop-DSClient
+        }
+    }
+}
+
+Start-DSClient @params
+```
 
 #### Bigger combo command
 
