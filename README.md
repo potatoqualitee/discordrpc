@@ -85,6 +85,10 @@ $params = @{
 Start-DSClient @params
 ```
 
+If I'm livestreaming, it'll appear like this..
+
+<p align="center"><img src=./twitch.png></p>
+
 #### Bigger combo command
 
 In the command below, you can use a custom [application ID](https://discord.com/developers/applications/), customize your timer, see info messages and more.
