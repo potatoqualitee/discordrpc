@@ -1,4 +1,4 @@
-function Get-DSApplicationId {
+function Get-DSTemplate {
     <#
     .SYNOPSIS
     Gets a list of a bunch of apps to use
@@ -7,7 +7,10 @@ function Get-DSApplicationId {
     Gets a list of a bunch of apps to use
 
     .EXAMPLE
-    Get-DSApplicationId
+    Get-DSTemplate
+
+    .EXAMPLE
+    Get-DSTemplate | Out-GridView
 
 #>
     [CmdletBinding()]

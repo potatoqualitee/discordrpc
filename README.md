@@ -6,7 +6,7 @@ discordrpc works on PowerShell Core. This means that you can run all commands on
 
 After seeing the [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode) plugin for VS Code, I was inspired to do something similar with PowerShell.
 
-I made `discordrpc` as flexible as possible, so you can make your presence all your own, even changing the icons that show up. A wrapper command has also been included to make getting started easy.
+I made `discordrpc` as flexible as possible, so you can make your presence all your own, even changing the icons that show up. A wrapper command, `Start-DSClient`, has also been included to make getting started easy.
 
 <p align="center"><img src=./presence.png></p>
 
@@ -40,8 +40,7 @@ $params = @{
 Start-DSClient @params
 ```
 
-That will show results similar to the image above. Want to add your own integration? Let's take a look at YouTube and Plex.
-
+That will show results similar to the image above.
 
 ## Image Options
 The following images are available to use within your configuration. If you'd like me to add any more, let me know.
@@ -53,7 +52,7 @@ The following images are available to use within your configuration. If you'd li
 
 ## Highlights
 
-* You don't just have to show up as Playing PowerShell, you can also select from a variety of templates within `Start-DSClient`
+* You don't just have to show up as Playing PowerShell, you can also select from a variety of templates within `Start-DSClient`. You can see a list using
 * If you don't find an application that matches your needs, you can [create your own application](https://discord.com/developers/applications/) and use your own title and "assets" or icons/images
 * You can use the wrapper command for ease or use the underlying commands individually for granular control
 
@@ -106,7 +105,7 @@ $params = @{
     State          = (Split-Path -Path $pwd -Leaf)
     LoggerType     = "ConsoleLogger"
     LoggerLevel    = "Info"
-    TimerRefresh   = 10000
+    TimerRefresh   = 10
     Start          = "Now"
     UpdateScript   = {
         Update-DSAsset -LargeImageText "Timer worked!" -SmallImageText "Lvl 10"

@@ -38,7 +38,7 @@
         'Clear-DSTimestamp',
         'Get-DSClient',
         'Get-DSCurrentUser',
-        'Get-DSApplicationId',
+        'Get-DSTemplate',
         'Get-DSTimerEvent',
         'New-DSAsset',
         'New-DSButton',
