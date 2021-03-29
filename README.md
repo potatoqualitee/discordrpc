@@ -58,9 +58,9 @@ The following images are available to use within your configuration. If you'd li
 
 ## Usage examples
 
-### Integrate with other apps
+## Integrate with other apps
 
-#### Twitch
+### Twitch
 Here's a sample for Twitch using my other module [tvbot](https://github.com/potatoqualitee/twitch).
 
 ```powershell
