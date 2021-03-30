@@ -28,10 +28,10 @@ Install-Module discordrpc -Scope CurrentUser
 
 ```powershell
 $params = @{
-    Details        = "Version $($PSVersionTable.PSVersion.Major).$($PSVersionTable.PSVersion.Minor)"
-    State          = (Split-Path -Path $pwd -Leaf)
-    Start          = "Now"
-    UpdateScript   = {
+    Details      = "Version $($PSVersionTable.PSVersion.Major).$($PSVersionTable.PSVersion.Minor)"
+    State        = (Split-Path -Path $pwd -Leaf)
+    Start        = "Now"
+    UpdateScript = {
         # show the directory you are in. you can do anything here.
         Update-DSRichPresence -State (Split-Path -Path $pwd -Leaf)
     }
@@ -65,14 +65,14 @@ Here's a sample for Twitch using my other module [tvbot](https://github.com/pota
 $stream = Get-TvStream
 $username = $stream.UserName
 $params = @{
-    Template       = "Twitch"
-    Details        = $stream.Title
-    State          = "$($stream.ViewerCount) Viewers"
-    Start          = $stream.StartedAt
-    Label          = "Watch Stream"
-    Url            = "https://twitch.tv/$username"
-    TimerRefresh   = 30
-    UpdateScript   = {
+    Template     = "Twitch"
+    Details      = $stream.Title
+    State        = "$($stream.ViewerCount) Viewers"
+    Start        = $stream.StartedAt
+    Label        = "Watch Stream"
+    Url          = "https://twitch.tv/$username"
+    TimerRefresh = 30
+    UpdateScript = {
         if (-not (Get-TvStream)) {
             Stop-DSClient
         }
@@ -96,7 +96,7 @@ This script will update your presence every 60 seconds, updating as you watch ne
 # needs to be global for the timer update
 function global:Get-CurrentlyWatching {
     Import-PlexConfiguration
-    $session = Get-PlexSession | Where-Object { $psitem.player.state -eq "playing" } | Select -First 1
+    $session = Get-PlexSession | Where-Object { $psitem.player.state -in "playing", "paused" } | Select -First 1
     $xml = [xml]($session).OuterXml
     $media = $xml.Video
 
@@ -111,11 +111,12 @@ function global:Get-CurrentlyWatching {
         }
     }
     [pscustomobject]@{
-        Title = $title
-        State = $state
-        End = [int]$media.duration - [int]$media.viewOffset
-        Label = "Watch $title"
-        Url = $media.guid
+        Title  = $title
+        State  = $state
+        End    = [int]$media.duration - [int]$media.viewOffset
+        Label  = "Watch $title"
+        Url    = $media.guid
+        Player = $media.player
     }
 }
 $watching = Get-CurrentlyWatching
@@ -129,7 +130,15 @@ $params = @{
     TimerRefresh   = 60
     UpdateScript   = {
         $watching = global:Get-CurrentlyWatching
-        $timestamp = New-DSTimestamp -End $watching.End
+        if (-not $watching) {
+            Stop-DSClient
+        }
+
+        if ($watching.Player.state -eq "paused") {
+            $timestamp = New-DSTimestamp
+        } else {
+            $timestamp = New-DSTimestamp -End $watching.End
+        }
         $button = New-DSButton -Label $watching.Label -Url $watching.Url
         $params = @{
             Buttons   = $button
