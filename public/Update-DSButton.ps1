@@ -31,6 +31,9 @@ function Update-DSButton {
             throw "Please New-DSClient or Start-DSClient"
         }
         try {
+            if ($Label.Length -gt 31) {
+                $PSBoundParameters.Label = $Label.SubString(0,31)
+            }
             $button = @()
             $button += New-DSButton @PSBoundParameters
             if ($Append) {

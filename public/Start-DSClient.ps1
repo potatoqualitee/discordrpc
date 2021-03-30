@@ -6,6 +6,9 @@ function Start-DSClient {
     .DESCRIPTION
     Creates a new Discord RPC Client which can be used to send Rich Presence
 
+    .PARAMETER Template
+    Use a template to provide the name and assets of a Product. When using a Template, consider specifying a ScriptBlock to show a richer presence.
+
     .PARAMETER ApplicationID
     The Application ID of the RPC Client
 
@@ -54,7 +57,7 @@ function Start-DSClient {
      The path to the log file when the Type is FileLogger
 
     .PARAMETER TimerRefresh
-     Update your client with new data ever x milliseconds
+     Update your client with new data every seconds
 
     .PARAMETER ScriptBlock
      The script to run on a timer, aliased to UpdateScript
@@ -93,7 +96,8 @@ function Start-DSClient {
 #>
     [CmdletBinding()]
     param (
-        [String]$ApplicationID = "824593663883214948",
+        [String]$Template,
+        [String]$ApplicationID,
         [String]$State,
         [String]$Details,
         [String]$LargeImageKey,
@@ -101,7 +105,7 @@ function Start-DSClient {
         [String]$SmallImageKey,
         [String]$SmallImageText,
         [psobject]$Start,
-        [datetime]$End,
+        [psobject]$End,
         [String]$Label,
         [String]$Url,
         [ValidateSet("ConsoleLogger","FileLogger")]
@@ -109,16 +113,56 @@ function Start-DSClient {
         [ValidateSet("Trace","Info","None","Error","Warning")]
         [String]$LoggerLevel = "Info",
         [String]$LoggerPath,
-        [Int]$TimerRefresh = 5000,
+        [Int]$TimerRefresh = 5,
+        [DiscordRPC.Timestamps]$Timestamp,
         [Alias("UpdateScript")]
         [ScriptBlock]$ScriptBlock
     )
     process {
+        $TimerRefresh = $TimerRefresh * 1000
         if ($Label -and -not $Url) {
             throw "You must specify URL when using Labels"
         }
+
         if (-not $Label -and $Url) {
             throw "You must specify Label when using URls"
+        }
+
+        if (-not $PSBoundParameters.Template -and -not $PSBoundParameters.ApplicationID) {
+            $Template = "discordrpc"
+        }
+
+        if ($Template) {
+            # saving as much time as possible for initial load
+            if ($Template -eq "discordrpc") {
+                $ApplicationID = "824593663883214948"
+                $LargeImageKey = "avatar"
+                $SmallImageKey = "icon"
+            } else {
+                if (-not $script:clientids) {
+                    $script:clientids = Get-Content (Resolve-Path "$script:ModuleRoot\clientids.json") | ConvertFrom-Json
+                }
+                $product = $script:clientids | Where-Object Product -eq $Template
+
+                if (-not $product) {
+                    # try the other ones. this is to reduce the import time when loading the module
+                    $product = Get-Content (Resolve-Path "$script:ModuleRoot\clientids.json") | ConvertFrom-Json | Where-Object Product -eq $Template
+                }
+                $ApplicationID = $product.ClientID
+
+                if (-not $PSBoundParameters.LargeImageKey) {
+                    $LargeImageKey = $product.LargeImage
+                }
+                if (-not $PSBoundParameters.LargeImageText) {
+                    $LargeImageText = $product.LargeText
+                }
+                if (-not $PSBoundParameters.SmallImageKey) {
+                    $SmallImageKey = $product.SmallImage
+                }
+                if (-not $PSBoundParameters.SmallImageText) {
+                    $SmallImageText = $product.SmallText
+                }
+            }
         }
 
         $parms = @{
@@ -128,6 +172,10 @@ function Start-DSClient {
             SmallImageText = $SmallImageText
         }
         $assets = New-DSAsset @parms
+
+        if ($script:rpcclient) {
+            $null = Stop-DSClient
+        }
 
         if ($LoggerType) {
             $parms = @{
@@ -141,20 +189,15 @@ function Start-DSClient {
             $script:rpcclient = New-DSClient -ApplicationID $ApplicationID
         }
 
-
         if ($Label -and $Url) {
             $button = New-DSButton -Label $Label -Url $Url
         }
 
         if ($Start -or $End) {
-            if ($Start -eq "Now") {
-                $timestamp = [DiscordRPC.Timestamps]::Now
+            if ($End) {
+                $timestamp = New-DSTimestamp -Start $Start -End $End
             } else {
-                if ($End) {
-                    $timestamp = New-DSTimestamp -Start $Start -End $End
-                } else {
-                    $timestamp = New-DSTimestamp -Start $Start
-                }
+                $timestamp = New-DSTimestamp -Start $Start
             }
         }
 

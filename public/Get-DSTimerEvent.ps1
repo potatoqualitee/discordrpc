@@ -1,10 +1,10 @@
 function Get-DSTimerEvent {
     <#
     .SYNOPSIS
-    Gets details about the timer setup in Start-DSClient that refreshes rich presence
+    Gets details about all timers setup in Start-DSClient that refreshes rich presence
 
     .DESCRIPTION
-    Gets details about the timer setup in Start-DSClient that refreshes rich presence
+    Gets details about all timers setup in Start-DSClient that refreshes rich presence
 
     .EXAMPLE
     Get-DSClient
@@ -13,11 +13,11 @@ function Get-DSTimerEvent {
     [CmdletBinding()]
     param ()
     process {
-        $timerevent = Get-EventSubscriber -SourceIdentifier Discord -ErrorAction Ignore
-        if ($timerevent) {
+        $allevents = Get-EventSubscriber -ErrorAction Ignore | Where-Object SourceIdentifier -match Discord
+        foreach ($timerevent in $allevents) {
             [pscustomobject]@{
-                Timer    = $timerevent.Timer
-                Interval = $timerevent.Timer.Interval
+                Timer    = $timerevent.SourceObject
+                Interval = $timerevent.SourceObject.Interval
                 Event    = $timerevent
                 Command  = $timerevent.Action.Command.Trim()
             }

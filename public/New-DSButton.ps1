@@ -25,6 +25,10 @@ function New-DSButton {
         [String]$Url
     )
     process {
+
+        if ($Label.Length -gt 31) {
+            $PSBoundParameters.Label = $Label.SubString(0,30)
+        }
         $object = New-Object -TypeName DiscordRPC.Button
         foreach ($key in ($PSBoundParameters.Keys | Where-Object { $PSItem -notin [System.Management.Automation.PSCmdlet]::CommonParameters })) {
             $object.$key = $PSBoundParameters[$key]
