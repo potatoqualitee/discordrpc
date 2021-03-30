@@ -105,7 +105,7 @@ function Start-DSClient {
         [String]$SmallImageKey,
         [String]$SmallImageText,
         [psobject]$Start,
-        [datetime]$End,
+        [psobject]$End,
         [String]$Label,
         [String]$Url,
         [ValidateSet("ConsoleLogger","FileLogger")]
@@ -114,6 +114,7 @@ function Start-DSClient {
         [String]$LoggerLevel = "Info",
         [String]$LoggerPath,
         [Int]$TimerRefresh = 5,
+        [DiscordRPC.Timestamps]$Timestamp,
         [Alias("UpdateScript")]
         [ScriptBlock]$ScriptBlock
     )
@@ -129,7 +130,6 @@ function Start-DSClient {
 
         if (-not $PSBoundParameters.Template -and -not $PSBoundParameters.ApplicationID) {
             $Template = "discordrpc"
-            write-warning YES
         }
 
         if ($Template) {
@@ -173,6 +173,10 @@ function Start-DSClient {
         }
         $assets = New-DSAsset @parms
 
+        if ($script:rpcclient) {
+            $null = Stop-DSClient
+        }
+
         if ($LoggerType) {
             $parms = @{
                 Type  = $LoggerType
@@ -184,8 +188,6 @@ function Start-DSClient {
         } else {
             $script:rpcclient = New-DSClient -ApplicationID $ApplicationID
         }
-
-        $null = $script:rpcclient.ClearPresence()
 
         if ($Label -and $Url) {
             $button = New-DSButton -Label $Label -Url $Url

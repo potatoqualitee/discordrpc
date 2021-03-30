@@ -10,11 +10,11 @@ I made `discordrpc` as flexible as possible, so you can make your presence all y
 
 <p align="center"><img src=./presence.png></p>
 
-## Install
+# Install
 
 Ensure that Discord is running and that "Game Activity" enabled in your settings.
 
-### Install from PowerShell Gallery
+## Install from PowerShell Gallery
 
 Run the following to install discordrpc from the PowerShell Gallery:
 
@@ -22,7 +22,7 @@ Run the following to install discordrpc from the PowerShell Gallery:
 Install-Module discordrpc -Scope CurrentUser
 ```
 
-### Add to profile
+## Add to profile
 
 `discordrpc` loads fast enough to add to your profile so everyone can always see when you're hanging out in PowerShell. Type `notepad $profile` then add these params and call the command.
 
@@ -50,15 +50,15 @@ The following images are available to use within your configuration. If you'd li
 | <img src="https://user-images.githubusercontent.com/8278033/112764560-68114600-9009-11eb-8a38-4d0729579b5d.png" width="128" height="128"> | avatar |
 | <img src="https://user-images.githubusercontent.com/8278033/112764591-837c5100-9009-11eb-910a-137a56e0277d.png" width="128" height="128"> | icon   |
 
-## Highlights
+# Highlights
 
 * You don't just have to show up as Playing PowerShell, you can also select from a variety of templates within `Start-DSClient`. You can see a list using
 * If you don't find an application that matches your needs, you can [create your own application](https://discord.com/developers/applications/) and use your own title and "assets" or icons/images
 * You can use the wrapper command for ease or use the underlying commands individually for granular control
 
-## Integrate with other apps
+# Integrate with other apps
 
-### Twitch
+## Twitch
 Here's a sample for Twitch using my other module [tvbot](https://github.com/potatoqualitee/twitch).
 
 ```powershell
@@ -86,7 +86,73 @@ If I'm livestreaming, it'll appear like this..
 
 <p align="center"><img src=./twitch.png width="334" height="429"></p>
 
-## Advanced commands
+
+## Plex
+Here's a sample for Plex using the community module [PSPlex](https://github.com/bifa2/PSPlex).
+
+This script will update your presence every 60 seconds, updating as you watch new media on Plex.
+
+```powershell
+# needs to be global for the timer update
+function global:Get-CurrentlyWatching {
+    Import-PlexConfiguration
+    $session = Get-PlexSession | Where-Object { $psitem.player.state -eq "playing" } | Select -First 1
+    $xml = [xml]($session).OuterXml
+    $media = $xml.Video
+
+    switch ($media.type) {
+        "episode" {
+            $title = $media.grandparentTitle
+            $state = $media.title
+        }
+        default {
+            $title = $media.title
+            $state = $media.year
+        }
+    }
+    [pscustomobject]@{
+        Title = $title
+        State = $state
+        End = [int]$media.duration - [int]$media.viewOffset
+        Label = "Watch $title"
+        Url = $media.guid
+    }
+}
+$watching = Get-CurrentlyWatching
+$params = @{
+    Template       = "Plex"
+    Details        = $watching.Title
+    State          = $watching.State
+    End            = $watching.End
+    Label          = $watching.Label
+    Url            = $watching.Url
+    TimerRefresh   = 60
+    UpdateScript   = {
+        $watching = global:Get-CurrentlyWatching
+        $timestamp = New-DSTimestamp -End $watching.End
+        $button = New-DSButton -Label $watching.Label -Url $watching.Url
+        $params = @{
+            Buttons   = $button
+            Details   = $watching.Title
+            State     = $watching.State
+            Timestamp = $timestamp
+        }
+        Update-DSRichPresence @params
+    }
+}
+
+Start-DSClient @params
+```
+
+If I'm playing Bob's Burgers, it'll appear like this..
+
+<p align="center"><img src=./plex.png></p>
+
+This command does not poll using `UpdateScript`, however. So it won't watch along with you.
+
+# Advanced commands
+
+If you'd like to control all of the exact outcome, you can use the sample code below.
 
 In the command below, you can use a custom [application ID](https://discord.com/developers/applications/), customize your timer, see info messages and more.
 
@@ -116,7 +182,7 @@ Start-DSClient @params
 
 This setup will show logs in the console, which is inconvenient unless you are debugging something.
 
-#### Build your presence, step by step
+## Build your presence, step by step
 
 Here's the code I used while testing the module. You can use this to see how different settings can change the presence.
 
@@ -130,13 +196,13 @@ $logger = New-DSLogger -Type ConsoleLogger -Level Info
 $client = New-DSClient -ApplicationID 824593663883214948 -Presence $presence -Logger $logger
 ```
 
-#### See what other commands are available
+## See what other commands are available
 
 ```powershell
 Get-Command -Module discordrpc
 ```
 
-#### Get help
+## Get help
 
 A lot of help has been included. If you want to know more about a command such as `New-DSLogger` run the following:
 

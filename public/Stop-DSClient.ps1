@@ -20,6 +20,8 @@ function Stop-DSClient {
         $null = $script:rpcclient.ClearPresence()
         $null = $script:rpcclient.Deinitialize
         $null = $script:rpcclient.Dispose()
+        Remove-Variable -Scope Global -Name discordrpcclient -ErrorAction Ignore
+        Remove-Variable -Scope Script -Name rpcclient -ErrorAction Ignore
         $global:discordrpcclient = $script:rpcclient = $null
 
         if (Get-EventSubscriber -SourceIdentifier Discord -ErrorAction Ignore) {

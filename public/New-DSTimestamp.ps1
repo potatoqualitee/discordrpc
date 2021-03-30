@@ -48,24 +48,29 @@ function New-DSTimestamp {
         [uint64]$EndUnixMilliseconds
     )
     process {
-        if ($Start -eq "Now") {
-            $object = [DiscordRPC.Timestamps]::Now
-        } else {
-            $object = New-Object -TypeName DiscordRPC.Timestamps
-            if ($Start) {
+        $object = New-Object -TypeName DiscordRPC.Timestamps
+        if ($Start) {
+            if ($Start -eq "Now") {
+                $Start = Get-Date
+            } elseif ($Start -is [int]) {
+                $Start = (Get-Date).AddMilliSeconds($Start)
+            } elseif ($Start -is [datetime]) {
                 $Start = $Start.ToUniversalTime()
-                $object.Start = $Start
             }
-            if ($End) {
-                $End = $End.ToUniversalTime()
-                $object.End = $End
+            $object.Start = $Start
+        }
+        if ($End) {
+            if ($End -is [Int]) {
+                $End = (Get-Date).AddMilliSeconds($End)
             }
-            if ($StartUnixMilliseconds) {
-                $object.StartUnixMilliseconds = $StartUnixMilliseconds
-            }
-            if ($EndUnixMilliseconds) {
-                $object.EndUnixMilliseconds = $EndUnixMilliseconds
-            }
+            $End = $End.ToUniversalTime()
+            $object.End = $End
+        }
+        if ($StartUnixMilliseconds) {
+            $object.StartUnixMilliseconds = $StartUnixMilliseconds
+        }
+        if ($EndUnixMilliseconds) {
+            $object.EndUnixMilliseconds = $EndUnixMilliseconds
         }
         $object
     }
