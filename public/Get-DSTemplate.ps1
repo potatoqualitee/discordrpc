@@ -16,7 +16,13 @@ function Get-DSTemplate {
     [CmdletBinding()]
     param ()
     process {
-        Get-Content (Resolve-Path "$script:ModuleRoot\clientids.json") | ConvertFrom-Json
-        Get-Content (Resolve-Path "$script:ModuleRoot\other-clientids.json") | ConvertFrom-Json
+        $products = Get-Content (Resolve-Path "$script:ModuleRoot\clientids.json") | ConvertFrom-Json
+        foreach ($product in $products) {
+            $product | Select-Object *
+        }
+        $products = Get-Content (Resolve-Path "$script:ModuleRoot\other-clientids.json") | ConvertFrom-Json
+        foreach ($product in $products) {
+            $product | Select-Object *
+        }
     }
 }
