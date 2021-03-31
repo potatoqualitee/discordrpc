@@ -54,9 +54,8 @@ function New-DSTimestamp {
                 $Start = Get-Date
             } elseif ($Start -is [int]) {
                 $Start = (Get-Date).AddMilliSeconds($Start)
-            } elseif ($Start -is [datetime]) {
-                $Start = $Start.ToUniversalTime()
             }
+            $Start = $Start.ToUniversalTime()
             $object.Start = $Start
         }
         if ($End) {
