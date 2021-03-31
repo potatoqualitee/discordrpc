@@ -16,6 +16,8 @@ Ensure that Discord is running and that "Game Activity" enabled in your settings
 
 ## Install from PowerShell Gallery
 
+**Not available in the Gallery yet. You must clone this repo for now**
+
 Run the following to install discordrpc from the PowerShell Gallery:
 
 ```powershell
@@ -52,7 +54,7 @@ The following images are available to use within your configuration. If you'd li
 
 # Highlights
 
-* You don't just have to show up as Playing PowerShell, you can also select from a variety of templates within `Start-DSClient`. You can see a list using
+* You don't just have to show up as Playing PowerShell, you can also select from a variety of apps within `Start-DSClient`. You can see a list using `Get-DSTemplate`. Use the `Template` parameter within Start-DSClient to select the app you'd like to appear as.
 * If you don't find an application that matches your needs, you can [create your own application](https://discord.com/developers/applications/) and use your own title and "assets" or icons/images
 * You can use the wrapper command for ease or use the underlying commands individually for granular control
 
@@ -157,8 +159,6 @@ If I'm playing Bob's Burgers, it'll appear like this..
 
 <p align="center"><img src=./plex.png></p>
 
-This command does not poll using `UpdateScript`, however. So it won't watch along with you.
-
 # Advanced commands
 
 If you'd like to control all of the exact outcome, you can use the sample code below.
@@ -222,7 +222,7 @@ Get-Help New-DSLogger -Examples
 
 # Known Issues
 
-I can't get the potato link to click. I don't know what's up.
+I can't get the potato link to click. I don't know what's up. Seems other apps have this issue too, so it may just be my client.
 
 # Reference
 
