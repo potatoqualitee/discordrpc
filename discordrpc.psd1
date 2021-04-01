@@ -10,7 +10,7 @@
     ModuleVersion      = '0.0.1'
 
     # ID used to uniquely identify this module
-    GUID               = '46a1ff3e-89c0-45b2-a937-a276147ff975'
+    GUID               = '0472bfcf-006c-4f50-b27d-fe146c3eef8d'
 
     # Author of this module
     Author             = 'Chrissy LeMaire'
@@ -19,7 +19,7 @@
     Copyright          = 'Copyright (c) 2021, licensed under MIT'
 
     # Description of the functionality provided by this module
-    Description        = "A Discord RPC Client which is used to send Rich Presence events to Discord."
+    Description        = "Tell people you're playing PowerShell, send Rich Presence events to Discord!"
 
     # Minimum version of the Windows PowerShell engine required by this module
     PowerShellVersion  = '5.1'
