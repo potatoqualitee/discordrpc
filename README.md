@@ -16,8 +16,6 @@ Ensure that Discord is running and that "Game Activity" enabled in your settings
 
 ## Install from PowerShell Gallery
 
-**Not available in the Gallery yet. You must clone this repo for now**
-
 Run the following to install discordrpc from the PowerShell Gallery:
 
 ```powershell
