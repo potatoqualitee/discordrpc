@@ -218,10 +218,6 @@ Get-Help New-DSLogger
 Get-Help New-DSLogger -Examples
 ```
 
-# Known Issues
-
-I can't get the potato link to click. I don't know what's up. Seems other apps have this issue too, so it may just be my client.
-
 # Reference
 
 Discord RPC is a library for interfacing your game with a locally running Discord desktop client. This PowerShell module wraps [Lachee's](https://github.com/Lachee) C# library, [discord-rpc-csharp](https://github.com/Lachee/discord-rpc-csharp/)
