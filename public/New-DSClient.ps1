@@ -24,22 +24,9 @@ function New-DSClient {
     Forces the connection to shutdown gracefully instead of just aborting the connection
 
     .EXAMPLE
-    $client = New-DSClient
+    Clear-DSTimestamp
 
-    A simple client
-
-    .EXAMPLE
-    $assets = New-DSAsset -LargeImageKey avatar -LargeImageText "Summoners Rift" -SmallImageKey icon -SmallImageText "Lvl 7"
-    $timestamp = New-DSTimestamp -Start (Get-Date).AddMinutes(-3) -End (Get-Date).AddMinutes(3)
-    $timestamp = [DiscordRPC.Timestamps]::Now
-    $button = New-DSButton -Label "Potato 🥔" -Url https://github.com/potatoqualitee/discordrpc
-    $party = New-DSParty -Size 10 -Privacy Public -Max 100
-    $presence = New-DSRichPresence -Asset $assets -State "presence.ps1" -Details "Some details" -Timestamp $timestamp -Buttons $button -Party $party
-    $logger = New-DSLogger -Type ConsoleLogger -Level Info
-    $client = New-DSClient -ApplicationID 824593663883214948 -Presence $presence -Logger $logger
-
-    A blinged out client
-
+    Clears the timestamp from the client
 #>
     [CmdletBinding()]
     param (

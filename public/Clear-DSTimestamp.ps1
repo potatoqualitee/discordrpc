@@ -18,13 +18,11 @@ function Clear-DSTimestamp {
         if (-not $script:rpcclient) {
             throw "Please New-DSClient or Start-DSClient"
         }
-        if ($Pscmdlet.ShouldProcess("Setting properties on Timestamp")) {
-            try {
-                $null = $script:rpcclient.UpdateClearTime()
-                $script:rpcclient.CurrentPresence
-            } catch {
-                throw $_
-            }
+        try {
+            $null = $script:rpcclient.UpdateClearTime()
+            $script:rpcclient.CurrentPresence
+        } catch {
+            throw $_
         }
     }
 }
