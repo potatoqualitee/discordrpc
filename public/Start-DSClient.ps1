@@ -162,6 +162,12 @@ function Start-DSClient {
                 if (-not $PSBoundParameters.SmallImageText) {
                     $SmallImageText = $product.SmallText
                 }
+                 if (-not $PSBoundParameters.Details) {
+                    $Details= $product.Details
+                }
+		        if (-not $PSBoundParameters.Start) {
+                    $Start= $product.Start
+                }
             }
         }
 
