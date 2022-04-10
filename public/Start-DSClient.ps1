@@ -92,6 +92,26 @@ function Start-DSClient {
 
     Start-DSClient @parms
 
+    .EXAMPLE
+    Change default application:
+    1: Go to %UserProfile%\Documents\WindowsPowerShell\Modules\discordrpc\0.0.1
+    2: Open clientids.json or other-clientids.json
+    3: Edit the default application
+    Note: You can change the values of LargeText/SmallText/Details to what you want
+    (Don't change ClientID/LargeImage/SmallImage/Start, unless you know what you're doing)
+	
+    Example:
+    {
+        "Product": "Netflix",
+        "ClientID": "499981204045430784",
+        "LargeImage": "nflix_lg",
+        "LargeText": null,
+        "SmallImage": "play",
+        "SmallText": "Watching",
+        "Details": "Watching a movie",
+        "Start":  "now"
+    },
+
 
 #>
     [CmdletBinding()]
@@ -162,10 +182,10 @@ function Start-DSClient {
                 if (-not $PSBoundParameters.SmallImageText) {
                     $SmallImageText = $product.SmallText
                 }
-                 if (-not $PSBoundParameters.Details) {
+                if (-not $PSBoundParameters.Details) {
                     $Details= $product.Details
                 }
-		        if (-not $PSBoundParameters.Start) {
+		if (-not $PSBoundParameters.Start) {
                     $Start= $product.Start
                 }
             }
