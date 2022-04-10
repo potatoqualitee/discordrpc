@@ -5,7 +5,9 @@
         "LargeImage": "avatar",
         "LargeText": null,
         "SmallImage": "icon",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Amazon Music",
@@ -13,7 +15,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": "Listing to Amazon Music",
+        "Start":  "now"
     },
     {
         "Product": "Apple",
@@ -21,7 +25,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Apple Music",
@@ -29,7 +35,9 @@
         "LargeImage": "applemusic-logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": "Listing to Apple Music",
+        "Start":  "now"
     },
     {
         "Product": "Discord",
@@ -37,7 +45,9 @@
         "LargeImage": "discordwhite",
         "LargeText": null,
         "SmallImage": "writing",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Disney+",
@@ -45,7 +55,9 @@
         "LargeImage": "disneyplus-logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DockerHub",
@@ -53,7 +65,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Duolingo",
@@ -61,7 +75,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "GitHub",
@@ -69,7 +85,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "GitHub Codespaces",
@@ -77,7 +95,9 @@
         "LargeImage": "gh-lg",
         "LargeText": null,
         "SmallImage": "gh",
-        "SmallText": "GitHub"
+        "SmallText": "GitHub",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "GitLab",
@@ -85,7 +105,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "",
-        "SmallText": ""
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Google",
@@ -93,7 +115,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": "Doing Google things",
+        "Start":  "now"
     },
     {
         "Product": "Google Play Music",
@@ -101,7 +125,9 @@
         "LargeImage": "gpm",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": "Listening to Google Play Music",
+        "Start":  "now"
     },
     {
         "Product": "Hacktoberfest",
@@ -109,7 +135,9 @@
         "LargeImage": "hf",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "HBO Max",
@@ -117,7 +145,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Hulu",
@@ -125,7 +155,9 @@
         "LargeImage": "hulu",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Imgur",
@@ -133,7 +165,9 @@
         "LargeImage": "imgur",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Jira Software",
@@ -141,7 +175,9 @@
         "LargeImage": "jira_logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kodi",
@@ -149,7 +185,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "play"
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Microsoft Teams",
@@ -157,7 +195,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Netflix",
@@ -165,7 +205,9 @@
         "LargeImage": "nflix_lg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": "Watching",
+        "Details": "Wachting Netflix",
+        "Start":  "now"
     },
     {
         "Product": "Pandora",
@@ -173,7 +215,9 @@
         "LargeImage": "pandora",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Paramount+",
@@ -181,7 +225,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Peacock",
@@ -189,7 +235,9 @@
         "LargeImage": "peacock",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Peloton",
@@ -197,7 +245,9 @@
         "LargeImage": "peloton",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Plex",
@@ -205,7 +255,9 @@
         "LargeImage": "plex",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Pocket Casts",
@@ -213,7 +265,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": "more",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Prime Video",
@@ -221,7 +275,9 @@
         "LargeImage": "pvid",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": "Watching Prime Video",
+        "Start":  "now"
     },
     {
         "Product": "Reddit",
@@ -229,7 +285,9 @@
         "LargeImage": "reddit_lg",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Searching"
+        "SmallText": "Searching",
+        "Details": "Browsing through Reddit",
+        "Start":  "now"
     },
     {
         "Product": "Shazam",
@@ -237,7 +295,9 @@
         "LargeImage": "shazam",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Showtime",
@@ -245,15 +305,19 @@
         "LargeImage": "showtime-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "SoundCloud",
         "ClientID": "802958833214423081",
         "LargeImage": "soundcloud",
         "LargeText": null,
-        "SmallImage": null,
-        "SmallText": null
+        "SmallImage": "play",
+        "SmallText": null,
+        "Details": "Listening to SoundCloud",
+        "Start":  "now"
     },
     {
         "Product": "Speedtest",
@@ -261,15 +325,19 @@
         "LargeImage": "image",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Stack Overflow",
         "ClientID": "610123745033584651",
         "LargeImage": "lg",
         "LargeText": null,
-        "SmallImage": null,
-        "SmallText": null
+        "SmallImage": "reading",
+        "SmallText": null,
+        "Details": "Watching Stack Overflow",
+        "Start":  "now"
     },
     {
         "Product": "TikTok",
@@ -277,7 +345,9 @@
         "LargeImage": "tiktok",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": "Watching TikTok",
+        "Start":  "now"
     },
     {
         "Product": "Tumblr",
@@ -285,7 +355,9 @@
         "LargeImage": "tumblr",
         "LargeText": null,
         "SmallImage": "writing",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Twitch",
@@ -293,7 +365,9 @@
         "LargeImage": "twitch",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Vimeo",
@@ -301,15 +375,19 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": "Watching Vimeo",
+        "Start":  "now"
     },
     {
         "Product": "VLC",
         "ClientID": "760591393281277983",
         "LargeImage": "vlc",
         "LargeText": null,
-        "SmallImage": null,
-        "SmallText": null
+        "SmallImage": "play",
+        "SmallText": null,
+        "Details": "Watching VLC",
+        "Start":  "now"
     },
     {
         "Product": "Wikipedia",
@@ -317,23 +395,29 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": "Cheking out Wikipedia",
+        "Start":  "now"
     },
     {
         "Product": "YouTube",
         "ClientID": "463097721130188830",
         "LargeImage": "yt_lg",
         "LargeText": null,
-        "SmallImage": null,
-        "SmallText": null
+        "SmallImage": "play",
+        "SmallText": null,
+        "Details": "Watching YouTube",
+        "Start":  "now"
     },
     {
         "Product": "YouTube Music",
         "ClientID": "463151177836658699",
         "LargeImage": "ytm_lg",
         "LargeText": null,
-        "SmallImage": null,
-        "SmallText": null
+        "SmallImage": "play",
+        "SmallText": null,
+        "Details": "Listening to YouTube Music",
+        "Start":  "now"
     },
     {
         "Product": "Zoom",
@@ -341,6 +425,8 @@
         "LargeImage": "zoom_logo",
         "LargeText": null,
         "SmallImage": "vcall",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     }
 ]
