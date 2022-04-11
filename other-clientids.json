@@ -5,7 +5,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Amazon",
@@ -13,7 +15,9 @@
         "LargeImage": "amazon",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Bandcamp",
@@ -21,7 +25,9 @@
         "LargeImage": "bc",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Playing"
+        "SmallText": "Playing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Giphy",
@@ -29,7 +35,9 @@
         "LargeImage": "giphy_big",
         "LargeText": null,
         "SmallImage": "browsing",
-        "SmallText": "browsing"
+        "SmallText": "browsing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Instagram",
@@ -37,7 +45,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "LeetCode",
@@ -45,7 +55,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "SiriusXM",
@@ -53,7 +65,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "W3Schools",
@@ -61,7 +75,9 @@
         "LargeImage": "w3schools",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Codecademy",
@@ -69,7 +85,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "freeCodeCamp",
@@ -77,7 +95,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Glitch",
@@ -85,7 +105,9 @@
         "LargeImage": "glitchlogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Pastebin",
@@ -93,7 +115,9 @@
         "LargeImage": "pastebinlogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Bots For Discord",
@@ -101,7 +125,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Bots on Discord",
@@ -109,7 +135,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Codenames",
@@ -117,7 +145,9 @@
         "LargeImage": "codenames",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "CodePen",
@@ -125,7 +155,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "logo-outline",
-        "SmallText": "codepen.io"
+        "SmallText": "codepen.io",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Codewars",
@@ -133,7 +165,9 @@
         "LargeImage": "largeimage",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Discord Bot List",
@@ -141,7 +175,9 @@
         "LargeImage": "logo-dbl",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Discord BotList",
@@ -149,7 +185,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Discord Bots",
@@ -157,7 +195,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Discord Extreme List",
@@ -165,7 +205,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Discord Templates",
@@ -173,7 +215,9 @@
         "LargeImage": "dcst-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Discord.bio",
@@ -181,7 +225,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Discord.js",
@@ -189,7 +235,9 @@
         "LargeImage": "djs",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DiscordJS Guide",
@@ -197,7 +245,9 @@
         "LargeImage": "icon2",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DiscordLabs.org",
@@ -205,7 +255,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "discordtrlist.xyz",
@@ -213,7 +265,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DuckDuckGo",
@@ -221,7 +275,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Electron",
@@ -229,7 +285,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Emojipedia",
@@ -237,7 +295,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Font Awesome",
@@ -245,7 +305,9 @@
         "LargeImage": "icon2",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "GGRadio",
@@ -253,7 +315,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Gitbook",
@@ -261,7 +325,9 @@
         "LargeImage": "gitbookw",
         "LargeText": null,
         "SmallImage": "writing",
-        "SmallText": "Editing"
+        "SmallText": "Editing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Gitea",
@@ -269,7 +335,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Google Calendar",
@@ -277,7 +345,9 @@
         "LargeImage": "gcalendar",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Google Classroom",
@@ -285,7 +355,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Google Docs",
@@ -293,7 +365,9 @@
         "LargeImage": "docslogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Google Domains",
@@ -301,7 +375,9 @@
         "LargeImage": "googledomains",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Google Drive",
@@ -309,7 +385,9 @@
         "LargeImage": "drivelogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Google Fonts",
@@ -317,7 +395,9 @@
         "LargeImage": "favicon",
         "LargeText": null,
         "SmallImage": "google",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Google Meet",
@@ -325,7 +405,9 @@
         "LargeImage": "meetlogo",
         "LargeText": null,
         "SmallImage": "vcall",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Google Messages",
@@ -333,7 +415,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": "google",
-        "SmallText": "Google"
+        "SmallText": "Google",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Google Translate",
@@ -341,7 +425,9 @@
         "LargeImage": "gt",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "HBO GO",
@@ -349,7 +435,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Lawcodev",
@@ -357,7 +445,9 @@
         "LargeImage": "lawco",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Medium",
@@ -365,7 +455,9 @@
         "LargeImage": "medium-logo",
         "LargeText": null,
         "SmallImage": "writing",
-        "SmallText": "Writing"
+        "SmallText": "Writing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Messenger",
@@ -373,7 +465,9 @@
         "LargeImage": "messenger",
         "LargeText": null,
         "SmallImage": "videocall",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ReadTheDocs",
@@ -381,7 +475,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "South Park",
@@ -389,7 +485,9 @@
         "LargeImage": "south_park_logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Virgin Media",
@@ -397,7 +495,9 @@
         "LargeImage": "virginmedia",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "VirusTotal",
@@ -405,7 +505,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wikiquote",
@@ -413,7 +515,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wikisource",
@@ -421,7 +525,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "WIRED",
@@ -429,7 +535,9 @@
         "LargeImage": "wired",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "XKCD",
@@ -437,7 +545,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "help",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Trello",
@@ -445,7 +555,9 @@
         "LargeImage": "trello",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TryHackMe",
@@ -453,7 +565,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Streamlabs",
@@ -461,7 +575,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Tidal",
@@ -469,7 +585,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "browsing",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Stadia",
@@ -477,7 +595,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "small",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Starz",
@@ -485,7 +605,9 @@
         "LargeImage": "starz-logo",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Steam",
@@ -493,7 +615,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Spotify Podcasts",
@@ -501,7 +625,9 @@
         "LargeImage": "spotify",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Skype",
@@ -509,7 +635,9 @@
         "LargeImage": "fror_why",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Mixcloud",
@@ -517,7 +645,9 @@
         "LargeImage": "mixcloud",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Minecraft Central",
@@ -525,7 +655,9 @@
         "LargeImage": "mccentrallogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MinecraftForge",
@@ -533,7 +665,9 @@
         "LargeImage": "forge",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Google Podcast",
@@ -541,7 +675,9 @@
         "LargeImage": "google_podcast_logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Gfycat",
@@ -549,7 +685,9 @@
         "LargeImage": "gfycat",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Searching"
+        "SmallText": "Searching",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "1337x",
@@ -557,7 +695,9 @@
         "LargeImage": "1337x",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "1CAK",
@@ -565,7 +705,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "20XX",
@@ -573,7 +715,9 @@
         "LargeImage": "20xx",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "20XX.info",
@@ -581,7 +725,9 @@
         "LargeImage": "20xxinfo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "4anime",
@@ -589,7 +735,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "4chan",
@@ -597,7 +745,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "writing",
-        "SmallText": "Replying/Posting"
+        "SmallText": "Replying/Posting",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "4gamers",
@@ -605,7 +755,9 @@
         "LargeImage": "4gamers",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "5Mods",
@@ -613,7 +765,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "7plus",
@@ -621,7 +775,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "8muses",
@@ -629,7 +785,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "9anime",
@@ -637,7 +795,9 @@
         "LargeImage": "9anime",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "9GAG",
@@ -645,7 +805,9 @@
         "LargeImage": "9gag",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Agar.io",
@@ -653,7 +815,9 @@
         "LargeImage": "agar",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AI Dungeon",
@@ -661,7 +825,9 @@
         "LargeImage": "ailogo",
         "LargeText": null,
         "SmallImage": "read",
-        "SmallText": "Reading"
+        "SmallText": "Reading",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AIS Play",
@@ -669,7 +835,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Searching..."
+        "SmallText": "Searching...",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Akinator",
@@ -677,7 +845,9 @@
         "LargeImage": "akinator",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AliExpress",
@@ -685,7 +855,9 @@
         "LargeImage": "aliexpress",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "All The Flavors",
@@ -693,7 +865,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "browsing"
+        "SmallText": "browsing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Altdentifier",
@@ -701,7 +875,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Altearn",
@@ -709,7 +885,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Aminoapps",
@@ -717,7 +895,9 @@
         "LargeImage": "aminoapps",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": "Reading"
+        "SmallText": "Reading",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Anghami",
@@ -725,7 +905,9 @@
         "LargeImage": "anlg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AniChart",
@@ -733,7 +915,9 @@
         "LargeImage": "anichart",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Aniflix",
@@ -741,7 +925,9 @@
         "LargeImage": "aniflix",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AniList",
@@ -749,7 +935,9 @@
         "LargeImage": "anilist_lg",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Searching"
+        "SmallText": "Searching",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Anime Music Quiz",
@@ -757,7 +945,9 @@
         "LargeImage": "amq",
         "LargeText": null,
         "SmallImage": "lobby",
-        "SmallText": "Rooms"
+        "SmallText": "Rooms",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Anime News Network",
@@ -765,7 +955,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Anime Planet",
@@ -773,7 +965,9 @@
         "LargeImage": "animep_logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": "p:nth-child(2)"
+        "SmallText": "p:nth-child(2)",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Anime Soul",
@@ -781,7 +975,9 @@
         "LargeImage": "animesoul",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Anime-Sugoi",
@@ -789,7 +985,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "anime47",
@@ -797,7 +995,9 @@
         "LargeImage": "anime47",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Anime4up",
@@ -805,7 +1005,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "play"
+        "SmallText": "play",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeDao",
@@ -813,7 +1015,9 @@
         "LargeImage": "animedao_lg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeDigitalNetwork",
@@ -821,7 +1025,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeFLV",
@@ -829,7 +1035,9 @@
         "LargeImage": "animeflv",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeHeaven",
@@ -837,7 +1045,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeKage",
@@ -845,7 +1055,9 @@
         "LargeImage": "ak",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeKisa",
@@ -853,7 +1065,9 @@
         "LargeImage": "akisa",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeLab",
@@ -861,7 +1075,9 @@
         "LargeImage": "al",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Animelizm",
@@ -869,7 +1085,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Animelon",
@@ -877,7 +1095,9 @@
         "LargeImage": "animelon",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeOnDemand",
@@ -885,7 +1105,9 @@
         "LargeImage": "aod",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "animepahe",
@@ -893,7 +1115,9 @@
         "LargeImage": "animepahe",
         "LargeText": null,
         "SmallImage": "presence_browsing_home",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimePill",
@@ -901,7 +1125,9 @@
         "LargeImage": "logo",
         "LargeText": "AnimePill",
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeRadio.de",
@@ -909,7 +1135,9 @@
         "LargeImage": "animeradio",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Animes House",
@@ -917,7 +1145,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Animes Online",
@@ -925,7 +1155,9 @@
         "LargeImage": "ao",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Animes Vision",
@@ -933,7 +1165,9 @@
         "LargeImage": "anvlogo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeSaturn",
@@ -941,7 +1175,9 @@
         "LargeImage": "asnew",
         "LargeText": null,
         "SmallImage": "home",
-        "SmallText": "Homepage"
+        "SmallText": "Homepage",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeTW",
@@ -949,7 +1185,9 @@
         "LargeImage": "animetw",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeWho",
@@ -957,7 +1195,9 @@
         "LargeImage": "animewho",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeWorld",
@@ -965,7 +1205,9 @@
         "LargeImage": "pokemonlogo",
         "LargeText": null,
         "SmallImage": "home",
-        "SmallText": "Homepage"
+        "SmallText": "Homepage",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeX",
@@ -973,7 +1215,9 @@
         "LargeImage": "animex",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnimeXNovel",
@@ -981,7 +1225,9 @@
         "LargeImage": "axn-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AniMixPlay",
@@ -989,7 +1235,9 @@
         "LargeImage": "logo-v2",
         "LargeText": null,
         "SmallImage": "browsing-v1",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AniTube",
@@ -997,7 +1245,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Pausado"
+        "SmallText": "Pausado",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AniTürk",
@@ -1005,7 +1255,9 @@
         "LargeImage": "aniturk",
         "LargeText": null,
         "SmallImage": "stop",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AnizmTV",
@@ -1013,7 +1265,9 @@
         "LargeImage": "anizm",
         "LargeText": null,
         "SmallImage": "stop",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Anontpp",
@@ -1021,7 +1275,9 @@
         "LargeImage": "anontpp",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ApertureBot",
@@ -1029,7 +1285,9 @@
         "LargeImage": "ap-logo_new",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Aqua",
@@ -1037,7 +1295,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Aranzulla.it",
@@ -1045,7 +1305,9 @@
         "LargeImage": "aranzulla",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AskUbuntu",
@@ -1053,7 +1315,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "logo",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "AsphaltEvents",
@@ -1061,7 +1325,9 @@
         "LargeImage": "largelogo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Astiga",
@@ -1069,7 +1335,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Astr.io",
@@ -1077,7 +1345,9 @@
         "LargeImage": "astriologo",
         "LargeText": null,
         "SmallImage": "transparent",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Aternos",
@@ -1085,7 +1355,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "atomicradio",
@@ -1093,7 +1365,9 @@
         "LargeImage": "atr-logo",
         "LargeText": null,
         "SmallImage": "play-button",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Azur Lane Wiki",
@@ -1101,7 +1375,9 @@
         "LargeImage": "azurlogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "BanG Dream! Wikia",
@@ -1109,7 +1385,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Bargrooves",
@@ -1117,15 +1395,18 @@
         "LargeImage": "default",
         "LargeText": null,
         "SmallImage": "logo-square",
-        "SmallText": "bargrooves.live"
+        "SmallText": "bargrooves.live",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "BBC",
         "ClientID": "658230518520741915",
         "LargeImage": "bbc_logo",
         "LargeText": null,
-        "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "BeastFM",
@@ -1133,7 +1414,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "BigBlueButton",
@@ -1141,7 +1424,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "logo",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "bilibili",
@@ -1149,7 +1434,9 @@
         "LargeImage": "bb",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Binance",
@@ -1157,7 +1444,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "binarysearch",
@@ -1165,7 +1454,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "BladeFM",
@@ -1173,7 +1464,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Blkom",
@@ -1181,7 +1474,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "play"
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Blob Project",
@@ -1189,15 +1484,18 @@
         "LargeImage": "vertigo-blob",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Blockbench",
         "ClientID": "821260466395152415",
         "LargeImage": "blockbench-logo",
         "LargeText": null,
-        "SmallImage": "generic",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Blockchain",
@@ -1205,7 +1503,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Blockdit",
@@ -1213,7 +1513,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "BluTV",
@@ -1221,7 +1523,9 @@
         "LargeImage": "blutv",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Board Game Online",
@@ -1229,7 +1533,9 @@
         "LargeImage": "boardgameonline",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "bol.com",
@@ -1237,7 +1543,9 @@
         "LargeImage": "bol",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "BoltFM",
@@ -1245,7 +1553,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Bonk Leagues",
@@ -1253,7 +1563,9 @@
         "LargeImage": "bonkleagues",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Bonk.io",
@@ -1261,7 +1573,9 @@
         "LargeImage": "bonk",
         "LargeText": null,
         "SmallImage": "classic2",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Boo.rip",
@@ -1269,7 +1583,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "BotsBase",
@@ -1277,7 +1593,9 @@
         "LargeImage": "botsbase",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Bounce",
@@ -1285,7 +1603,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": "AutoDJ"
+        "SmallText": "AutoDJ",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Branitube",
@@ -1293,7 +1613,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Brick Hill",
@@ -1301,7 +1623,9 @@
         "LargeImage": "brick-hill",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Broken Picturephone",
@@ -1309,7 +1633,9 @@
         "LargeImage": "large_image",
         "LargeText": null,
         "SmallImage": "home",
-        "SmallText": "On"
+        "SmallText": "On",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Brony Radio Germany",
@@ -1317,7 +1643,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "bs.to",
@@ -1325,7 +1653,9 @@
         "LargeImage": "bs",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "BugMeNot",
@@ -1333,7 +1663,9 @@
         "LargeImage": "bugmenot",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "BuildTheEarth",
@@ -1341,7 +1673,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "map",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Bukkit",
@@ -1349,7 +1683,9 @@
         "LargeImage": "bukkit",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Bundle Haber",
@@ -1357,7 +1693,9 @@
         "LargeImage": "bundle",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Bungie",
@@ -1365,7 +1703,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "BuzzFeed",
@@ -1373,7 +1713,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "logo",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "BuzzFeed News",
@@ -1381,7 +1723,9 @@
         "LargeImage": "bfnews-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Byte",
@@ -1389,7 +1733,9 @@
         "LargeImage": "byte",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Canva",
@@ -1397,7 +1743,9 @@
         "LargeImage": "canva",
         "LargeText": null,
         "SmallImage": "brush",
-        "SmallText": "Editing"
+        "SmallText": "Editing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Carl-bot",
@@ -1405,7 +1753,9 @@
         "LargeImage": "carllogo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "CartoonCrazy.net",
@@ -1413,7 +1763,9 @@
         "LargeImage": "cc",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "CatchPlay",
@@ -1421,7 +1773,9 @@
         "LargeImage": "cp",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "cda.pl",
@@ -1429,7 +1783,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "browsing",
-        "SmallText": "Pauza"
+        "SmallText": "Pauza",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Championgg",
@@ -1437,7 +1793,9 @@
         "LargeImage": "championgg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Change",
@@ -1445,7 +1803,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Chaturbate",
@@ -1453,7 +1813,9 @@
         "LargeImage": "chb",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Chess",
@@ -1461,7 +1823,9 @@
         "LargeImage": "chess",
         "LargeText": null,
         "SmallImage": "statistics",
-        "SmallText": "Statistics"
+        "SmallText": "Statistics",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ChickenFM",
@@ -1469,7 +1833,9 @@
         "LargeImage": "default",
         "LargeText": null,
         "SmallImage": "audio",
-        "SmallText": "audio"
+        "SmallText": "audio",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "CHIP Online",
@@ -1477,7 +1843,9 @@
         "LargeImage": "logo-chip",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Clarity Clan",
@@ -1485,7 +1853,9 @@
         "LargeImage": "clarity",
         "LargeText": null,
         "SmallImage": "mcc",
-        "SmallText": "mc-central.net"
+        "SmallText": "mc-central.net",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Click Jogos",
@@ -1493,7 +1863,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "CliffsNotes",
@@ -1509,7 +1881,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "CodAre",
@@ -1517,7 +1891,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Coinbase",
@@ -1525,7 +1901,9 @@
         "LargeImage": "coinbase",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Comedy Central",
@@ -1533,7 +1911,9 @@
         "LargeImage": "comedycentral",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Comic Space",
@@ -1541,7 +1921,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Complex Radio",
@@ -1549,7 +1931,9 @@
         "LargeImage": "complexlogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "CoolMathGames",
@@ -1557,7 +1941,9 @@
         "LargeImage": "coolmathgames",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Coub",
@@ -1565,7 +1951,9 @@
         "LargeImage": "logo",
         "LargeText": "Coub",
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Crowdin",
@@ -1573,7 +1961,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Crunchyroll",
@@ -1581,7 +1971,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Cuevana 3",
@@ -1589,7 +1981,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "CurseForge",
@@ -1597,7 +1991,9 @@
         "LargeImage": "curseforge",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Curve Fever Pro",
@@ -1605,7 +2001,9 @@
         "LargeImage": "index",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "CurveFM",
@@ -1613,7 +2011,9 @@
         "LargeImage": "curvelogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "CyTube",
@@ -1621,7 +2021,9 @@
         "LargeImage": "cytube_logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DaFont",
@@ -1629,7 +2031,9 @@
         "LargeImage": "dafont",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "dailymotion",
@@ -1637,7 +2041,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Dank Memer",
@@ -1645,7 +2051,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Dash Radio",
@@ -1653,7 +2061,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "play"
+        "SmallText": "play",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DashNet",
@@ -1661,7 +2071,9 @@
         "LargeImage": "dashnet",
         "LargeText": null,
         "SmallImage": "legacyy",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DeepL",
@@ -1669,7 +2081,9 @@
         "LargeImage": "lg-deepl",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Deezer",
@@ -1677,7 +2091,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Defly.io",
@@ -1685,7 +2101,9 @@
         "LargeImage": "deflyicon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Deno",
@@ -1693,7 +2111,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": "Reading"
+        "SmallText": "Reading",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Derpibooru",
@@ -1701,7 +2121,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Destiny Item Manager",
@@ -1709,7 +2131,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "guardian-titan",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Destiny.gg",
@@ -1717,7 +2141,9 @@
         "LargeImage": "destiny",
         "LargeText": null,
         "SmallImage": "really_bad_d_gg_logo_upscale",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DeviantArt",
@@ -1725,7 +2151,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DevTR",
@@ -1733,7 +2161,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "js",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Di.FM",
@@ -1741,7 +2171,9 @@
         "LargeImage": "dilogo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DirtMC",
@@ -1749,7 +2181,9 @@
         "LargeImage": "dirtmc",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Divine Discord Bot List",
@@ -1757,7 +2191,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DiziBOX",
@@ -1765,7 +2201,9 @@
         "LargeImage": "db-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "dizilab",
@@ -1773,7 +2211,9 @@
         "LargeImage": "dl-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Dizilla",
@@ -1781,7 +2221,9 @@
         "LargeImage": "dz-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Dizimag",
@@ -1789,7 +2231,9 @@
         "LargeImage": "dizimag",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Durduruldu"
+        "SmallText": "Durduruldu",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Dizipub",
@@ -1797,7 +2241,9 @@
         "LargeImage": "dizipub-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Diziroll",
@@ -1805,7 +2251,9 @@
         "LargeImage": "diziroll",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Durduruldu"
+        "SmallText": "Durduruldu",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "dlive",
@@ -1813,7 +2261,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DMOJ",
@@ -1821,7 +2271,9 @@
         "LargeImage": "dmoj",
         "LargeText": null,
         "SmallImage": "home",
-        "SmallText": "Home"
+        "SmallText": "Home",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Domino's Pizza (UK)",
@@ -1829,7 +2281,9 @@
         "LargeImage": "large_logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+         "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Downdetector",
@@ -1837,7 +2291,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+         "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DramaCool",
@@ -1845,7 +2301,9 @@
         "LargeImage": "dramacool_logo_b",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": "Browsing"
+        "SmallText": "Browsing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "DreamSub",
@@ -1853,7 +2311,9 @@
         "LargeImage": "logo_ds",
         "LargeText": null,
         "SmallImage": "home",
-        "SmallText": "DreamSub"
+        "SmallText": "DreamSub",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Dropbox",
@@ -1861,7 +2321,9 @@
         "LargeImage": "dropbox_logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+         "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Dueling Nexus",
@@ -1869,7 +2331,9 @@
         "LargeImage": "banner",
         "LargeText": null,
         "SmallImage": "logo",
-        "SmallText": "in"
+        "SmallText": "in",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Durarara",
@@ -1877,7 +2341,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+         "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Dyno",
@@ -1885,7 +2351,9 @@
         "LargeImage": "dyno",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+         "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "dアニメストア",
@@ -1893,7 +2361,9 @@
         "LargeImage": "danime",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+         "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "e621",
@@ -1901,7 +2371,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "eBay",
@@ -1909,7 +2381,9 @@
         "LargeImage": "ebaylogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Ecosia",
@@ -1917,7 +2391,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Edge Me Please",
@@ -1925,7 +2401,9 @@
         "LargeImage": "banner",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Edgenuity",
@@ -1933,7 +2411,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "eggsy.codes",
@@ -1941,7 +2421,9 @@
         "LargeImage": "ec-logo",
         "LargeText": null,
         "SmallImage": "SOMETHING-SKETCHY",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Einthusan",
@@ -1949,7 +2431,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "searching"
+        "SmallText": "searching",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Ekrem İmamoğlu",
@@ -1957,7 +2441,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Ekşi Şeyler",
@@ -1965,7 +2451,9 @@
         "LargeImage": "es-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ekşi sözlük",
@@ -1973,7 +2461,9 @@
         "LargeImage": "es-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Eldiru",
@@ -1981,7 +2471,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "enthix.net",
@@ -1989,7 +2481,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Epic Games",
@@ -1997,7 +2491,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Erisly",
@@ -2005,7 +2501,9 @@
         "LargeImage": "erisly",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ESL",
@@ -2013,7 +2511,9 @@
         "LargeImage": "esl",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Etsy",
@@ -2021,7 +2521,9 @@
         "LargeImage": "etsy",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Exaroton",
@@ -2029,7 +2531,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ExpressRadio",
@@ -2037,7 +2541,9 @@
         "LargeImage": "expresslogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Exxen",
@@ -2045,7 +2551,9 @@
         "LargeImage": "exxen",
         "LargeText": null,
         "SmallImage": "playing",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Facebook",
@@ -2053,7 +2561,9 @@
         "LargeImage": "facebook",
         "LargeText": null,
         "SmallImage": "videocall",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "FairyAnime",
@@ -2061,7 +2571,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Fandom",
@@ -2069,7 +2581,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Fanfiction",
@@ -2077,7 +2591,9 @@
         "LargeImage": "banner",
         "LargeText": null,
         "SmallImage": "logo",
-        "SmallText": "browsing"
+        "SmallText": "browsing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "fastani.net",
@@ -2085,7 +2601,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "FIFA Web App",
@@ -2093,7 +2611,9 @@
         "LargeImage": "fifa",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Figma",
@@ -2101,7 +2621,9 @@
         "LargeImage": "home",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "filmmodu",
@@ -2109,7 +2631,9 @@
         "LargeImage": "fm-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "FimFiction",
@@ -2117,7 +2641,9 @@
         "LargeImage": "ff",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "FiPlay",
@@ -2125,7 +2651,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "FiveM",
@@ -2133,7 +2661,9 @@
         "LargeImage": "fivem",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "fizy",
@@ -2141,7 +2671,9 @@
         "LargeImage": "fizy-logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Flacless",
@@ -2149,7 +2681,9 @@
         "LargeImage": "flacless",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Flare Radio",
@@ -2157,7 +2691,9 @@
         "LargeImage": "flare",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Playing"
+        "SmallText": "Playing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Flickr",
@@ -2165,7 +2701,9 @@
         "LargeImage": "flickr_logo",
         "LargeText": null,
         "SmallImage": "flickr_logo",
-        "SmallText": "Viewing"
+        "SmallText": "Viewing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "FlipAnim",
@@ -2173,7 +2711,9 @@
         "LargeImage": "fa",
         "LargeText": null,
         "SmallImage": "writing",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "FlixTor",
@@ -2181,7 +2721,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "flyte scribe",
@@ -2189,7 +2731,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "fnbr.co",
@@ -2197,7 +2741,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Folding@home",
@@ -2205,7 +2751,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Formuliser",
@@ -2213,7 +2761,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Fortnite-API",
@@ -2221,7 +2771,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Foster",
@@ -2229,7 +2781,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "admin",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "FR-Minecraft",
@@ -2237,7 +2791,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "forum",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Full Programlar İndir",
@@ -2245,7 +2801,9 @@
         "LargeImage": "fp-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Funimation",
@@ -2253,7 +2811,9 @@
         "LargeImage": "fun",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "FurAffinity",
@@ -2261,7 +2821,9 @@
         "LargeImage": "logo-512",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "G2A",
@@ -2269,7 +2831,9 @@
         "LargeImage": "g2alogo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Game Jolt",
@@ -2277,7 +2841,9 @@
         "LargeImage": "gj-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Game-Linter",
@@ -2285,7 +2851,9 @@
         "LargeImage": "logoalso",
         "LargeText": null,
         "SmallImage": "logoalso",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Gamepedia",
@@ -2293,7 +2861,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "GameStar",
@@ -2301,7 +2871,9 @@
         "LargeImage": "star",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Garden",
@@ -2309,7 +2881,9 @@
         "LargeImage": "gardenpresence",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Gartic Phone",
@@ -2317,7 +2891,9 @@
         "LargeImage": "glogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Gartic.com.br",
@@ -2325,7 +2901,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Gartic.io",
@@ -2333,7 +2911,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "GBAtemp.net",
@@ -2341,7 +2921,9 @@
         "LargeImage": "tempy",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "GDBrowser",
@@ -2349,7 +2931,9 @@
         "LargeImage": "coin",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Gelbooru",
@@ -2357,7 +2941,9 @@
         "LargeImage": "lg-gb",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Genius",
@@ -2365,7 +2951,9 @@
         "LargeImage": "genius",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "GeoGuessr",
@@ -2373,7 +2961,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "GittiGidiyor",
@@ -2381,7 +2971,9 @@
         "LargeImage": "gg-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Goyabu",
@@ -2389,7 +2981,9 @@
         "LargeImage": "goyabu",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Pesquisando"
+        "SmallText": "Pesquisando",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Grailed",
@@ -2397,7 +2991,9 @@
         "LargeImage": "grailedlogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Granblue Fantasy",
@@ -2405,7 +3001,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Groovy",
@@ -2413,7 +3011,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "GTAForums",
@@ -2421,7 +3021,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "home",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Guilded.gg",
@@ -2429,7 +3031,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Gunivers",
@@ -2437,7 +3041,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "workspace",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "HabboCity",
@@ -2445,7 +3051,9 @@
         "LargeImage": "hclogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "HabboFests",
@@ -2453,7 +3061,9 @@
         "LargeImage": "habbofests",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "HackerNoon",
@@ -2461,7 +3071,9 @@
         "LargeImage": "hn-logo",
         "LargeText": null,
         "SmallImage": "hn-logo",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "HackerRank",
@@ -2469,7 +3081,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Hako",
@@ -2477,7 +3091,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Hangout Hotel",
@@ -2485,7 +3101,9 @@
         "LargeImage": "habbologo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "hanime",
@@ -2493,7 +3111,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "HentaiFox",
@@ -2501,7 +3121,9 @@
         "LargeImage": "largeimage",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Hentailib",
@@ -2509,7 +3131,9 @@
         "LargeImage": "hentailib_large",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "reading"
+        "SmallText": "reading",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "HentaiWorld",
@@ -2517,7 +3141,9 @@
         "LargeImage": "hwnew",
         "LargeText": null,
         "SmallImage": "home",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "HepBoat",
@@ -2525,7 +3151,9 @@
         "LargeImage": "hepboat",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Hepsiburada",
@@ -2533,7 +3161,9 @@
         "LargeImage": "hb-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "HighLowRadio",
@@ -2541,7 +3171,9 @@
         "LargeImage": "hlr",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Listeners"
+        "SmallText": "Listeners",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "HLTV",
@@ -2549,7 +3181,9 @@
         "LargeImage": "hltv",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Honeygain",
@@ -2557,7 +3191,9 @@
         "LargeImage": "honeygain",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Horizon GO",
@@ -2565,7 +3201,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "htmlcsscolor",
@@ -2573,7 +3211,9 @@
         "LargeImage": "htmlcsscolor",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Human Benchmark",
@@ -2581,7 +3221,9 @@
         "LargeImage": "hb",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Humble Bundle",
@@ -2589,7 +3231,9 @@
         "LargeImage": "humble",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Hypixel",
@@ -2597,7 +3241,9 @@
         "LargeImage": "hypixel",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Hypixel API Reborn",
@@ -2605,7 +3251,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Hypixel Studios",
@@ -2613,7 +3261,9 @@
         "LargeImage": "hypixel_studios_logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Hytale",
@@ -2621,7 +3271,9 @@
         "LargeImage": "hytale_logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "I Love Music",
@@ -2629,7 +3281,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "IFTTT",
@@ -2637,7 +3291,9 @@
         "LargeImage": "logo_big",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "iHeartRadio",
@@ -2645,7 +3301,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Iloot.it",
@@ -2653,7 +3311,9 @@
         "LargeImage": "logo1",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "IMDb",
@@ -2661,7 +3321,9 @@
         "LargeImage": "large_img",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "IMDbFilmIzle",
@@ -2669,7 +3331,9 @@
         "LargeImage": "ifi-logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Instant-Gaming",
@@ -2677,7 +3341,9 @@
         "LargeImage": "instantgaming",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Invidious",
@@ -2685,7 +3351,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": "more",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "iQIYI",
@@ -2693,7 +3361,9 @@
         "LargeImage": "iqiyi_logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Issou TV",
@@ -2701,7 +3371,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Itch.io",
@@ -2709,7 +3381,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Playing"
+        "SmallText": "Playing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ITV Hub",
@@ -2717,7 +3391,9 @@
         "LargeImage": "itv_logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Playing"
+        "SmallText": "Playing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Jackbox",
@@ -2725,7 +3401,9 @@
         "LargeImage": "jackbox",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Japari Library",
@@ -2733,7 +3411,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Jet Set Radio Live",
@@ -2741,7 +3421,9 @@
         "LargeImage": "jsrl",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "JeuxVideo.com",
@@ -2749,7 +3431,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "JioCinema",
@@ -2757,7 +3441,9 @@
         "LargeImage": "large_img",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Jisho",
@@ -2765,7 +3451,9 @@
         "LargeImage": "favicon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Joox",
@@ -2773,7 +3461,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "play"
+        "SmallText": "play",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Joyn",
@@ -2781,7 +3471,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Wiedergabe"
+        "SmallText": "Wiedergabe",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Jstris",
@@ -2789,7 +3481,9 @@
         "LargeImage": "bigdefault",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Ingame..."
+        "SmallText": "Ingame...",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "JUKE",
@@ -2797,7 +3491,9 @@
         "LargeImage": "juke-crown",
         "LargeText": null,
         "SmallImage": "playing",
-        "SmallText": "Wordt"
+        "SmallText": "Wordt",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Jummbox",
@@ -2805,7 +3501,9 @@
         "LargeImage": "large",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Juniperbot",
@@ -2813,7 +3511,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "list",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Just Light Novels",
@@ -2821,7 +3521,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "jut.su",
@@ -2829,7 +3531,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kabal's",
@@ -2837,7 +3541,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kael",
@@ -2845,7 +3551,9 @@
         "LargeImage": "large_logo",
         "LargeText": null,
         "SmallImage": "viewing_icon",
-        "SmallText": "Website"
+        "SmallText": "Website",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kahoot",
@@ -2853,7 +3561,9 @@
         "LargeImage": "kahoot",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kahve BOT",
@@ -2861,7 +3571,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "KaniNetwork",
@@ -2869,7 +3581,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "roles",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Keep It Wholesome",
@@ -2877,7 +3591,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Keep Talking and Nobody Explodes",
@@ -2885,7 +3601,9 @@
         "LargeImage": "logo_big",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "KeyFM",
@@ -2893,7 +3611,9 @@
         "LargeImage": "keyfm",
         "LargeText": null,
         "SmallImage": "keyfm-play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Keymash",
@@ -2901,7 +3621,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "KickAssAnime",
@@ -2909,7 +3631,9 @@
         "LargeImage": "kaa",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kijk",
@@ -2917,7 +3641,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "searching",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "KimCartoon",
@@ -2925,7 +3651,9 @@
         "LargeImage": "kim",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kimi no Na wa Wikia",
@@ -2933,7 +3661,9 @@
         "LargeImage": "lg-kmnnwwiki",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kingdom of Loathing",
@@ -2941,7 +3671,9 @@
         "LargeImage": "kol",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "KissAsian",
@@ -2949,7 +3681,9 @@
         "LargeImage": "ka",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "KissCartoon",
@@ -2957,7 +3691,9 @@
         "LargeImage": "kisscartoon",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kitapların Dili",
@@ -2965,7 +3701,9 @@
         "LargeImage": "kd-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Video"
+        "SmallText": "Video",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kitsu",
@@ -2973,7 +3711,9 @@
         "LargeImage": "kitsu_lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kosmi",
@@ -2981,7 +3721,9 @@
         "LargeImage": "kosmimain",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Koya",
@@ -2989,7 +3731,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Krunker",
@@ -2997,7 +3741,9 @@
         "LargeImage": "krunker",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kryptonia",
@@ -3005,7 +3751,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Kshow123",
@@ -3013,7 +3761,9 @@
         "LargeImage": "ksow123stack",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "KShowOnline",
@@ -3021,7 +3771,9 @@
         "LargeImage": "kshowonline",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "LabyDesigns",
@@ -3029,7 +3781,9 @@
         "LargeImage": "labydesigns",
         "LargeText": null,
         "SmallImage": "downloading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "LabyMod",
@@ -3037,7 +3791,9 @@
         "LargeImage": "labymod",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Laftel",
@@ -3045,7 +3801,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "lain game",
@@ -3053,7 +3811,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "LautFM",
@@ -3061,7 +3821,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Legends of Equestria",
@@ -3069,7 +3831,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "letgo",
@@ -3077,7 +3841,9 @@
         "LargeImage": "letgo-logob",
         "LargeText": null,
         "SmallImage": "letgo-ara",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "LeXx",
@@ -3085,7 +3851,9 @@
         "LargeImage": "lexx",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Lichess",
@@ -3093,7 +3861,9 @@
         "LargeImage": "lc-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Liebe Schnee Hiver",
@@ -3101,7 +3871,9 @@
         "LargeImage": "lsh-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Bir"
+        "SmallText": "Bir",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Line TV",
@@ -3109,7 +3881,9 @@
         "LargeImage": "linetv_logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "LinkedIn",
@@ -3117,7 +3891,9 @@
         "LargeImage": "linkedin_logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "LinusTechTips",
@@ -3125,7 +3901,9 @@
         "LargeImage": "linustechtips",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "LISTEN.moe",
@@ -3133,7 +3911,9 @@
         "LargeImage": "listen_moe_lg",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ListenOnRepeat",
@@ -3141,7 +3921,9 @@
         "LargeImage": "lr",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Livida Blog",
@@ -3149,7 +3931,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Log.com.tr",
@@ -3157,7 +3941,9 @@
         "LargeImage": "log-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "LoL Esports",
@@ -3165,7 +3951,9 @@
         "LargeImage": "lolesports",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "LookMovie",
@@ -3173,7 +3961,9 @@
         "LargeImage": "lm",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Loritta",
@@ -3181,7 +3971,9 @@
         "LargeImage": "loritta",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Love Live! Wikia",
@@ -3189,7 +3981,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "LucidChart",
@@ -3197,7 +3991,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MadnessFM",
@@ -3205,7 +4001,9 @@
         "LargeImage": "mad",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Choosing"
+        "SmallText": "Choosing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Magister",
@@ -3213,7 +4011,9 @@
         "LargeImage": "app",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Maki.gg",
@@ -3221,7 +4021,9 @@
         "LargeImage": "maki",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MALL.TV",
@@ -3229,7 +4031,9 @@
         "LargeImage": "malltvlogo",
         "LargeText": null,
         "SmallImage": "malltvbrowsing",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Manga Livre",
@@ -3237,7 +4041,9 @@
         "LargeImage": "ml",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MangaDex",
@@ -3245,7 +4051,9 @@
         "LargeImage": "mangadex-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MangaHost",
@@ -3253,7 +4061,9 @@
         "LargeImage": "mh_l",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MangaKakalot",
@@ -3261,7 +4071,9 @@
         "LargeImage": "mangakakalot",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Mangalib",
@@ -3269,7 +4081,9 @@
         "LargeImage": "mangalib_large",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "reading"
+        "SmallText": "reading",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MangasPROJECT",
@@ -3277,7 +4091,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MangaTube",
@@ -3285,7 +4101,9 @@
         "LargeImage": "mangatube",
         "LargeText": null,
         "SmallImage": "manga",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MangaWorld",
@@ -3293,7 +4111,9 @@
         "LargeImage": "mwnew",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Homepage"
+        "SmallText": "Homepage",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MangaYabu",
@@ -3301,7 +4121,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "inicio",
-        "SmallText": "Página"
+        "SmallText": "Página",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ManiaExchange",
@@ -3309,7 +4131,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "tm",
-        "SmallText": "TrackMania²"
+        "SmallText": "TrackMania²",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Mark Scans",
@@ -3317,7 +4141,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "user",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Marktplaats",
@@ -3325,7 +4151,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "searching",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MatrixBots",
@@ -3333,7 +4161,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "browsing",
-        "SmallText": "Browsing"
+        "SmallText": "Browsing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MC-Market",
@@ -3341,7 +4171,9 @@
         "LargeImage": "mc-market",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MCStacker",
@@ -3349,7 +4181,9 @@
         "LargeImage": "mcstacker",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MDN Web Docs",
@@ -3357,7 +4191,9 @@
         "LargeImage": "homepage",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Mediafire",
@@ -3365,7 +4201,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "searching",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MEE6",
@@ -3373,7 +4211,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "writing",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MEGA",
@@ -3381,7 +4221,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Memesena",
@@ -3389,7 +4231,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Metastream",
@@ -3397,7 +4241,9 @@
         "LargeImage": "metastream",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Meus Animes",
@@ -3405,7 +4251,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Assistindo"
+        "SmallText": "Assistindo",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Milk and Cookies",
@@ -3413,7 +4261,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MixMods",
@@ -3421,7 +4271,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "logo",
-        "SmallText": "www.mixmods.com.br"
+        "SmallText": "www.mixmods.com.br",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MKPC",
@@ -3429,7 +4281,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MLPOL",
@@ -3437,7 +4291,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MojeVideo",
@@ -3445,7 +4301,9 @@
         "LargeImage": "mojevideo",
         "LargeText": null,
         "SmallImage": "mvplaying",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Monkeytype",
@@ -3453,7 +4311,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Monos Chinos",
@@ -3461,7 +4321,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "browsing",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Monstercat",
@@ -3469,7 +4331,9 @@
         "LargeImage": "monstercat",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Playing"
+        "SmallText": "Playing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "motorsport.com",
@@ -3477,7 +4341,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": "Reading"
+        "SmallText": "Reading",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MSPFA",
@@ -3485,7 +4351,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "On"
+        "SmallText": "On",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Multporn",
@@ -3493,7 +4361,9 @@
         "LargeImage": "mplogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Musescore",
@@ -3501,7 +4371,9 @@
         "LargeImage": "musescore",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Musixmatch",
@@ -3509,7 +4381,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "mvs4u",
@@ -3517,7 +4391,9 @@
         "LargeImage": "m4",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "My Nintendo",
@@ -3525,7 +4401,9 @@
         "LargeImage": "logo_big",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MyAnimeList",
@@ -3533,7 +4411,9 @@
         "LargeImage": "lg-mal",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MyBOT",
@@ -3541,7 +4421,9 @@
         "LargeImage": "mybot",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "myCANAL",
@@ -3549,7 +4431,9 @@
         "LargeImage": "mycanal-logo",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "MyDramaList",
@@ -3557,7 +4441,9 @@
         "LargeImage": "mdl-logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": "Browsing"
+        "SmallText": "Browsing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "n11.com",
@@ -3565,7 +4451,9 @@
         "LargeImage": "n11-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Nakama Mangas",
@@ -3573,7 +4461,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "NameMC",
@@ -3581,7 +4471,9 @@
         "LargeImage": "namemc",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "NativShark",
@@ -3589,7 +4481,9 @@
         "LargeImage": "nativshark_logo_lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Nekopoi",
@@ -3597,7 +4491,9 @@
         "LargeImage": "nekopoi",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "nekos.life",
@@ -3605,7 +4501,9 @@
         "LargeImage": "lg-nekos",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Neox Scanlator",
@@ -3613,7 +4511,9 @@
         "LargeImage": "logo2",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Em"
+        "SmallText": "Em",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Nettruyen",
@@ -3621,7 +4521,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Newgrounds",
@@ -3629,7 +4531,9 @@
         "LargeImage": "ng",
         "LargeText": null,
         "SmallImage": "user",
-        "SmallText": "User"
+        "SmallText": "User",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Nexus Mods",
@@ -3637,7 +4541,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "writing",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "nhentai",
@@ -3645,7 +4551,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Niantic Wayfarer",
@@ -3653,7 +4561,9 @@
         "LargeImage": "nwbig",
         "LargeText": null,
         "SmallImage": "nw",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "niconico",
@@ -3661,7 +4571,9 @@
         "LargeImage": "niconico",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Nightwave Plaza",
@@ -3669,7 +4581,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Nitro Type",
@@ -3677,7 +4591,9 @@
         "LargeImage": "nt",
         "LargeText": null,
         "SmallImage": "user",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Nodejs.org",
@@ -3685,7 +4601,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": "Reading"
+        "SmallText": "Reading",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "NON-STOP NYAN CAT!",
@@ -3693,7 +4611,9 @@
         "LargeImage": "nyan",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Nookazon",
@@ -3701,7 +4621,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Novel Mania",
@@ -3709,7 +4631,9 @@
         "LargeImage": "nm",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "NPM Package Registry",
@@ -3717,7 +4641,9 @@
         "LargeImage": "lg-npm",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Nuxt.js",
@@ -3725,7 +4651,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": "Language"
+        "SmallText": "Language",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Nyaa.si",
@@ -3733,7 +4661,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "OKanime",
@@ -3741,7 +4671,9 @@
         "LargeImage": "oa",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "OMG! Ubuntu!",
@@ -3749,7 +4681,9 @@
         "LargeImage": "omgubuntu-logo",
         "LargeText": null,
         "SmallImage": "searching",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "OneDrive",
@@ -3757,7 +4691,9 @@
         "LargeImage": "onedrive-logo",
         "LargeText": null,
         "SmallImage": "office-logo",
-        "SmallText": "Microsoft"
+        "SmallText": "Microsoft",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Online Soccer Manager",
@@ -3765,7 +4701,9 @@
         "LargeImage": "osm",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Online-Sequencer",
@@ -3773,7 +4711,9 @@
         "LargeImage": "online_sequencer_icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "OpenClassrooms",
@@ -3781,7 +4721,9 @@
         "LargeImage": "favicon",
         "LargeText": null,
         "SmallImage": "teaching",
-        "SmallText": "OpenClassrooms"
+        "SmallText": "OpenClassrooms",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "openrec",
@@ -3789,7 +4731,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "osu!gatari",
@@ -3797,7 +4741,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "osu!kawata",
@@ -3805,7 +4751,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "osu!Kurikku",
@@ -3813,7 +4761,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "taiko",
-        "SmallText": "osu!taiko"
+        "SmallText": "osu!taiko",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "osu!online",
@@ -3821,7 +4771,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "osu!ppy",
@@ -3829,7 +4781,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "searching",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "osu!ripple",
@@ -3837,7 +4791,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Otaku-Streamers",
@@ -3845,7 +4801,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Error"
+        "SmallText": "Error",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Otakudesu",
@@ -3853,7 +4811,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Outline",
@@ -3861,7 +4821,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Overbuff",
@@ -3869,7 +4831,9 @@
         "LargeImage": "overbuff",
         "LargeText": null,
         "SmallImage": "windows",
-        "SmallText": "Playing"
+        "SmallText": "Playing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Overleaf",
@@ -3877,7 +4841,9 @@
         "LargeImage": "latex",
         "LargeText": null,
         "SmallImage": "whitelogo",
-        "SmallText": "Overleaf"
+        "SmallText": "Overleaf",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "p90.zone",
@@ -3885,7 +4851,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Pantip",
@@ -3893,7 +4861,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": "searching",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "PartydoosMediaGroup",
@@ -3901,7 +4871,9 @@
         "LargeImage": "pmg",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Pastr",
@@ -3909,7 +4881,9 @@
         "LargeImage": "pastrlogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Paybutik",
@@ -3917,7 +4891,9 @@
         "LargeImage": "paybutik",
         "LargeText": null,
         "SmallImage": "project",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "pays.host",
@@ -3925,7 +4901,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "user",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "PERPHeads",
@@ -3933,7 +4911,9 @@
         "LargeImage": "perp",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Philo",
@@ -3941,7 +4921,9 @@
         "LargeImage": "philo",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Photopea",
@@ -3949,7 +4931,9 @@
         "LargeImage": "photopea",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "piapro",
@@ -3957,7 +4941,9 @@
         "LargeImage": "pia",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Playing"
+        "SmallText": "Playing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Picarto",
@@ -3965,7 +4951,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Pinterest",
@@ -3973,7 +4961,9 @@
         "LargeImage": "pinterest",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "pixiv",
@@ -3981,7 +4971,9 @@
         "LargeImage": "pix",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Playerbros",
@@ -3989,7 +4981,9 @@
         "LargeImage": "pb-logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": "Bir"
+        "SmallText": "Bir",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "plug.dj",
@@ -3997,7 +4991,9 @@
         "LargeImage": "pdjlogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "PlutoTV",
@@ -4005,7 +5001,9 @@
         "LargeImage": "plutotv",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Playing"
+        "SmallText": "Playing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Pokémon",
@@ -4013,7 +5011,9 @@
         "LargeImage": "pokemonlogo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": "Pokédex"
+        "SmallText": "Pokédex",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Pokémon Showdown",
@@ -4021,7 +5021,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "PonyvilleFM",
@@ -4029,7 +5031,9 @@
         "LargeImage": "pvfm",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "PornHub",
@@ -4037,7 +5041,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Prambors Radio",
@@ -4045,7 +5051,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "PreMiD",
@@ -4053,7 +5061,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "BETA"
+        "SmallText": "BETA",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "PrimeMC",
@@ -4061,7 +5071,9 @@
         "LargeImage": "primemc",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ProBot",
@@ -4069,7 +5081,9 @@
         "LargeImage": "probot",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Proxer",
@@ -4077,7 +5091,9 @@
         "LargeImage": "proxer_icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "puhutv",
@@ -4085,7 +5101,9 @@
         "LargeImage": "puhu-logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Pulse",
@@ -4093,7 +5111,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Punch! Fansub",
@@ -4101,7 +5121,9 @@
         "LargeImage": "main",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "pxls.space",
@@ -4109,7 +5131,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Pylon",
@@ -4117,7 +5141,9 @@
         "LargeImage": "pylon",
         "LargeText": null,
         "SmallImage": "pylon-d",
-        "SmallText": "Pylon"
+        "SmallText": "Pylon",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "PyPi",
@@ -4125,7 +5151,9 @@
         "LargeImage": "pypi",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Q-dance",
@@ -4133,7 +5161,9 @@
         "LargeImage": "qdance-logo",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "QDSSClub",
@@ -4141,7 +5171,9 @@
         "LargeImage": "qdss",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Quizlet",
@@ -4149,7 +5181,9 @@
         "LargeImage": "quizlet",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Searching"
+        "SmallText": "Searching",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Quora",
@@ -4157,7 +5191,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Qwant",
@@ -4165,7 +5201,9 @@
         "LargeImage": "qwant",
         "LargeText": null,
         "SmallImage": "music",
-        "SmallText": "Qwant"
+        "SmallText": "Qwant",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "R10.net",
@@ -4173,7 +5211,9 @@
         "LargeImage": "logo_beyaz",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "R6Stats",
@@ -4181,7 +5221,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Radiko",
@@ -4189,7 +5231,9 @@
         "LargeImage": "largeimage",
         "LargeText": null,
         "SmallImage": "spiriteplay",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Rádio Animu",
@@ -4197,7 +5241,9 @@
         "LargeImage": "animu",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Radio Garden",
@@ -4205,7 +5251,9 @@
         "LargeImage": "bigglobe",
         "LargeText": null,
         "SmallImage": "statusplay",
-        "SmallText": "Playing"
+        "SmallText": "Playing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Radio Nintendo",
@@ -4213,7 +5261,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": "Live"
+        "SmallText": "Live",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Radio.net",
@@ -4221,7 +5271,9 @@
         "LargeImage": "logo_big",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "RadioMe",
@@ -4229,7 +5281,9 @@
         "LargeImage": "logo_big",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Radiooooo",
@@ -4237,7 +5291,9 @@
         "LargeImage": "radiooooo_logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Radiot-Suomi",
@@ -4245,7 +5301,9 @@
         "LargeImage": "radiot",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Rainwave",
@@ -4253,7 +5311,9 @@
         "LargeImage": "rainwv",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Ralex Bot",
@@ -4261,7 +5321,9 @@
         "LargeImage": "ralexlogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Ranobelib",
@@ -4269,7 +5331,9 @@
         "LargeImage": "ranobelib_large",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "reading"
+        "SmallText": "reading",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Reach Radio",
@@ -4277,7 +5341,9 @@
         "LargeImage": "reach2",
         "LargeText": null,
         "SmallImage": "writing",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "RealBooru",
@@ -4285,7 +5351,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "RealLifeGTAV",
@@ -4293,7 +5361,9 @@
         "LargeImage": "logo-sommer",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ReaperX",
@@ -4301,7 +5371,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "RedTube",
@@ -4309,7 +5381,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Repeat",
@@ -4317,7 +5391,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "bouncelive",
-        "SmallText": "AutoDJ"
+        "SmallText": "AutoDJ",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Repl.it",
@@ -4325,7 +5401,9 @@
         "LargeImage": "repl",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ResetEra",
@@ -4333,7 +5411,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "REYFM",
@@ -4341,7 +5421,9 @@
         "LargeImage": "reywhitebacksmall",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Riot Games",
@@ -4349,7 +5431,9 @@
         "LargeImage": "riot_games",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Rizo-Host",
@@ -4357,7 +5441,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "RL Insider",
@@ -4365,7 +5451,9 @@
         "LargeImage": "rlinsider",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "RL.Deals",
@@ -4373,7 +5461,9 @@
         "LargeImage": "rldeal",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "RLSwaps",
@@ -4381,7 +5471,9 @@
         "LargeImage": "rlswaps",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "RLTracker.pro",
@@ -4389,7 +5481,9 @@
         "LargeImage": "rlt",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Ro the Bot",
@@ -4397,7 +5491,9 @@
         "LargeImage": "bot-magic",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Roblox",
@@ -4405,7 +5501,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Rocket League",
@@ -4413,7 +5511,9 @@
         "LargeImage": "rl",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Rocket League Garage",
@@ -4421,7 +5521,9 @@
         "LargeImage": "rlg",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ROCKRADIO.COM",
@@ -4429,7 +5531,9 @@
         "LargeImage": "rock",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Roll20",
@@ -4437,7 +5541,9 @@
         "LargeImage": "roll20_logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Rooster Teeth",
@@ -4445,7 +5551,9 @@
         "LargeImage": "roosterteeth",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "RootMe",
@@ -4453,7 +5561,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": "Language"
+        "SmallText": "Language",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Rule34",
@@ -4461,7 +5571,9 @@
         "LargeImage": "lg-r34",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "RunoPW",
@@ -4469,7 +5581,9 @@
         "LargeImage": "runo3",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Rustlabs",
@@ -4477,7 +5591,9 @@
         "LargeImage": "logo_big",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Ryou Flashcards",
@@ -4485,7 +5601,9 @@
         "LargeImage": "ryou",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "s.to",
@@ -4493,7 +5611,9 @@
         "LargeImage": "sto",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "sahibinden.com",
@@ -4501,7 +5621,9 @@
         "LargeImage": "s-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Salty Bet",
@@ -4509,7 +5631,9 @@
         "LargeImage": "salty",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Scan",
@@ -4517,7 +5641,9 @@
         "LargeImage": "scan",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "SCP Wiki",
@@ -4525,7 +5651,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Scratch",
@@ -4533,7 +5661,9 @@
         "LargeImage": "scratchlogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Sdarot.TV",
@@ -4541,7 +5671,9 @@
         "LargeImage": "sdarot",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Senpa.io",
@@ -4549,7 +5681,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Sezonluk Dizi",
@@ -4557,7 +5691,9 @@
         "LargeImage": "sdlogo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Bir"
+        "SmallText": "Bir",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ShiftDelete.Net",
@@ -4565,7 +5701,9 @@
         "LargeImage": "sd-logo",
         "LargeText": null,
         "SmallImage": "read",
-        "SmallText": "Bir"
+        "SmallText": "Bir",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Shinden",
@@ -4573,7 +5711,9 @@
         "LargeImage": "shinden",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Shiro",
@@ -4581,7 +5721,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Sickipedia",
@@ -4589,7 +5731,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "SimLiveRadio",
@@ -4597,7 +5741,9 @@
         "LargeImage": "simlive",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Simonektv",
@@ -4605,7 +5751,9 @@
         "LargeImage": "orbazzo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Simply Hentai",
@@ -4613,7 +5761,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Simulator Radio",
@@ -4621,7 +5771,9 @@
         "LargeImage": "srlogo",
         "LargeText": null,
         "SmallImage": "writing",
-        "SmallText": "Listeners"
+        "SmallText": "Listeners",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "SimulatorFM",
@@ -4629,7 +5781,9 @@
         "LargeImage": "largelogo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "SimulatorHits",
@@ -4637,7 +5791,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": ""
+        "SmallText": "",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Sinefy",
@@ -4645,7 +5801,9 @@
         "LargeImage": "s-logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Sitting on Clouds Radio",
@@ -4653,7 +5811,9 @@
         "LargeImage": "clouds",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Skillshare",
@@ -4661,7 +5821,9 @@
         "LargeImage": "sh",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "skindb.co",
@@ -4669,7 +5831,9 @@
         "LargeImage": "fortnite",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Skribbl.io",
@@ -4677,7 +5841,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Skyra",
@@ -4685,7 +5851,9 @@
         "LargeImage": "skyra",
         "LargeText": null,
         "SmallImage": "writing",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Slack",
@@ -4693,7 +5861,9 @@
         "LargeImage": "slack",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Sling TV",
@@ -4701,7 +5871,9 @@
         "LargeImage": "slingtv",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Slither.io",
@@ -4709,7 +5881,9 @@
         "LargeImage": "slitherlogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "SnowBoltz",
@@ -4717,7 +5891,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "SoloLearn",
@@ -4725,7 +5901,9 @@
         "LargeImage": "sololearn",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Something.Host",
@@ -4733,7 +5911,9 @@
         "LargeImage": "vector",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Sparked Host",
@@ -4741,7 +5921,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": "pterodactyl",
-        "SmallText": "Pterodactyl"
+        "SmallText": "Pterodactyl",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Sparknotes",
@@ -4749,7 +5931,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "speedrun.com",
@@ -4757,7 +5941,9 @@
         "LargeImage": "run",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Spiderum",
@@ -4765,7 +5951,9 @@
         "LargeImage": "spiderum",
         "LargeText": null,
         "SmallImage": "write",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Spigot",
@@ -4773,7 +5961,9 @@
         "LargeImage": "spigot",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Spinsha.re",
@@ -4781,7 +5971,9 @@
         "LargeImage": "bigdefault",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Spirit Fanfics",
@@ -4789,7 +5981,9 @@
         "LargeImage": "spirit_lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "splix.io",
@@ -4797,7 +5991,9 @@
         "LargeImage": "splix",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "SpongePowered",
@@ -4805,7 +6001,9 @@
         "LargeImage": "sponge",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "StatusBot",
@@ -4813,7 +6011,9 @@
         "LargeImage": "logo_main",
         "LargeText": null,
         "SmallImage": "logo_beta",
-        "SmallText": "Beta"
+        "SmallText": "Beta",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "SteamPrices.com",
@@ -4821,7 +6021,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Stips",
@@ -4829,7 +6031,9 @@
         "LargeImage": "stips",
         "LargeText": null,
         "SmallImage": "stipspin_dark",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "StopotS",
@@ -4837,7 +6041,9 @@
         "LargeImage": "stopots-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "StoryFire",
@@ -4845,7 +6051,9 @@
         "LargeImage": "storyfire",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Streamable",
@@ -4853,7 +6061,9 @@
         "LargeImage": "streamable",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Stuff.co.nz",
@@ -4861,7 +6071,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Sua Música",
@@ -4869,7 +6081,9 @@
         "LargeImage": "mini_logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Sunshine Live",
@@ -4877,7 +6091,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Pausiert"
+        "SmallText": "Pausiert",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Super Animes",
@@ -4885,7 +6101,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "assistindo",
-        "SmallText": "Assistindo"
+        "SmallText": "Assistindo",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Super Mangás",
@@ -4893,7 +6111,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "SuperiorServers.co",
@@ -4901,7 +6121,9 @@
         "LargeImage": "main",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Sürat Kargo",
@@ -4909,7 +6131,9 @@
         "LargeImage": "suratkargo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "surviv.io",
@@ -4917,7 +6141,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "SVT Play",
@@ -4925,7 +6151,9 @@
         "LargeImage": "svt",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Taco",
@@ -4933,7 +6161,9 @@
         "LargeImage": "taco",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "taiga Bot",
@@ -4941,7 +6171,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Tailwind CSS",
@@ -4949,7 +6181,9 @@
         "LargeImage": "tailwind-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Take B1nzy To Space",
@@ -4957,7 +6191,9 @@
         "LargeImage": "icon",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Tatsumaki",
@@ -4965,7 +6201,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TCRF",
@@ -4973,7 +6211,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TeamTrees",
@@ -4981,7 +6221,9 @@
         "LargeImage": "teamtrees",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Teknobuk",
@@ -4989,7 +6231,9 @@
         "LargeImage": "buk-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Telegram",
@@ -4997,7 +6241,9 @@
         "LargeImage": "telegram",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Terminal 00",
@@ -5005,7 +6251,9 @@
         "LargeImage": "irentae",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TETR.IO",
@@ -5013,7 +6261,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "The Archon",
@@ -5021,7 +6271,9 @@
         "LargeImage": "archon",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "The New York Times",
@@ -5029,7 +6281,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "The useless web",
@@ -5037,7 +6291,9 @@
         "LargeImage": "uselesslogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TheSite",
@@ -5045,7 +6301,9 @@
         "LargeImage": "thesite",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ThreeNow",
@@ -5053,7 +6311,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Time.is",
@@ -5061,7 +6321,9 @@
         "LargeImage": "time",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TKA E-Sports",
@@ -5069,7 +6331,9 @@
         "LargeImage": "tka",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Tokopedia",
@@ -5077,7 +6341,9 @@
         "LargeImage": "tokopedia",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "toloka.to",
@@ -5085,7 +6351,9 @@
         "LargeImage": "toloka",
         "LargeText": null,
         "SmallImage": "home",
-        "SmallText": "Головна"
+        "SmallText": "Головна",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "top.gg",
@@ -5093,7 +6361,9 @@
         "LargeImage": "dblregular",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TopFlix",
@@ -5101,7 +6371,9 @@
         "LargeImage": "topflix",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Toradora Wikia",
@@ -5109,7 +6381,9 @@
         "LargeImage": "lg-twiki",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "ToradorAPI",
@@ -5117,7 +6391,9 @@
         "LargeImage": "lg-tapi",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Touhou Wiki",
@@ -5125,7 +6401,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Town of Salem",
@@ -5133,7 +6411,9 @@
         "LargeImage": "regular",
         "LargeText": null,
         "SmallImage": "idle",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TrackMania Exchange",
@@ -5141,7 +6421,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "united",
-        "SmallText": "United"
+        "SmallText": "United",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Trackmania.io",
@@ -5149,7 +6431,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TradingView",
@@ -5157,7 +6441,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TRanimeizle",
@@ -5165,7 +6451,9 @@
         "LargeImage": "traizle-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Bir"
+        "SmallText": "Bir",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Trendyol",
@@ -5173,7 +6461,9 @@
         "LargeImage": "ty-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TrickSplit.io",
@@ -5181,7 +6471,9 @@
         "LargeImage": "tricksplit",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TruckersFM",
@@ -5189,7 +6481,9 @@
         "LargeImage": "tfmlogo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TruckersMP",
@@ -5197,7 +6491,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TruckSimFM",
@@ -5205,7 +6501,9 @@
         "LargeImage": "tsfm",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TruckStopRadio",
@@ -5213,7 +6511,9 @@
         "LargeImage": "largelogo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TrueAchievements",
@@ -5221,7 +6521,9 @@
         "LargeImage": "ta",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TrueSteamAchievements",
@@ -5229,7 +6531,9 @@
         "LargeImage": "tsa",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TrueTrophies",
@@ -5237,7 +6541,9 @@
         "LargeImage": "tt",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Tubi",
@@ -5245,7 +6551,9 @@
         "LargeImage": "tubi-logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "tuga.tv",
@@ -5253,7 +6561,9 @@
         "LargeImage": "tuga_lg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TugaStrikes",
@@ -5261,7 +6571,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TuMangaOnline",
@@ -5269,7 +6581,9 @@
         "LargeImage": "tmo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Tune Radio",
@@ -5277,7 +6591,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Listening"
+        "SmallText": "Listening",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TuneIn",
@@ -5285,7 +6601,9 @@
         "LargeImage": "tunein-logo",
         "LargeText": null,
         "SmallImage": "live",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Türk Hack Team",
@@ -5293,7 +6611,9 @@
         "LargeImage": "tht-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TürkAnimeTV",
@@ -5301,7 +6621,9 @@
         "LargeImage": "turkanime",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TV Time",
@@ -5309,7 +6631,9 @@
         "LargeImage": "tvtime-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TVNOW",
@@ -5317,7 +6641,9 @@
         "LargeImage": "tv",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TVNZ OnDemand",
@@ -5325,7 +6651,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "login",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "twist.moe",
@@ -5333,7 +6661,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "TwitLonger",
@@ -5341,7 +6671,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Typeracer",
@@ -5349,7 +6681,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Udemy",
@@ -5357,7 +6691,9 @@
         "LargeImage": "ud-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Uncyclopedia",
@@ -5365,7 +6701,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Undercards",
@@ -5373,7 +6711,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Union Mangás",
@@ -5381,7 +6721,9 @@
         "LargeImage": "union_lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Unsplash",
@@ -5389,7 +6731,9 @@
         "LargeImage": "unsplash_logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "UpBeatRadio",
@@ -5397,7 +6741,9 @@
         "LargeImage": "upbeat",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Uptime Robot",
@@ -5405,7 +6751,9 @@
         "LargeImage": "uptimerobot",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "UserBenchmark",
@@ -5413,7 +6761,9 @@
         "LargeImage": "userbenchmark",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Usercord.org",
@@ -5421,7 +6771,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "V LIVE",
@@ -5429,7 +6781,9 @@
         "LargeImage": "vlive2",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "V2EX",
@@ -5437,7 +6791,9 @@
         "LargeImage": "v2ex-logo",
         "LargeText": null,
         "SmallImage": "curious",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "V3rmillion",
@@ -5445,7 +6801,9 @@
         "LargeImage": "logo-512",
         "LargeText": null,
         "SmallImage": "twemoji-house-1024x",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Valtox Gaming Group",
@@ -5453,7 +6811,9 @@
         "LargeImage": "valtox",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Vanis.io",
@@ -5461,7 +6821,9 @@
         "LargeImage": "vanis_image",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Viaplay",
@@ -5469,7 +6831,9 @@
         "LargeImage": "large_img",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Vibe Radio",
@@ -5477,7 +6841,9 @@
         "LargeImage": "vibe",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "Playing"
+        "SmallText": "Playing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "VidCloud9",
@@ -5485,7 +6851,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Vidio",
@@ -5493,7 +6861,9 @@
         "LargeImage": "vidio",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": "Video"
+        "SmallText": "Video",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Vidstreaming",
@@ -5501,7 +6871,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Viki",
@@ -5509,7 +6881,9 @@
         "LargeImage": "viki",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Vizer",
@@ -5517,7 +6891,9 @@
         "LargeImage": "vizer_logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "VK",
@@ -5525,7 +6901,9 @@
         "LargeImage": "vk_logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Void Bots",
@@ -5533,7 +6911,9 @@
         "LargeImage": "img_logo",
         "LargeText": null,
         "SmallImage": "))",
-        "SmallText": ""
+        "SmallText": "",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Voiranime",
@@ -5541,7 +6921,9 @@
         "LargeImage": "va",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "VRCArena",
@@ -5549,7 +6931,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "VRChat",
@@ -5557,7 +6941,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "VRV",
@@ -5565,7 +6951,9 @@
         "LargeImage": "vrv",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Vui Ghê",
@@ -5573,7 +6961,9 @@
         "LargeImage": "vg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "VVVVID",
@@ -5581,7 +6971,9 @@
         "LargeImage": "vid",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": "In"
+        "SmallText": "In",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wakanim",
@@ -5589,7 +6981,9 @@
         "LargeImage": "wakanim",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wallhaven",
@@ -5597,7 +6991,9 @@
         "LargeImage": "logo",
         "LargeText": "Wallhaven",
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wanflix",
@@ -5605,7 +7001,9 @@
         "LargeImage": "wanflix",
         "LargeText": null,
         "SmallImage": "reading",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "WaniKani",
@@ -5613,7 +7011,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Watchill",
@@ -5621,7 +7021,9 @@
         "LargeImage": "wh-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "WatchMojo",
@@ -5629,7 +7031,9 @@
         "LargeImage": "mojo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wattpad",
@@ -5637,7 +7041,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Webflow",
@@ -5645,7 +7051,9 @@
         "LargeImage": "webflow_logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "WebSDR",
@@ -5653,7 +7061,9 @@
         "LargeImage": "favicon",
         "LargeText": null,
         "SmallImage": "key",
-        "SmallText": "University"
+        "SmallText": "University",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Webtekno",
@@ -5661,7 +7071,9 @@
         "LargeImage": "wt-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Webtoon",
@@ -5669,7 +7081,9 @@
         "LargeImage": "webtoon_lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "WhatsApp",
@@ -5677,7 +7091,9 @@
         "LargeImage": "waweb-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wikibooks",
@@ -5685,7 +7101,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wikidata",
@@ -5693,7 +7111,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "wikiHow",
@@ -5701,7 +7121,9 @@
         "LargeImage": "banner",
         "LargeText": null,
         "SmallImage": "logo",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wikimedia Commons",
@@ -5709,7 +7131,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wikinews",
@@ -5717,7 +7141,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wikispecies",
@@ -5725,7 +7151,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wikiversity",
@@ -5733,7 +7161,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wikivoyage",
@@ -5741,7 +7171,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wikiwand",
@@ -5749,7 +7181,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wiktionary",
@@ -5757,7 +7191,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "WIMS",
@@ -5765,7 +7201,9 @@
         "LargeImage": "wims_lg",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wired Sound For Wired People",
@@ -5773,7 +7211,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wish",
@@ -5781,7 +7221,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Wolfy",
@@ -5789,7 +7231,9 @@
         "LargeImage": "wf",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "WoolyPooly",
@@ -5797,7 +7241,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "/",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "WoxeBot",
@@ -5805,7 +7251,9 @@
         "LargeImage": "woxebot-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Xero.gg",
@@ -5813,7 +7261,9 @@
         "LargeImage": "xero",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "XVideos",
@@ -5821,7 +7271,9 @@
         "LargeImage": "lg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Yaay",
@@ -5829,7 +7281,9 @@
         "LargeImage": "yaay-logo",
         "LargeText": null,
         "SmallImage": "search",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "yabancıdizi",
@@ -5837,7 +7291,9 @@
         "LargeImage": "yd-logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "YabancıDiziizlesene",
@@ -5845,7 +7301,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "YAGPDB",
@@ -5853,7 +7311,9 @@
         "LargeImage": "logo_y",
         "LargeText": null,
         "SmallImage": "writing",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Yahoo Mail",
@@ -5861,7 +7321,9 @@
         "LargeImage": "yahoomail-logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Yandex Music",
@@ -5869,7 +7331,9 @@
         "LargeImage": "og-image",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Yandex.Translate",
@@ -5877,7 +7341,9 @@
         "LargeImage": "yt",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Yarn",
@@ -5885,7 +7351,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Yay Animes",
@@ -5893,7 +7361,9 @@
         "LargeImage": "yay_lg",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Yoakemoe",
@@ -5901,7 +7371,9 @@
         "LargeImage": "logo",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Yu-Gi-Oh Top Decks",
@@ -5909,7 +7381,9 @@
         "LargeImage": "banner",
         "LargeText": null,
         "SmallImage": "icon",
-        "SmallText": "browsing"
+        "SmallText": "browsing",
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "YummyAnime",
@@ -5917,7 +7391,9 @@
         "LargeImage": "ya",
         "LargeText": null,
         "SmallImage": "play",
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     },
     {
         "Product": "Zalando",
@@ -5925,6 +7401,8 @@
         "LargeImage": "zalando",
         "LargeText": null,
         "SmallImage": null,
-        "SmallText": null
+        "SmallText": null,
+        "Details": null,
+        "Start":  "now"
     }
 ]
