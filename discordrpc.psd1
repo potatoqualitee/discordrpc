@@ -7,7 +7,7 @@
     RootModule         = 'discordrpc.psm1'
 
     # Version number of this module.
-    ModuleVersion      = '0.0.1'
+    ModuleVersion      = '0.0.2'
 
     # ID used to uniquely identify this module
     GUID               = '0472bfcf-006c-4f50-b27d-fe146c3eef8d'
@@ -16,7 +16,7 @@
     Author             = 'Chrissy LeMaire'
 
     # Copyright statement for this module
-    Copyright          = 'Copyright (c) 2021, licensed under MIT'
+    Copyright          = 'Copyright (c) 2022, licensed under MIT'
 
     # Description of the functionality provided by this module
     Description        = "Tell people you're playing PowerShell, send Rich Presence events to Discord!"
