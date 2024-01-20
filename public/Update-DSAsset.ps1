@@ -43,7 +43,7 @@ function Update-DSAsset {
         try {
             $prescence = $script:rpcclient.CurrentPresence
 
-            if ($LargeImageText -or $LargeImageText) {
+            if ($LargeImageKey -or $LargeImageText) {
                 if (-not $LargeImageKey) {
                     $LargeImageKey = $prescence.Assets.LargeImageKey
                 }
