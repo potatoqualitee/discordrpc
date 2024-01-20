@@ -50,6 +50,12 @@ function Update-DSAsset {
                 if (-not $LargeImageText) {
                     $LargeImageText = $prescence.Assets.LargeImageText
                 }
+
+                # Check for Discord limitation on LargeImageKey length
+                if ($LargeImageKey.Length -gt 32) {
+                    throw "LargeImageKey cannot be longer than 32 characters due to Discord limitations.`nPlease consider using Imgur for shorter links."
+                }
+
                 $null = $script:rpcclient.UpdateLargeAsset($LargeImageKey, $LargeImageText)
             }
 
