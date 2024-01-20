@@ -93,10 +93,10 @@ function Start-DSClient {
     Start-DSClient @parms
 
     .EXAMPLE
-    Change default application:
-    1: Go to %UserProfile%\Documents\WindowsPowerShell\Modules\discordrpc\0.0.1
+    Change default applications to your liking:
+    1: Go to %UserProfile%\Documents\WindowsPowerShell\Modules\discordrpc\0.0.2
     2: Open clientids.json or other-clientids.json
-    3: Edit the default application
+    3: Edit the default application that is already in there
     Note: You can change the values of LargeText/SmallText/Details to what you want
     (Don't change ClientID/LargeImage/SmallImage/Start, unless you know what you're doing)
 	
@@ -111,6 +111,8 @@ function Start-DSClient {
         "Details": "Watching a movie",
         "Start":  "now"
     },
+    After you change the application to your liking, use the command "Start-DSClient 'ProductName'
+    For the example above it would simply be: Start-DSClient Netflix
 
 
 #>
