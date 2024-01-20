@@ -111,7 +111,8 @@ function Start-DSClient {
         "Details": "Watching a movie",
         "Start":  "now"
     },
-    After you change the application to your liking, use the command "Start-DSClient 'ProductName'
+    After you changed the application to what you like/what you want it to show in Discord. Save it.
+    Go to your PowerShell and use the command "Start-DSClient 'ProductName'"
     For the example above it would simply be: Start-DSClient Netflix
 
 
