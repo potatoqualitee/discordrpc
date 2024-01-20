@@ -191,10 +191,10 @@
     },
     {
         "Product": "Microsoft Teams",
-        "ClientID": "781455654560595998",
-        "LargeImage": "icon",
+        "ClientID": "1198085481112555530",
+        "LargeImage": "logo",
         "LargeText": null,
-        "SmallImage": null,
+        "SmallImage":"play",
         "SmallText": null,
         "Details": null,
         "Start":  "now"

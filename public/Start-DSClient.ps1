@@ -93,10 +93,10 @@ function Start-DSClient {
     Start-DSClient @parms
 
     .EXAMPLE
-    Change default application:
-    1: Go to %UserProfile%\Documents\WindowsPowerShell\Modules\discordrpc\0.0.1
+    Change default applications to your liking:
+    1: Go to %UserProfile%\Documents\WindowsPowerShell\Modules\discordrpc\0.0.2
     2: Open clientids.json or other-clientids.json
-    3: Edit the default application
+    3: Edit the default application that is already in there
     Note: You can change the values of LargeText/SmallText/Details to what you want
     (Don't change ClientID/LargeImage/SmallImage/Start, unless you know what you're doing)
 	
@@ -111,6 +111,9 @@ function Start-DSClient {
         "Details": "Watching a movie",
         "Start":  "now"
     },
+    After you changed the application to what you like/what you want it to show in Discord. Save it.
+    Go to your PowerShell and use the command "Start-DSClient 'ProductName'"
+    For the example above it would simply be: Start-DSClient Netflix
 
 
 #>
@@ -165,12 +168,16 @@ function Start-DSClient {
                 $product = $script:clientids | Where-Object Product -eq $Template
 
                 if (-not $product) {
-                    # try the other ones. this is to reduce the import time when loading the module
-                    $product = Get-Content (Resolve-Path "$script:ModuleRoot\clientids.json") | ConvertFrom-Json | Where-Object Product -eq $Template
-                }
-                $ApplicationID = $product.ClientID
+                    # Try reading from other-clientids.json if not found in clientids.json
+                    if (-not $script:otherClientids) {
+                        $script:otherClientids = Get-Content (Resolve-Path "$script:ModuleRoot\other-clientids.json") | ConvertFrom-Json
+                    }
 
-                if (-not $PSBoundParameters.LargeImageKey) {
+                    $product = $script:otherClientids | Where-Object Product -eq $Template
+                }
+		$ApplicationID = $product.ClientID
+
+		if (-not $PSBoundParameters.LargeImageKey) {
                     $LargeImageKey = $product.LargeImage
                 }
                 if (-not $PSBoundParameters.LargeImageText) {
