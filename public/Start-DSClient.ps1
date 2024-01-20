@@ -168,12 +168,16 @@ function Start-DSClient {
                 $product = $script:clientids | Where-Object Product -eq $Template
 
                 if (-not $product) {
-                    # try the other ones. this is to reduce the import time when loading the module
-                    $product = Get-Content (Resolve-Path "$script:ModuleRoot\clientids.json") | ConvertFrom-Json | Where-Object Product -eq $Template
-                }
-                $ApplicationID = $product.ClientID
+                    # Try reading from other-clientids.json if not found in clientids.json
+                    if (-not $script:otherClientids) {
+                        $script:otherClientids = Get-Content (Resolve-Path "$script:ModuleRoot\other-clientids.json") | ConvertFrom-Json
+                    }
 
-                if (-not $PSBoundParameters.LargeImageKey) {
+                    $product = $script:otherClientids | Where-Object Product -eq $Template
+                }
+		$ApplicationID = $product.ClientID
+
+		if (-not $PSBoundParameters.LargeImageKey) {
                     $LargeImageKey = $product.LargeImage
                 }
                 if (-not $PSBoundParameters.LargeImageText) {
